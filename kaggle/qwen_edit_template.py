@@ -35,7 +35,19 @@ text_encoder = Qwen2_5_VLForConditionalGeneration.from_pretrained(
     BASE, subfolder="text_encoder", torch_dtype=DT, device_map={"": te_dev},
     quantization_config=BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=DT))
 pipe = QwenImageEditPlusPipeline.from_pretrained(BASE, transformer=transformer, text_encoder=text_encoder, torch_dtype=DT)
-pipe.transformer.to("cuda:0"); pipe.vae.to("cuda:0")
+pipe.transformer.to("cuda:0")
+EXEC = torch.device(f"cuda:{te_dev}")
+pipe.vae.to(EXEC)
+def _mv(x, d):
+    if torch.is_tensor(x): return x.to(d)
+    if isinstance(x, (list, tuple)): return type(x)(_mv(i, d) for i in x)
+    if isinstance(x, dict): return {k: _mv(v, d) for k, v in x.items()}
+    if hasattr(x, "to_tuple"): return type(x)(*[_mv(i, d) for i in x.to_tuple()])
+    return x
+if te_dev != 0:   # transformer lives on cuda:0, everything else on cuda:1
+    pipe.transformer.register_forward_pre_hook(lambda m, a, k: (_mv(a, "cuda:0"), _mv(k, "cuda:0")), with_kwargs=True)
+    pipe.transformer.register_forward_hook(lambda m, a, o: _mv(o, EXEC))
+    type(pipe)._execution_device = property(lambda self: EXEC)
 print(f"loaded in {time.time()-t0:.0f}s; mem", [f"{torch.cuda.memory_allocated(i)/1e9:.1f}GB" for i in range(NG)], flush=True)
 
 steps, cfg_scale = CFG["steps"], CFG["true_cfg"]
@@ -52,6 +64,8 @@ if CFG.get("lightning"):
 
 done, times = {}, []
 for sh in SHOTS:
+    if "from" in sh and sh["from"] not in done:
+        print(f'skip {sh["id"]}: source {sh["from"]} failed', flush=True); continue
     src = done[sh["from"]] if "from" in sh else REFS[sh["ref"]]
     prompt = f'{sh["prompt"]}. {CFG["style"]}'
     for v in range(CFG.get("variants", 1)):
