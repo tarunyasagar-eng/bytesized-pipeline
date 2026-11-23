@@ -54,7 +54,7 @@
    ]
   },
   {
-   "ch": "Reason 1: GTA Five never stopped making money",
+   "ch": "Reason 1: GTA 5 never stopped making money",
    "text": "Reason number one. GTA Five simply refused to die.",
    "pause": 0.35,
    "shots": [
@@ -559,5 +559,42 @@
     "friendly stickman waving goodbye in front of a colorful neon city skyline, cheerful"
    ]
   }
- ]
+ ],
+ "meta": {
+  "hook_line": "GTA 5 came out in 2013. GTA 6 came out in 2026. So what took Rockstar 13 years?",
+  "summary": "GTA 6 made $3.79 billion on day one, the biggest launch in entertainment history. But getting there took a money machine that wouldn't stop, a cowboy detour, a crunch reckoning, the exit of the people who created GTA, a pandemic, a teenage hacker in a hotel room, and two last-minute delays. Here are the 8 reasons GTA 6 took so long.",
+  "bullets": [
+   "How GTA 5 and GTA Online became too profitable to replace",
+   "Why Red Dead Redemption 2 came first",
+   "The '100-hour weeks' controversy and how Rockstar changed",
+   "The 2022 leak: a teenager, a hotel room and a Fire Stick",
+   "Why the release slipped twice, and what it paid off"
+  ],
+  "sources": [
+   "Take-Two Interactive investor release, Nov 20 2026 (day-one sales)",
+   "Rockstar Games release-date announcements (May 2025, Nov 2025)",
+   "Bloomberg reporting on Rockstar (2020, 2022)",
+   "GamesRadar, PC Gamer and court reporting on the 2022 leak"
+  ],
+  "cta": "Subscribe to ByteSized AI for more wild true stories, explained in minutes. Which game should we cover next? Tell us in the comments.",
+  "hashtags": [
+   "#GTA6",
+   "#GrandTheftAuto",
+   "#Rockstar",
+   "#gaming",
+   "#history"
+  ],
+  "tags": [
+   "gta 6",
+   "why did gta 6 take so long",
+   "gta 6 13 years",
+   "gta 6 development",
+   "rockstar games",
+   "gta 6 delay",
+   "gta 6 hack",
+   "gta 6 sales",
+   "grand theft auto vi"
+  ],
+  "categoryId": 20
+ }
 }
