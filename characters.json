@@ -1,0 +1,11 @@
+{
+  "_note": "Recurring ByteSized cast. Every shot prompt names characters by these exact descriptors so the LoRA draws them consistently (same colours/props every time). Keep descriptors short: CLIP only reads 77 tokens.",
+  "byte": {"role": "narrator / everyman hero, curious and excitable",
+           "prompt": "stickman with orange baseball cap and teal hoodie"},
+  "nova": {"role": "smart best friend, explains the facts, sceptical",
+           "prompt": "stickman girl with purple ponytail and round glasses"},
+  "boss": {"role": "greedy executive, the antagonist of business stories",
+           "prompt": "stickman in black suit with red tie and gold watch"},
+  "gramps": {"role": "old-timer for history and 'back in my day' beats",
+             "prompt": "old stickman with grey beard and brown cardigan"}
+}

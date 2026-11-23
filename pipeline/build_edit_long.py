@@ -34,9 +34,10 @@ CALL = [(r"three point seven nine billion", "$3.79 BILLION"), (r"eight hundred m
 for i, seg in enumerate(S["segments"]):
     for pat, txt in CALL:
         if re.search(pat, seg["text"], re.I):
-            overlays.append({"type": "tag", "text": txt, "at": seg_t[i] + 0.3, "until": seg_t[i + 1] - 0.1, "x": 960, "y": 930, "size": 120})
+            overlays.append({"type": "tag", "text": txt, "at": seg_t[i] + 0.3, "until": seg_t[i + 1] - 0.1, "x": 960, "y": 760, "size": 120})
             break
-E0 = {"format": "long", "captions": False, "music_volume": 0.10, "scene_dir": "scenes_long",
+E0 = {"format": "long", "captions": True,
+      "caption_style": {"y": 1000, "size": 64, "max_w": 1500, "words": 6, "highlight": False, "pop": False, "stroke": 14, "gap": 2.0}, "music_volume": 0.10, "scene_dir": "scenes_long",
       "output": "final_long.mp4", "keywords": [], "shots": out_shots, "overlays": overlays}
 json.dump(E0, open(P("edit.json"), "w"), indent=1)
 print(len(out_shots), "cuts,", len(overlays), "overlays, avg cut", round(seg_t[-1] / max(1, len(out_shots)), 2), "s")

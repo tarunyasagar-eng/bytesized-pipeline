@@ -16,6 +16,8 @@ E = json.load(open(P("edit.json")))
 W, H = (1920, 1080) if E.get("format") == "long" else (1080, 1920)
 CAPTIONS = E.get("captions", True)
 MUSIC_VOL = E.get("music_volume", 0.15)
+CAP = dict(y=1225, size=118, max_w=960, words=3, highlight=True, pop=True, stroke=24)
+CAP.update(E.get("caption_style", {}))
 D = json.load(open(P("words.json")))
 WORDS = D["words"]
 TOTAL = D["total"] + 0.5
@@ -45,7 +47,7 @@ CHUNKS, cur = [], []
 for k, w in enumerate(WORDS):
     cur.append(k)
     gap = WORDS[k + 1]["t"] - (w["t"] + w["d"]) if k + 1 < len(WORDS) else 9
-    if len(cur) >= 3 or gap > 0.18 or k == len(WORDS) - 1:
+    if len(cur) >= CAP["words"] or gap > 0.18 or k == len(WORDS) - 1:
         CHUNKS.append(cur); cur = []
 
 def ease(x):
@@ -109,22 +111,22 @@ def captions(gt):
     if not active:
         return ""
     ch, st = active
-    cy = 1225
+    cy = CAP["y"]
     for o in OVERLAYS:
         if o.get("caption_y") and o["t"] <= gt < (o["until"] or TOTAL):
             cy = o["caption_y"]
     words = [WORDS[k]["w"].upper().rstrip(",.") for k in ch]
-    size = 118
-    def widths(sz): f = font(sz); return [f.getlength(w) for w in words], f.getlength(" ")
+    size = CAP["size"]
+    def widths(sz): f = font(sz); return [f.getlength(w) for w in words], f.getlength(" ") * CAP.get("gap", 1.0)
     ws, sp = widths(size)
-    while sum(ws) + sp * (len(ws) - 1) > 960 and size > 70:
-        size -= 6; ws, sp = widths(size)
+    while sum(ws) + sp * (len(ws) - 1) > CAP["max_w"] and size > CAP["size"] * 0.6:
+        size -= 4; ws, sp = widths(size)
     x = W / 2 - (sum(ws) + sp * (len(ws) - 1)) / 2
-    sc = pop((gt - st) / 0.18)
+    sc = pop((gt - st) / 0.18) if CAP["pop"] else 1.0
     out = [f'<g transform="translate({W/2},{cy-35}) scale({sc:.3f}) translate({-W/2},{-(cy-35)})">']
     for k, w, wd in zip(ch, words, ws):
-        key = w.lower().strip("!?'") in KEYWORDS or w.isdigit()
-        out.append(label(x, cy, w, size, "#ffd166" if (gt >= WORDS[k]["t"] and key) else "#ffffff", INK, 24, anchor="start"))
+        key = CAP["highlight"] and (w.lower().strip("!?'") in KEYWORDS or w.isdigit())
+        out.append(label(x, cy, w, size, "#ffd166" if (gt >= WORDS[k]["t"] and key) else "#ffffff", INK, CAP["stroke"], anchor="start"))
         x += wd + sp
     return "".join(out) + "</g>"
 
