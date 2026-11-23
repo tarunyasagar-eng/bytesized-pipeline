@@ -23,7 +23,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("shots"); ap.add_argument("--format", default="short"); ap.add_argument("--variants", type=int, default=2)
     ap.add_argument("--slug", default="bytesized-scene-generator")
-    ap.add_argument("--machine", default="NvidiaTeslaT4")
+    ap.add_argument("--machine", default="NvidiaTeslaP100")
     ap.add_argument("--only", help="comma-separated shot ids to render (for quick tests)")
     a = ap.parse_args()
     shots = json.load(open(a.shots))
