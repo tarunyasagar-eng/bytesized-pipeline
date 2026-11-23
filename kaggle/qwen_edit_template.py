@@ -85,15 +85,28 @@ if te_dev != 0:
 if TDT == torch.float16:
     def _clamp(m, a, o):   # block outputs back to fp16, clamped to its range
         return tuple(t.float().clamp(-65000, 65000).half() if torch.is_tensor(t) and t.is_floating_point() else t for t in o)
-    # The FFN down-projections overflow fp16 (inputs ~2e3 summed over 12k dims): feed them input/S and return
-    # output*S in fp32 (same math); the gated residual add then runs in fp32 and _clamp brings it back to fp16.
+    # Output projections (attn to_out / to_add_out, FFN down-proj) overflow fp16: their inputs reach ~1e4 and are
+    # summed over thousands of dims. Feed them input/S and return output*S in fp32 (same math); the gated residual
+    # add then runs in fp32 and _clamp brings the block output back to fp16. Every linear casts its input to fp16.
     FS = CFG.get("ffn_scale", 32.0)
+    def _to16(x):
+        if torch.is_tensor(x) and x.is_floating_point() and x.dtype != torch.float16:
+            x = x.float().clamp(-65000, 65000).half()
+        return x
+    def _pre(scale):
+        return lambda m, a: (_to16(a[0] / scale if scale != 1 else a[0]),) + tuple(a[1:])
+    SCALED = ("attn.to_out.0", "attn.to_add_out", "img_mlp.net.2", "txt_mlp.net.2")
+    nsc = 0
     for b in pipe.transformer.transformer_blocks:
         b.register_forward_hook(_clamp)
-        for mlp in (b.img_mlp, b.txt_mlp):
-            down = mlp.net[2]
-            down.register_forward_pre_hook(lambda m, a: (a[0] / FS,) + tuple(a[1:]))
-            down.register_forward_hook(lambda m, a, o: o.float() * FS)
+        for n, mod in b.named_modules():
+            if not isinstance(mod, torch.nn.Linear) and "Linear" not in type(mod).__name__:
+                continue
+            if any(n == k or n.startswith(k + ".base_layer") for k in SCALED):
+                mod.register_forward_pre_hook(_pre(FS)); mod.register_forward_hook(lambda m, a, o: o.float() * FS); nsc += 1
+            else:
+                mod.register_forward_pre_hook(_pre(1))
+    print("fp16 scaled projections:", nsc, flush=True)
     if CFG.get("debug_nan"):   # report the first submodule whose output goes non-finite, plus input ranges
         FIRST = []
         def _dbg(name):
