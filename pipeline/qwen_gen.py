@@ -16,6 +16,7 @@ def main():
     ap.add_argument("--slug", default="bytesized-qwen-edit"); ap.add_argument("--machine", default="NvidiaTeslaT4")
     ap.add_argument("--dtype", default="bf16"); ap.add_argument("--quant", default="Q4_K_M")
     ap.add_argument("--no-lightning", action="store_true")
+    ap.add_argument("--attach", action="store_true", help="don't push; just poll and download an existing run")
     a = ap.parse_args()
     shots = json.load(open(a.shots))
     cast = {s["ref"] for s in shots if "ref" in s}
@@ -31,15 +32,15 @@ def main():
                "language": "python", "kernel_type": "script", "is_private": True, "enable_gpu": True,
                "enable_internet": True, "dataset_sources": [], "machine_shape": a.machine},
               open(f"{work}/kernel-metadata.json", "w"), indent=1)
-    pr = kaggle("kernels", "push", "-p", work); print(pr)
-    if "error" in pr.lower():   # the CLI exits 0 even when Kaggle rejects the push
+    pr = "" if a.attach else kaggle("kernels", "push", "-p", work); print(pr)
+    if "push error" in pr.lower():   # the CLI exits 0 even when Kaggle rejects the push
         raise SystemExit("push rejected: " + pr.strip().splitlines()[-1])
     ref = f"{OWNER}/{a.slug}"; t0 = time.time()
     while True:
         time.sleep(30)
         st = kaggle("kernels", "status", ref, check=False)
         print(f"[{(time.time()-t0)/60:.1f} min] {st.strip().splitlines()[-1] if st.strip() else ''}", flush=True)
-        if any(s in st.lower() for s in ("complete", "error", "cancel", "authentication required", "not found")):
+        if any(s in st.lower() for s in ("complete", "error", "cancel")):
             break
     out = os.path.join(os.path.dirname(os.path.abspath(a.shots)), "scenes_qwen")
     os.makedirs(out, exist_ok=True)
