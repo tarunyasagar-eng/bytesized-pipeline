@@ -63,7 +63,11 @@ pipe.vae.enable_tiling()   # VAE encode/decode of a ~1MP image OOMs on a T4 with
 def _mv(x, d, dt=None):
     if torch.is_tensor(x):
         x = x.to(d)
-        return x.to(dt) if dt is not None and x.is_floating_point() else x
+        if dt is not None and x.is_floating_point():
+            if dt == torch.float16 and x.dtype != torch.float16:
+                x = x.float().clamp(-65000, 65000)   # bf16 activations can exceed the fp16 range
+            x = x.to(dt)
+        return x
     if isinstance(x, (list, tuple)): return type(x)(_mv(i, d, dt) for i in x)
     if isinstance(x, dict): return {k: _mv(v, d, dt) for k, v in x.items()}
     if hasattr(x, "to_tuple"): return type(x)(*[_mv(i, d, dt) for i in x.to_tuple()])
@@ -83,6 +87,18 @@ if TDT == torch.float16:
         return tuple(t.clamp(-65000, 65000) if torch.is_tensor(t) and t.dtype == torch.float16 else t for t in o)
     for b in pipe.transformer.transformer_blocks:
         b.register_forward_hook(_clamp)
+    if CFG.get("debug_nan"):   # report the first submodule whose output goes non-finite, plus input ranges
+        FIRST = []
+        def _dbg(name):
+            def h(m, a, o):
+                if FIRST: return
+                t = o[0] if isinstance(o, (tuple, list)) else o
+                if torch.is_tensor(t) and t.is_floating_point() and not torch.isfinite(t).all():
+                    ins = [f"{x.dtype}:{x.float().abs().max().item():.3g}" for x in a if torch.is_tensor(x) and x.is_floating_point()]
+                    FIRST.append(name); print(f"FIRST NONFINITE: {name} ({type(m).__name__}) inputs absmax {ins}", flush=True)
+            return h
+        for n, mod in pipe.transformer.named_modules():
+            if n: mod.register_forward_hook(_dbg(n))
 print(f"loaded in {time.time()-t0:.0f}s; mem", [f"{torch.cuda.memory_allocated(i)/1e9:.1f}GB" for i in range(NG)], flush=True)
 
 steps, cfg_scale = CFG["steps"], CFG["true_cfg"]
