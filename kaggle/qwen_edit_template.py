@@ -64,6 +64,21 @@ if CFG.get("lightning"):
     except Exception:
         traceback.print_exc(); print("continuing without lightning", flush=True)
 
+# T4 has no bf16 flash/mem-efficient attention, so attention is materialized: keep token count down and
+# spread the transformer over both GPUs (last SPLIT blocks on cuda:1).
+import diffusers.pipelines.qwenimage.pipeline_qwenimage_edit_plus as QM
+QM.VAE_IMAGE_SIZE = CFG.get("vae_area", 640 * 640)
+if NG > 1:
+    blocks = pipe.transformer.transformer_blocks
+    for b in list(blocks)[len(blocks) - CFG.get("split", 20):]:
+        b.to("cuda:1")
+    for b in blocks:
+        dev = next(b.parameters()).device
+        b.register_forward_pre_hook(lambda m, a, k, d=dev: (_mv(a, d), _mv(k, d)), with_kwargs=True)
+    pipe.transformer.norm_out.register_forward_pre_hook(lambda m, a: _mv(a, "cuda:0"))
+    torch.cuda.empty_cache()
+print("after split mem", [f"{torch.cuda.memory_allocated(i)/1e9:.1f}GB" for i in range(NG)], flush=True)
+
 done, times = {}, []
 for sh in SHOTS:
     if "from" in sh and sh["from"] not in done:
@@ -74,7 +89,7 @@ for sh in SHOTS:
         t = time.time()
         try:
             for i in range(NG): torch.cuda.empty_cache()
-            img = pipe(image=[src], prompt=prompt, height=CFG.get("height", 768), width=CFG.get("width", 1344), negative_prompt=CFG["negative"], true_cfg_scale=cfg_scale,
+            img = pipe(image=[src], prompt=prompt, height=CFG.get("height", 576), width=CFG.get("width", 1024), negative_prompt=CFG["negative"], true_cfg_scale=cfg_scale,
                        num_inference_steps=steps, generator=torch.Generator("cpu").manual_seed(CFG["seed"] + v * 7919)).images[0]
         except Exception:
             traceback.print_exc(); print("mem", [f"{torch.cuda.memory_allocated(i)/1e9:.1f}GB" for i in range(NG)], flush=True); continue
