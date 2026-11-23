@@ -83,7 +83,7 @@ pipe.transformer.register_forward_hook(_post)
 if te_dev != 0:
     type(pipe)._execution_device = property(lambda self: EXEC)
 if TDT == torch.float16:
-    # Output projections (attn to_out / to_add_out, FFN down-proj) overflow fp16: their inputs reach ~1e4 and are
+    # Block linears overflow fp16: their inputs reach ~1e4 and are
     # summed over thousands of dims. Feed them input/S and return output*S in fp32 (same math); the gated residual
     # add runs in fp32 and the residual stream stays fp32. Every linear casts its (normalized) input to fp16.
     FS = CFG.get("ffn_scale", 32.0)
@@ -97,17 +97,14 @@ if TDT == torch.float16:
         if not torch.isfinite(o).all():   # rare (large late-layer weights): redo this one call 32x further down-scaled
             o = type(m).forward(m, (a[0].float() / 32).half(), *a[1:]).float() * 32
         return o.float() * FS
-    SCALED = ("attn.to_out.0", "attn.to_add_out", "img_mlp.net.2", "txt_mlp.net.2")
     nsc = 0
     for b in pipe.transformer.transformer_blocks:
         # residual stream stays fp32 (no _clamp): Qwen's late-layer activations exceed the fp16 range for real
         for n, mod in b.named_modules():
             if not isinstance(mod, torch.nn.Linear) and "Linear" not in type(mod).__name__:
                 continue
-            if any(n == k or n.startswith(k + ".base_layer") for k in SCALED):
-                mod.register_forward_pre_hook(_pre(FS)); mod.register_forward_hook(_post_scaled); nsc += 1
-            else:
-                mod.register_forward_pre_hook(_pre(1))
+            # any projection can overflow (e.g. add_k_proj sees ~5e3 after modulation): scale them all
+            mod.register_forward_pre_hook(_pre(FS)); mod.register_forward_hook(_post_scaled); nsc += 1
     for mod in (pipe.transformer.proj_out, pipe.transformer.norm_out.linear):
         mod.register_forward_pre_hook(_pre(1))
     print("fp16 scaled projections:", nsc, flush=True)
