@@ -62,236 +62,331 @@
 {
 "id": "g013",
 "seg": 12,
-"prompt": "stickman boss relaxing in a hammock between two palm trees on a beach, holding a coconut drink, piles of money nearby"
+"prompt": "stickman holding a fan of glowing shark shaped trading cards, dollar signs in his eyes, colorful arcade background"
 },
 {
 "id": "g014",
 "seg": 13,
-"prompt": "stickman cowboy on a horse blocking a desert road, hand raised to stop traffic, sunset western landscape"
+"prompt": "stickman crew in masks planning a heist around a table with blueprints and toy cars, dramatic overhead lamp"
 },
 {
 "id": "g015",
 "seg": 14,
-"prompt": "stickman developers at desks drawing horses and cowboys on their screens, western posters on the office walls"
+"prompt": "stickman holding a golden crown on a podium while a movie reel, a record and a book stand on lower steps, spotlight"
 },
 {
 "id": "g016",
 "seg": 15,
-"prompt": "stickman manager moving chess pieces shaped like workers from one side of a map to another, war room table"
+"prompt": "stickman boss relaxing in a hammock between two palm trees on a beach, holding a coconut drink, piles of money nearby"
 },
 {
 "id": "g017",
 "seg": 16,
-"prompt": "stickman cowboy hanging his hat on a hook and walking toward a door that opens onto a bright neon city"
+"prompt": "stickman cowboy on a horse blocking a desert road, hand raised to stop traffic, sunset western landscape"
 },
 {
 "id": "g018",
 "seg": 17,
-"prompt": "dark office at night with one desk lamp on, exhausted stickman developer asleep on the keyboard, empty coffee cups"
+"prompt": "stickman developers at desks drawing horses and cowboys on their screens, western posters on the office walls"
 },
 {
 "id": "g019",
 "seg": 18,
-"prompt": "stickman being interviewed in a chair with a microphone in front of him, studio lights, serious mood"
+"prompt": "stickman manager moving chess pieces shaped like workers from one side of a map to another, war room table"
 },
 {
 "id": "g020",
 "seg": 19,
-"prompt": "small group of tired stickman writers around a table covered in scripts, late night, clock showing 3 am"
+"prompt": "stickman cowboy hanging his hat on a hook and walking toward a door that opens onto a bright neon city"
 },
 {
 "id": "g021",
 "seg": 20,
-"prompt": "newspapers flying through the air with blank headlines, stickman reporters with microphones crowding around a building"
+"prompt": "stickman cowboy standing on top of a huge mountain of game boxes in a desert at sunset, proud pose"
 },
 {
 "id": "g022",
 "seg": 21,
-"prompt": "stickman looking at himself in a large mirror, reflection looks tired and sad, moody bathroom light"
+"prompt": "single huge glowing building under construction with all stickman workers on it, other small buildings empty and dark"
 },
 {
 "id": "g023",
 "seg": 22,
-"prompt": "bright friendly office, stickman manager handing out schedules, relaxed developers with plants and sunlight"
+"prompt": "dark office at night with one desk lamp on, exhausted stickman developer asleep on the keyboard, empty coffee cups"
 },
 {
 "id": "g024",
 "seg": 23,
-"prompt": "stickman developers leaving the office at sunset waving goodbye, happy, warm golden light"
+"prompt": "stickman being interviewed in a chair with a microphone in front of him, studio lights, serious mood"
 },
 {
 "id": "g025",
 "seg": 24,
-"prompt": "stickman riding a slow turtle down a road while a clock floats above, comedic, sunny day"
+"prompt": "small group of tired stickman writers around a table covered in scripts, late night, clock showing 3 am"
 },
 {
 "id": "g026",
 "seg": 25,
-"prompt": "stickman in a suit walking out of a tall building carrying a cardboard box of belongings, rainy city street"
+"prompt": "newspapers flying through the air with blank headlines, stickman reporters with microphones crowding around a building"
 },
 {
 "id": "g027",
 "seg": 26,
-"prompt": "empty office chair with a jacket on it in front of a desk with a nameplate, sad lighting, dust in the air"
+"prompt": "stickman reporter with notebook interviewing a line of tired stickman office workers, late evening street"
 },
 {
 "id": "g028",
 "seg": 27,
-"prompt": "stickman writer closing a big leather notebook and placing a pen on top, empty writing room, farewell mood"
+"prompt": "closed fortress like office building with stickman guards, crowd of reporters with cameras outside the gate"
 },
 {
 "id": "g029",
 "seg": 28,
-"prompt": "tired stickman sitting on a mountain of finished game scripts, looking at the horizon, sunset, melancholy"
+"prompt": "stickman looking at himself in a large mirror, reflection looks tired and sad, moody bathroom light"
 },
 {
 "id": "g030",
 "seg": 29,
-"prompt": "young stickman developers looking up at a giant blank blueprint on the wall, determined but nervous, office"
+"prompt": "bright friendly office, stickman manager handing out schedules, relaxed developers with plants and sunlight"
 },
 {
 "id": "g031",
 "seg": 30,
-"prompt": "empty city street with closed shops and a lone pigeon, quiet daytime, eerie calm"
+"prompt": "stickman office calendar with relaxed weekends marked by beach umbrellas, smiling developers, bright clean office"
 },
 {
 "id": "g032",
 "seg": 31,
-"prompt": "grid of small cartoon video call windows, each with a stickman developer at home in a messy bedroom"
+"prompt": "stickman developers leaving the office at sunset waving goodbye, happy, warm golden light"
 },
 {
 "id": "g033",
 "seg": 32,
-"prompt": "stickman developer at home with a laptop, cat walking on keyboard, baby crying, frozen video call screen, chaos"
+"prompt": "stickman riding a slow turtle down a road while a clock floats above, comedic, sunny day"
 },
 {
 "id": "g034",
 "seg": 33,
-"prompt": "tiny stickman standing at the edge of a gigantic map that stretches to the horizon, epic scale, blue sky"
+"prompt": "stickman in a suit walking out of a tall building carrying a cardboard box of belongings, rainy city street"
 },
 {
 "id": "g035",
 "seg": 34,
-"prompt": "sunny Florida style landscape with beaches, swamps, highways and a neon city skyline, aerial cartoon view"
+"prompt": "empty office chair with a jacket on it in front of a desk with a nameplate, sad lighting, dust in the air"
 },
 {
 "id": "g036",
 "seg": 35,
-"prompt": "neon pink and teal tropical city at night, art deco hotels, palm trees, sports car driving along the beach road"
+"prompt": "stickman writer closing a big leather notebook and placing a pen on top, empty writing room, farewell mood"
 },
 {
 "id": "g037",
 "seg": 36,
-"prompt": "stickmen tourists with cameras and notebooks on a Miami beach boardwalk, art deco hotels, palm trees, sunny"
+"prompt": "tired stickman sitting on a mountain of finished game scripts, looking at the horizon, sunset, melancholy"
 },
 {
 "id": "g038",
 "seg": 37,
-"prompt": "busy cartoon street full of stickmen shopping, dogs, cyclists and street vendors, lively sunny day"
+"prompt": "young stickman developers looking up at a giant blank blueprint on the wall, determined but nervous, office"
 },
 {
 "id": "g039",
 "seg": 38,
-"prompt": "dark computer screen glowing red with a warning symbol, stickman developer jumping back in shock, red light"
+"prompt": "young stickman writers at a round table passing a glowing torch to each other, warm inspiring light"
 },
 {
 "id": "g040",
 "seg": 39,
-"prompt": "dozens of floating video screens with blurry unfinished game footage swirling in a dark space, stickman staring"
+"prompt": "empty city street with closed shops and a lone pigeon, quiet daytime, eerie calm"
 },
 {
 "id": "g041",
 "seg": 40,
-"prompt": "small budget hotel room at night, stickman teenager in a hoodie sitting cross legged on the bed with a phone"
+"prompt": "grid of small cartoon video call windows, each with a stickman developer at home in a messy bedroom"
 },
 {
 "id": "g042",
 "seg": 41,
-"prompt": "close-up of a hotel TV with a small streaming stick plugged in, phone on the bed, glowing screen in a dark room"
+"prompt": "stickman developer at home with a laptop, cat walking on keyboard, baby crying, frozen video call screen, chaos"
 },
 {
 "id": "g043",
 "seg": 42,
-"prompt": "stickman executive at a press podium with microphones, camera flashes, worried face, dark blue background"
+"prompt": "cartoon globe with glowing lines connecting tiny stickman developers at laptops in different countries, night and day"
 },
 {
 "id": "g044",
 "seg": 43,
-"prompt": "stickman craftsman carefully polishing a shiny golden trophy with a cloth, workshop, warm light"
+"prompt": "tiny stickman standing at the edge of a gigantic map that stretches to the horizon, epic scale, blue sky"
 },
 {
 "id": "g045",
 "seg": 44,
-"prompt": "view counter odometer spinning wildly with smoke coming out, stickmen cheering around it, confetti and fireworks"
+"prompt": "sunny Florida style landscape with beaches, swamps, highways and a neon city skyline, aerial cartoon view"
 },
 {
 "id": "g046",
 "seg": 45,
-"prompt": "excited stickmen crossing days off a giant calendar with markers, party hats, bright room"
+"prompt": "neon pink and teal tropical city at night, art deco hotels, palm trees, sports car driving along the beach road"
 },
 {
 "id": "g047",
 "seg": 46,
-"prompt": "stickman knocking over a calendar in frustration, papers flying, grey office"
+"prompt": "illustrated treasure map style cartoon state with islands, swamp, port town, factories and a green mountain park"
 },
 {
 "id": "g048",
 "seg": 47,
-"prompt": "stickman lying face down on the floor next to a controller, dark rain outside the window, comedic despair"
+"prompt": "split view of a tropical island, a swamp with airboats, a rusty port town and a forest mountain, stickmen in each"
 },
 {
 "id": "g049",
 "seg": 48,
-"prompt": "stickman developers examining a glowing game world through magnifying glasses, fixing tiny details, workshop"
+"prompt": "stickmen tourists with cameras and notebooks on a Miami beach boardwalk, art deco hotels, palm trees, sunny"
 },
 {
 "id": "g050",
 "seg": 49,
-"prompt": "stickman sitting on a hill at sunset looking at a neon city in the distance, thoughtful, warm orange sky"
+"prompt": "busy cartoon street full of stickmen shopping, dogs, cyclists and street vendors, lively sunny day"
 },
 {
 "id": "g051",
 "seg": 50,
-"prompt": "stickman accountant with glasses surrounded by towering stacks of papers and a long receipt unrolling across the floor"
+"prompt": "stickman engineer in a control room with dials for sun, rain and crowds, big screens showing a city, futuristic"
 },
 {
 "id": "g052",
 "seg": 51,
-"prompt": "delivery trucks lined up outside a giant warehouse, stickmen loading boxes, busy night scene"
+"prompt": "dark computer screen glowing red with a warning symbol, stickman developer jumping back in shock, red light"
 },
 {
 "id": "g053",
 "seg": 52,
-"prompt": "stickman businessman staring in shock at a giant glowing pile of gold coins and cash reaching the ceiling, spotlight"
+"prompt": "dozens of floating video screens with blurry unfinished game footage swirling in a dark space, stickman staring"
 },
 {
 "id": "g054",
 "seg": 53,
-"prompt": "empty movie theater with red seats, sad stickman next to a small pile of coins, a huge mountain of gold glowing through the doorway"
+"prompt": "small budget hotel room at night, stickman teenager in a hoodie sitting cross legged on the bed with a phone"
 },
 {
 "id": "g055",
 "seg": 54,
-"prompt": "two stacks of coins side by side, one small and one enormous towering into the clouds, stickman pointing at them"
+"prompt": "close-up of a hotel TV with a small streaming stick plugged in, phone on the bed, glowing screen in a dark room"
 },
 {
 "id": "g056",
 "seg": 55,
-"prompt": "long line of patient stickmen stretching to the horizon waiting outside a glowing door, golden light"
+"prompt": "neon city skyline at night with a confident stickman woman silhouette in the foreground, mysterious mood"
 },
 {
 "id": "g057",
 "seg": 56,
-"prompt": "stickman developer team celebrating on a rooftop at night with the neon city behind them, fireworks"
+"prompt": "stickman judge with white wig in a wooden courtroom raising a gavel, serious mood, warm wood tones"
 },
 {
 "id": "g058",
 "seg": 57,
-"prompt": "stickman on a couch playing a video game with a huge smile, cozy living room at night, TV glow"
+"prompt": "stickman executive at a press podium with microphones, camera flashes, worried face, dark blue background"
 },
 {
 "id": "g059",
 "seg": 58,
+"prompt": "stickman craftsman carefully polishing a shiny golden trophy with a cloth, workshop, warm light"
+},
+{
+"id": "g060",
+"seg": 59,
+"prompt": "view counter odometer spinning wildly with smoke coming out, stickmen cheering around it, confetti and fireworks"
+},
+{
+"id": "g061",
+"seg": 60,
+"prompt": "stickman pressing a huge red button and shrugging, comedic office scene, bright colors"
+},
+{
+"id": "g062",
+"seg": 61,
+"prompt": "stickman couple running away from a bank holding bags of money, police lights in the background, night street"
+},
+{
+"id": "g063",
+"seg": 62,
+"prompt": "excited stickmen crossing days off a giant calendar with markers, party hats, bright room"
+},
+{
+"id": "g064",
+"seg": 63,
+"prompt": "stickman knocking over a calendar in frustration, papers flying, grey office"
+},
+{
+"id": "g065",
+"seg": 64,
+"prompt": "huge stadium crowd of stickmen watching a giant screen, lights and lasers, ecstatic faces"
+},
+{
+"id": "g066",
+"seg": 65,
+"prompt": "stickman lying face down on the floor next to a controller, dark rain outside the window, comedic despair"
+},
+{
+"id": "g067",
+"seg": 66,
+"prompt": "stickman trader in a suit watching a red stock chart arrow crash down on a big screen, sweating, trading floor"
+},
+{
+"id": "g068",
+"seg": 67,
+"prompt": "stickman developers examining a glowing game world through magnifying glasses, fixing tiny details, workshop"
+},
+{
+"id": "g069",
+"seg": 68,
+"prompt": "stickman sitting on a hill at sunset looking at a neon city in the distance, thoughtful, warm orange sky"
+},
+{
+"id": "g070",
+"seg": 69,
+"prompt": "stickman accountant with glasses surrounded by towering stacks of papers and a long receipt unrolling across the floor"
+},
+{
+"id": "g071",
+"seg": 70,
+"prompt": "delivery trucks lined up outside a giant warehouse, stickmen loading boxes, busy night scene"
+},
+{
+"id": "g072",
+"seg": 71,
+"prompt": "stickman businessman staring in shock at a giant glowing pile of gold coins and cash reaching the ceiling, spotlight"
+},
+{
+"id": "g073",
+"seg": 72,
+"prompt": "empty movie theater with red seats, sad stickman next to a small pile of coins, a huge mountain of gold glowing through the doorway"
+},
+{
+"id": "g074",
+"seg": 73,
+"prompt": "two stacks of coins side by side, one small and one enormous towering into the clouds, stickman pointing at them"
+},
+{
+"id": "g075",
+"seg": 74,
+"prompt": "long line of patient stickmen stretching to the horizon waiting outside a glowing door, golden light"
+},
+{
+"id": "g076",
+"seg": 75,
+"prompt": "stickman developer team celebrating on a rooftop at night with the neon city behind them, fireworks"
+},
+{
+"id": "g077",
+"seg": 76,
+"prompt": "stickman on a couch playing a video game with a huge smile, cozy living room at night, TV glow"
+},
+{
+"id": "g078",
+"seg": 77,
 "prompt": "friendly stickman waving goodbye in front of a colorful neon city skyline, cheerful"
 }
 ]

@@ -3,132 +3,561 @@
  "voice": "en-US-BrianNeural",
  "notes": "Facts checked 2026-11-23: Take-Two IR (Nov 20 2026), Rockstar delay notices (May 2 2025, Nov 6 2025), Bloomberg (2020 Houser exit; 2022 culture report), GamesRadar (Houser 2025 interview; Rockstar 'no crunch' vow), court reporting on the 2022 leak. Budget never disclosed: always 'estimated'. Houser exit: 'officially left in 2020'.",
  "segments": [
-  {"ch": "Cold open", "text": "Grand Theft Auto Five came out in twenty thirteen.", "pause": 0.3,
-   "shots": ["retro 2013 living room with a boxy flatscreen TV and game console, excited stickman on the carpet holding a controller, warm lamp light"]},
-  {"text": "Grand Theft Auto Six came out in twenty twenty-six.", "pause": 0.35,
-   "shots": ["modern neon lit living room in 2026 with a huge TV, the same stickman now older with a grey beard holding a controller, night"]},
-  {"text": "Thirteen years.", "pause": 0.5,
-   "shots": ["giant clock with spinning hands in a dark void, tiny stickman standing below looking up, dramatic spotlight"]},
-  {"text": "In that time, a kid who played GTA Five in middle school... graduated college.", "pause": 0.35,
-   "shots": ["stickman graduate in cap and gown throwing his hat in the air holding a game controller, campus lawn, sunny day"]},
-  {"text": "So why did it take so long? It wasn't one reason.", "pause": 0.3,
-   "shots": ["stickman detective with magnifying glass and trench coat examining a giant question mark, noir office, dramatic light"]},
-  {"text": "It was a money problem, a people problem, a pandemic, a teenage hacker...", "pause": 0.25,
-   "shots": ["detective cork board covered with photos of money bags, a tired worker, a virus icon and a hooded hacker, connected with red string"]},
-  {"text": "and one of the most ambitious game worlds ever built. Let's break it down.", "pause": 0.6,
-   "shots": ["epic aerial view of a huge tropical cartoon state with a neon city, swamps, beaches and highways, sunset, cinematic"]},
-
-  {"ch": "Reason 1: GTA Five never stopped making money", "text": "Reason number one. GTA Five simply refused to die.", "pause": 0.35,
-   "shots": ["stickman zombie made of gold coins rising out of a grave, comedic, purple night graveyard"]},
-  {"text": "It made eight hundred million dollars on day one... and a billion in three days.", "pause": 0.3,
-   "shots": ["stickman in suit riding a rocket made of money upward through the clouds, celebratory sky"]},
-  {"text": "Then Rockstar released it again on the next consoles. And then again, on the generation after that.", "pause": 0.3,
-   "shots": ["three game consoles of increasing size standing in a row on pedestals like trophies, stickman presenter pointing at them"]},
-  {"text": "Three console generations. More than two hundred million copies sold.", "pause": 0.3,
-   "shots": ["huge warehouse filled with endless stacks of game boxes, tiny stickman worker with clipboard looking up in awe"]},
-  {"text": "And then there was GTA Online, where players kept buying virtual cash... year after year.", "pause": 0.35,
-   "shots": ["stickman at a computer late at night buying with a credit card, cartoon money flying out of the screen"]},
-  {"text": "When your old game keeps printing money, there's no reason to rush the next one.", "pause": 0.55,
-   "shots": ["stickman boss relaxing in a hammock between two palm trees on a beach, holding a coconut drink, piles of money nearby"]},
-
-  {"ch": "Reason 2: A cowboy got in the way", "text": "Reason number two. A cowboy got in the way.", "pause": 0.35,
-   "shots": ["stickman cowboy on a horse blocking a desert road, hand raised to stop traffic, sunset western landscape"]},
-  {"text": "Right after GTA Five, Rockstar's main focus was Red Dead Redemption Two.", "pause": 0.3,
-   "shots": ["stickman developers at desks drawing horses and cowboys on their screens, western posters on the office walls"]},
-  {"text": "According to Bloomberg, Rockstar shifted resources to get Red Dead finished... and early plans for the next GTA were reworked.", "pause": 0.35,
-   "shots": ["stickman manager moving chess pieces shaped like workers from one side of a map to another, war room table"]},
-  {"text": "Red Dead Two finally came out in twenty eighteen. Only then did most of the studio move to GTA Six.", "pause": 0.55,
-   "shots": ["stickman cowboy hanging his hat on a hook and walking toward a door that opens onto a bright neon city"]},
-
-  {"ch": "Reason 3: Burnout", "text": "Reason number three. And this one is darker.", "pause": 0.35,
-   "shots": ["dark office at night with one desk lamp on, exhausted stickman developer asleep on the keyboard, empty coffee cups"]},
-  {"text": "In twenty eighteen, Rockstar co-founder Dan Houser told an interviewer the team had worked hundred-hour weeks on Red Dead.", "pause": 0.3,
-   "shots": ["stickman being interviewed in a chair with a microphone in front of him, studio lights, serious mood"]},
-  {"text": "He later clarified it was a small group of writers, for a few weeks.", "pause": 0.25,
-   "shots": ["small group of tired stickman writers around a table covered in scripts, late night, clock showing 3 am"]},
-  {"text": "But the quote exploded. Former employees started speaking out about crunch.", "pause": 0.3,
-   "shots": ["newspapers flying through the air with blank headlines, stickman reporters with microphones crowding around a building"]},
-  {"text": "Rockstar was forced to look at itself.", "pause": 0.35,
-   "shots": ["stickman looking at himself in a large mirror, reflection looks tired and sad, moody bathroom light"]},
-  {"text": "Bloomberg later reported the studio had hired more producers and worked to reduce crunch.", "pause": 0.3,
-   "shots": ["bright friendly office, stickman manager handing out schedules, relaxed developers with plants and sunlight"]},
-  {"text": "Rockstar said it was determined not to finish GTA Six by crunching.", "pause": 0.3,
-   "shots": ["stickman developers leaving the office at sunset waving goodbye, happy, warm golden light"]},
-  {"text": "Healthier for the people making it. But slower.", "pause": 0.55,
-   "shots": ["stickman riding a slow turtle down a road while a clock floats above, comedic, sunny day"]},
-
-  {"ch": "Reason 4: Losing the founders", "text": "Reason number four. The people who built GTA started leaving.", "pause": 0.35,
-   "shots": ["stickman in a suit walking out of a tall building carrying a cardboard box of belongings, rainy city street"]},
-  {"text": "Leslie Benzies, the longtime producer behind the series, left in twenty sixteen.", "pause": 0.3,
-   "shots": ["empty office chair with a jacket on it in front of a desk with a nameplate, sad lighting, dust in the air"]},
-  {"text": "And in twenty twenty, Dan Houser, the co-founder and lead writer of almost every GTA, officially left too.", "pause": 0.3,
-   "shots": ["stickman writer closing a big leather notebook and placing a pen on top, empty writing room, farewell mood"]},
-  {"text": "Years later, he explained why. The games had gotten so big and taken so long, he wasn't sure he had another one in him.", "pause": 0.4,
-   "shots": ["tired stickman sitting on a mountain of finished game scripts, looking at the horizon, sunset, melancholy"]},
-  {"text": "Rockstar had to make the biggest GTA ever... without the people who invented it.", "pause": 0.55,
-   "shots": ["young stickman developers looking up at a giant blank blueprint on the wall, determined but nervous, office"]},
-
-  {"ch": "Reason 5: The world stopped", "text": "Reason number five. Twenty twenty.", "pause": 0.35,
-   "shots": ["empty city street with closed shops and a lone pigeon, quiet daytime, eerie calm"]},
-  {"text": "Overnight, a studio of thousands had to work from their bedrooms.", "pause": 0.3,
-   "shots": ["grid of small cartoon video call windows, each with a stickman developer at home in a messy bedroom"]},
-  {"text": "Building a game this size is hard enough in an office. Over video calls, it's a nightmare.", "pause": 0.55,
-   "shots": ["stickman developer at home with a laptop, cat walking on keyboard, baby crying, frozen video call screen, chaos"]},
-
-  {"ch": "Reason 6: The ambition", "text": "Reason number six. The scale.", "pause": 0.35,
-   "shots": ["tiny stickman standing at the edge of a gigantic map that stretches to the horizon, epic scale, blue sky"]},
-  {"text": "GTA Six doesn't just recreate a city. It builds an entire state. Leonida. Rockstar's version of Florida.", "pause": 0.3,
-   "shots": ["sunny Florida style landscape with beaches, swamps, highways and a neon city skyline, aerial cartoon view"]},
-  {"text": "Neon Vice City. Swamps full of alligators. Beaches, highways, small towns.", "pause": 0.3,
-   "shots": ["neon pink and teal tropical city at night, art deco hotels, palm trees, sports car driving along the beach road"]},
-  {"text": "Developers even flew to Miami to study it up close.", "pause": 0.3,
-   "shots": ["stickmen tourists with cameras and notebooks on a Miami beach boardwalk, art deco hotels, palm trees, sunny"]},
-  {"text": "Every street, every shop, every crowd had to feel alive. That takes years.", "pause": 0.55,
-   "shots": ["busy cartoon street full of stickmen shopping, dogs, cyclists and street vendors, lively sunny day"]},
-
-  {"ch": "Reason 7: The hack", "text": "Reason number seven. September twenty twenty-two.", "pause": 0.35,
-   "shots": ["dark computer screen glowing red with a warning symbol, stickman developer jumping back in shock, red light"]},
-  {"text": "Ninety clips of unfinished GTA Six footage leaked online.", "pause": 0.3,
-   "shots": ["dozens of floating video screens with blurry unfinished game footage swirling in a dark space, stickman staring"]},
-  {"text": "Police say it was a teenager from England... who did it while on bail, from a hotel room.", "pause": 0.3,
-   "shots": ["small budget hotel room at night, stickman teenager in a hoodie sitting cross legged on the bed with a phone"]},
-  {"text": "His laptop had been taken. So he reportedly used an Amazon Fire Stick and the hotel TV.", "pause": 0.35,
-   "shots": ["close-up of a hotel TV with a small streaming stick plugged in, phone on the bed, glowing screen in a dark room"]},
-  {"text": "Rockstar said the leak wouldn't change the schedule. But for a studio that obsesses over secrecy, it was a gut punch.", "pause": 0.55,
-   "shots": ["stickman executive at a press podium with microphones, camera flashes, worried face, dark blue background"]},
-
-  {"ch": "Reason 8: Two delays", "text": "And finally... reason number eight. Polish.", "pause": 0.35,
-   "shots": ["stickman craftsman carefully polishing a shiny golden trophy with a cloth, workshop, warm light"]},
-  {"text": "When the first trailer arrived in December twenty twenty-three, it hit ninety million views on YouTube in a day.", "pause": 0.3,
-   "shots": ["view counter odometer spinning wildly with smoke coming out, stickmen cheering around it, confetti and fireworks"]},
-  {"text": "The release was set for twenty twenty-five.", "pause": 0.25,
-   "shots": ["excited stickmen crossing days off a giant calendar with markers, party hats, bright room"]},
-  {"text": "Then it slipped. To May twenty twenty-six.", "pause": 0.3,
-   "shots": ["stickman knocking over a calendar in frustration, papers flying, grey office"]},
-  {"text": "Then it slipped again. To November nineteenth, twenty twenty-six.", "pause": 0.35,
-   "shots": ["stickman lying face down on the floor next to a controller, dark rain outside the window, comedic despair"]},
-  {"text": "Rockstar said it needed the extra time to deliver the quality players expect.", "pause": 0.55,
-   "shots": ["stickman developers examining a glowing game world through magnifying glasses, fixing tiny details, workshop"]},
-
-  {"ch": "Was it worth it?", "text": "So. Was the wait worth it?", "pause": 0.4,
-   "shots": ["stickman sitting on a hill at sunset looking at a neon city in the distance, thoughtful, warm orange sky"]},
-  {"text": "Rockstar has never revealed the budget. Estimates range from one to two billion dollars... or more.", "pause": 0.3,
-   "shots": ["stickman accountant with glasses surrounded by towering stacks of papers and a long receipt unrolling across the floor"]},
-  {"text": "But before launch, it had already sold thirty-two and a half million copies.", "pause": 0.3,
-   "shots": ["delivery trucks lined up outside a giant warehouse, stickmen loading boxes, busy night scene"]},
-  {"text": "And on day one... three point seven nine billion dollars.", "pause": 0.4,
-   "shots": ["stickman businessman staring in shock at a giant glowing pile of gold coins and cash reaching the ceiling, spotlight"]},
-  {"text": "More than Avengers: Endgame made in its entire run in theaters.", "pause": 0.3,
-   "shots": ["empty movie theater with red seats, sad stickman next to a small pile of coins, a huge mountain of gold glowing through the doorway"]},
-  {"text": "Nearly five times what GTA Five made on its first day.", "pause": 0.5,
-   "shots": ["two stacks of coins side by side, one small and one enormous towering into the clouds, stickman pointing at them"]},
-  {"text": "Rockstar ignored the memes, the deadlines... even a massive leak. And bet that people would wait.", "pause": 0.3,
-   "shots": ["long line of patient stickmen stretching to the horizon waiting outside a glowing door, golden light"]},
-  {"text": "Thirteen years later... it looks like they were right.", "pause": 0.4,
-   "shots": ["stickman developer team celebrating on a rooftop at night with the neon city behind them, fireworks"]},
-  {"text": "So what do you think? Worth thirteen years? Tell me in the comments.", "pause": 0.3,
-   "shots": ["stickman on a couch playing a video game with a huge smile, cozy living room at night, TV glow"]},
-  {"text": "And if you want more stories like this, subscribe. See you in the next one.", "pause": 0.8,
-   "shots": ["friendly stickman waving goodbye in front of a colorful neon city skyline, cheerful"]}
+  {
+   "ch": "Cold open",
+   "text": "Grand Theft Auto Five came out in twenty thirteen.",
+   "pause": 0.3,
+   "shots": [
+    "retro 2013 living room with a boxy flatscreen TV and game console, excited stickman on the carpet holding a controller, warm lamp light"
+   ]
+  },
+  {
+   "text": "Grand Theft Auto Six came out in twenty twenty-six.",
+   "pause": 0.35,
+   "shots": [
+    "modern neon lit living room in 2026 with a huge TV, the same stickman now older with a grey beard holding a controller, night"
+   ]
+  },
+  {
+   "text": "Thirteen years.",
+   "pause": 0.5,
+   "shots": [
+    "giant clock with spinning hands in a dark void, tiny stickman standing below looking up, dramatic spotlight"
+   ]
+  },
+  {
+   "text": "In that time, a kid who played GTA Five in middle school... graduated college.",
+   "pause": 0.35,
+   "shots": [
+    "stickman graduate in cap and gown throwing his hat in the air holding a game controller, campus lawn, sunny day"
+   ]
+  },
+  {
+   "text": "So why did it take so long? It wasn't one reason.",
+   "pause": 0.3,
+   "shots": [
+    "stickman detective with magnifying glass and trench coat examining a giant question mark, noir office, dramatic light"
+   ]
+  },
+  {
+   "text": "It was a money problem, a people problem, a pandemic, a teenage hacker...",
+   "pause": 0.25,
+   "shots": [
+    "detective cork board covered with photos of money bags, a tired worker, a virus icon and a hooded hacker, connected with red string"
+   ]
+  },
+  {
+   "text": "and one of the most ambitious game worlds ever built. Let's break it down.",
+   "pause": 0.6,
+   "shots": [
+    "epic aerial view of a huge tropical cartoon state with a neon city, swamps, beaches and highways, sunset, cinematic"
+   ]
+  },
+  {
+   "ch": "Reason 1: GTA Five never stopped making money",
+   "text": "Reason number one. GTA Five simply refused to die.",
+   "pause": 0.35,
+   "shots": [
+    "stickman zombie made of gold coins rising out of a grave, comedic, purple night graveyard"
+   ]
+  },
+  {
+   "text": "It made eight hundred million dollars on day one... and a billion in three days.",
+   "pause": 0.3,
+   "shots": [
+    "stickman in suit riding a rocket made of money upward through the clouds, celebratory sky"
+   ]
+  },
+  {
+   "text": "Then Rockstar released it again on the next consoles. And then again, on the generation after that.",
+   "pause": 0.3,
+   "shots": [
+    "three game consoles of increasing size standing in a row on pedestals like trophies, stickman presenter pointing at them"
+   ]
+  },
+  {
+   "text": "Three console generations. More than two hundred million copies sold.",
+   "pause": 0.3,
+   "shots": [
+    "huge warehouse filled with endless stacks of game boxes, tiny stickman worker with clipboard looking up in awe"
+   ]
+  },
+  {
+   "text": "And then there was GTA Online, where players kept buying virtual cash... year after year.",
+   "pause": 0.35,
+   "shots": [
+    "stickman at a computer late at night buying with a credit card, cartoon money flying out of the screen"
+   ]
+  },
+  {
+   "text": "Players bought packs of in-game money with real money. Shark Cards.",
+   "pause": 0.3,
+   "shots": [
+    "stickman holding a fan of glowing shark shaped trading cards, dollar signs in his eyes, colorful arcade background"
+   ]
+  },
+  {
+   "text": "Every few months, Rockstar added new heists, cars and businesses... and players kept coming back.",
+   "pause": 0.3,
+   "shots": [
+    "stickman crew in masks planning a heist around a table with blueprints and toy cars, dramatic overhead lamp"
+   ]
+  },
+  {
+   "text": "Back in twenty eighteen, one estimate already called GTA Five the most profitable entertainment product of all time. Ahead of any movie, any album, any book.",
+   "pause": 0.4,
+   "shots": [
+    "stickman holding a golden crown on a podium while a movie reel, a record and a book stand on lower steps, spotlight"
+   ]
+  },
+  {
+   "text": "When your old game keeps printing money, there's no reason to rush the next one.",
+   "pause": 0.55,
+   "shots": [
+    "stickman boss relaxing in a hammock between two palm trees on a beach, holding a coconut drink, piles of money nearby"
+   ]
+  },
+  {
+   "ch": "Reason 2: A cowboy got in the way",
+   "text": "Reason number two. A cowboy got in the way.",
+   "pause": 0.35,
+   "shots": [
+    "stickman cowboy on a horse blocking a desert road, hand raised to stop traffic, sunset western landscape"
+   ]
+  },
+  {
+   "text": "Right after GTA Five, Rockstar's main focus was Red Dead Redemption Two.",
+   "pause": 0.3,
+   "shots": [
+    "stickman developers at desks drawing horses and cowboys on their screens, western posters on the office walls"
+   ]
+  },
+  {
+   "text": "According to Bloomberg, Rockstar shifted resources to get Red Dead finished... and early plans for the next GTA were reworked.",
+   "pause": 0.35,
+   "shots": [
+    "stickman manager moving chess pieces shaped like workers from one side of a map to another, war room table"
+   ]
+  },
+  {
+   "text": "Red Dead Two finally came out in twenty eighteen. Only then did most of the studio move to GTA Six.",
+   "pause": 0.55,
+   "shots": [
+    "stickman cowboy hanging his hat on a hook and walking toward a door that opens onto a bright neon city"
+   ]
+  },
+  {
+   "text": "And Red Dead Two wasn't a small side project. It was massive. It went on to sell tens of millions of copies.",
+   "pause": 0.3,
+   "shots": [
+    "stickman cowboy standing on top of a huge mountain of game boxes in a desert at sunset, proud pose"
+   ]
+  },
+  {
+   "text": "Rockstar builds one giant game at a time. While that game is being finished... everything else waits.",
+   "pause": 0.55,
+   "shots": [
+    "single huge glowing building under construction with all stickman workers on it, other small buildings empty and dark"
+   ]
+  },
+  {
+   "ch": "Reason 3: Burnout",
+   "text": "Reason number three. And this one is darker.",
+   "pause": 0.35,
+   "shots": [
+    "dark office at night with one desk lamp on, exhausted stickman developer asleep on the keyboard, empty coffee cups"
+   ]
+  },
+  {
+   "text": "In twenty eighteen, Rockstar co-founder Dan Houser told an interviewer the team had worked hundred-hour weeks on Red Dead.",
+   "pause": 0.3,
+   "shots": [
+    "stickman being interviewed in a chair with a microphone in front of him, studio lights, serious mood"
+   ]
+  },
+  {
+   "text": "He later clarified it was a small group of writers, for a few weeks.",
+   "pause": 0.25,
+   "shots": [
+    "small group of tired stickman writers around a table covered in scripts, late night, clock showing 3 am"
+   ]
+  },
+  {
+   "text": "But the quote exploded. Former employees started speaking out about crunch.",
+   "pause": 0.3,
+   "shots": [
+    "newspapers flying through the air with blank headlines, stickman reporters with microphones crowding around a building"
+   ]
+  },
+  {
+   "text": "Reporters spoke to dozens of current and former staff. Some described years of long nights and weekends to hit deadlines.",
+   "pause": 0.35,
+   "shots": [
+    "stickman reporter with notebook interviewing a line of tired stickman office workers, late evening street"
+   ]
+  },
+  {
+   "text": "For Rockstar, a company that almost never talks to the press... it was a public crisis.",
+   "pause": 0.4,
+   "shots": [
+    "closed fortress like office building with stickman guards, crowd of reporters with cameras outside the gate"
+   ]
+  },
+  {
+   "text": "Rockstar was forced to look at itself.",
+   "pause": 0.35,
+   "shots": [
+    "stickman looking at himself in a large mirror, reflection looks tired and sad, moody bathroom light"
+   ]
+  },
+  {
+   "text": "Bloomberg later reported the studio had hired more producers and worked to reduce crunch.",
+   "pause": 0.3,
+   "shots": [
+    "bright friendly office, stickman manager handing out schedules, relaxed developers with plants and sunlight"
+   ]
+  },
+  {
+   "text": "Flexible schedules. Fewer surprise weekends. More people on each job.",
+   "pause": 0.3,
+   "shots": [
+    "stickman office calendar with relaxed weekends marked by beach umbrellas, smiling developers, bright clean office"
+   ]
+  },
+  {
+   "text": "Rockstar said it was determined not to finish GTA Six by crunching.",
+   "pause": 0.3,
+   "shots": [
+    "stickman developers leaving the office at sunset waving goodbye, happy, warm golden light"
+   ]
+  },
+  {
+   "text": "Healthier for the people making it. But slower.",
+   "pause": 0.55,
+   "shots": [
+    "stickman riding a slow turtle down a road while a clock floats above, comedic, sunny day"
+   ]
+  },
+  {
+   "ch": "Reason 4: Losing the founders",
+   "text": "Reason number four. The people who built GTA started leaving.",
+   "pause": 0.35,
+   "shots": [
+    "stickman in a suit walking out of a tall building carrying a cardboard box of belongings, rainy city street"
+   ]
+  },
+  {
+   "text": "Leslie Benzies, the longtime producer behind the series, left in twenty sixteen.",
+   "pause": 0.3,
+   "shots": [
+    "empty office chair with a jacket on it in front of a desk with a nameplate, sad lighting, dust in the air"
+   ]
+  },
+  {
+   "text": "And in twenty twenty, Dan Houser, the co-founder and lead writer of almost every GTA, officially left too.",
+   "pause": 0.3,
+   "shots": [
+    "stickman writer closing a big leather notebook and placing a pen on top, empty writing room, farewell mood"
+   ]
+  },
+  {
+   "text": "Years later, he explained why. The games had gotten so big and taken so long, he wasn't sure he had another one in him.",
+   "pause": 0.4,
+   "shots": [
+    "tired stickman sitting on a mountain of finished game scripts, looking at the horizon, sunset, melancholy"
+   ]
+  },
+  {
+   "text": "Rockstar had to make the biggest GTA ever... without the people who invented it.",
+   "pause": 0.55,
+   "shots": [
+    "young stickman developers looking up at a giant blank blueprint on the wall, determined but nervous, office"
+   ]
+  },
+  {
+   "text": "New leaders stepped up, and the writing of GTA Six went to a new generation of storytellers.",
+   "pause": 0.55,
+   "shots": [
+    "young stickman writers at a round table passing a glowing torch to each other, warm inspiring light"
+   ]
+  },
+  {
+   "ch": "Reason 5: The world stopped",
+   "text": "Reason number five. Twenty twenty.",
+   "pause": 0.35,
+   "shots": [
+    "empty city street with closed shops and a lone pigeon, quiet daytime, eerie calm"
+   ]
+  },
+  {
+   "text": "Overnight, a studio of thousands had to work from their bedrooms.",
+   "pause": 0.3,
+   "shots": [
+    "grid of small cartoon video call windows, each with a stickman developer at home in a messy bedroom"
+   ]
+  },
+  {
+   "text": "Building a game this size is hard enough in an office. Over video calls, it's a nightmare.",
+   "pause": 0.55,
+   "shots": [
+    "stickman developer at home with a laptop, cat walking on keyboard, baby crying, frozen video call screen, chaos"
+   ]
+  },
+  {
+   "text": "Rockstar has studios in several countries. Now every one of them was working remotely, across time zones, at the same time.",
+   "pause": 0.55,
+   "shots": [
+    "cartoon globe with glowing lines connecting tiny stickman developers at laptops in different countries, night and day"
+   ]
+  },
+  {
+   "ch": "Reason 6: The ambition",
+   "text": "Reason number six. The scale.",
+   "pause": 0.35,
+   "shots": [
+    "tiny stickman standing at the edge of a gigantic map that stretches to the horizon, epic scale, blue sky"
+   ]
+  },
+  {
+   "text": "GTA Six doesn't just recreate a city. It builds an entire state. Leonida. Rockstar's version of Florida.",
+   "pause": 0.3,
+   "shots": [
+    "sunny Florida style landscape with beaches, swamps, highways and a neon city skyline, aerial cartoon view"
+   ]
+  },
+  {
+   "text": "Neon Vice City. Swamps full of alligators. Beaches, highways, small towns.",
+   "pause": 0.3,
+   "shots": [
+    "neon pink and teal tropical city at night, art deco hotels, palm trees, sports car driving along the beach road"
+   ]
+  },
+  {
+   "text": "Rockstar's official map names regions like the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga National Park.",
+   "pause": 0.35,
+   "shots": [
+    "illustrated treasure map style cartoon state with islands, swamp, port town, factories and a green mountain park"
+   ]
+  },
+  {
+   "text": "Each one with its own look, its own people, its own story.",
+   "pause": 0.3,
+   "shots": [
+    "split view of a tropical island, a swamp with airboats, a rusty port town and a forest mountain, stickmen in each"
+   ]
+  },
+  {
+   "text": "Developers even flew to Miami to study it up close.",
+   "pause": 0.3,
+   "shots": [
+    "stickmen tourists with cameras and notebooks on a Miami beach boardwalk, art deco hotels, palm trees, sunny"
+   ]
+  },
+  {
+   "text": "Every street, every shop, every crowd had to feel alive. That takes years.",
+   "pause": 0.55,
+   "shots": [
+    "busy cartoon street full of stickmen shopping, dogs, cyclists and street vendors, lively sunny day"
+   ]
+  },
+  {
+   "text": "And it all runs on new technology. Crowds, weather and lighting all had to be rebuilt for a new generation of consoles.",
+   "pause": 0.55,
+   "shots": [
+    "stickman engineer in a control room with dials for sun, rain and crowds, big screens showing a city, futuristic"
+   ]
+  },
+  {
+   "ch": "Reason 7: The hack",
+   "text": "Reason number seven. September twenty twenty-two.",
+   "pause": 0.35,
+   "shots": [
+    "dark computer screen glowing red with a warning symbol, stickman developer jumping back in shock, red light"
+   ]
+  },
+  {
+   "text": "Ninety clips of unfinished GTA Six footage leaked online.",
+   "pause": 0.3,
+   "shots": [
+    "dozens of floating video screens with blurry unfinished game footage swirling in a dark space, stickman staring"
+   ]
+  },
+  {
+   "text": "Police say it was a teenager from England... who did it while on bail, from a hotel room.",
+   "pause": 0.3,
+   "shots": [
+    "small budget hotel room at night, stickman teenager in a hoodie sitting cross legged on the bed with a phone"
+   ]
+  },
+  {
+   "text": "His laptop had been taken. So he reportedly used an Amazon Fire Stick and the hotel TV.",
+   "pause": 0.35,
+   "shots": [
+    "close-up of a hotel TV with a small streaming stick plugged in, phone on the bed, glowing screen in a dark room"
+   ]
+  },
+  {
+   "text": "The leaked clips confirmed two big rumors at once. A return to Vice City. And a female lead.",
+   "pause": 0.3,
+   "shots": [
+    "neon city skyline at night with a confident stickman woman silhouette in the foreground, mysterious mood"
+   ]
+  },
+  {
+   "text": "Later, a court ordered him to be held in a secure hospital indefinitely.",
+   "pause": 0.35,
+   "shots": [
+    "stickman judge with white wig in a wooden courtroom raising a gavel, serious mood, warm wood tones"
+   ]
+  },
+  {
+   "text": "Rockstar said the leak wouldn't change the schedule. But for a studio that obsesses over secrecy, it was a gut punch.",
+   "pause": 0.55,
+   "shots": [
+    "stickman executive at a press podium with microphones, camera flashes, worried face, dark blue background"
+   ]
+  },
+  {
+   "ch": "Reason 8: Two delays",
+   "text": "And finally... reason number eight. Polish.",
+   "pause": 0.35,
+   "shots": [
+    "stickman craftsman carefully polishing a shiny golden trophy with a cloth, workshop, warm light"
+   ]
+  },
+  {
+   "text": "When the first trailer arrived in December twenty twenty-three, it hit ninety million views on YouTube in a day.",
+   "pause": 0.3,
+   "shots": [
+    "view counter odometer spinning wildly with smoke coming out, stickmen cheering around it, confetti and fireworks"
+   ]
+  },
+  {
+   "text": "It even leaked a day early... so Rockstar just released it.",
+   "pause": 0.3,
+   "shots": [
+    "stickman pressing a huge red button and shrugging, comedic office scene, bright colors"
+   ]
+  },
+  {
+   "text": "It introduced Lucia and Jason. A couple on the run, in a story inspired by Bonnie and Clyde.",
+   "pause": 0.35,
+   "shots": [
+    "stickman couple running away from a bank holding bags of money, police lights in the background, night street"
+   ]
+  },
+  {
+   "text": "The release was set for twenty twenty-five.",
+   "pause": 0.25,
+   "shots": [
+    "excited stickmen crossing days off a giant calendar with markers, party hats, bright room"
+   ]
+  },
+  {
+   "text": "Then it slipped. To May twenty twenty-six.",
+   "pause": 0.3,
+   "shots": [
+    "stickman knocking over a calendar in frustration, papers flying, grey office"
+   ]
+  },
+  {
+   "text": "Days later, trailer two dropped. Rockstar said it pulled four hundred and seventy-five million views across platforms in twenty-four hours.",
+   "pause": 0.35,
+   "shots": [
+    "huge stadium crowd of stickmen watching a giant screen, lights and lasers, ecstatic faces"
+   ]
+  },
+  {
+   "text": "Then it slipped again. To November nineteenth, twenty twenty-six.",
+   "pause": 0.35,
+   "shots": [
+    "stickman lying face down on the floor next to a controller, dark rain outside the window, comedic despair"
+   ]
+  },
+  {
+   "text": "Each delay hit hard. Take-Two's stock dropped after the announcements.",
+   "pause": 0.35,
+   "shots": [
+    "stickman trader in a suit watching a red stock chart arrow crash down on a big screen, sweating, trading floor"
+   ]
+  },
+  {
+   "text": "Rockstar said it needed the extra time to deliver the quality players expect.",
+   "pause": 0.55,
+   "shots": [
+    "stickman developers examining a glowing game world through magnifying glasses, fixing tiny details, workshop"
+   ]
+  },
+  {
+   "ch": "Was it worth it?",
+   "text": "So. Was the wait worth it?",
+   "pause": 0.4,
+   "shots": [
+    "stickman sitting on a hill at sunset looking at a neon city in the distance, thoughtful, warm orange sky"
+   ]
+  },
+  {
+   "text": "Rockstar has never revealed the budget. Estimates range from one to two billion dollars... or more.",
+   "pause": 0.3,
+   "shots": [
+    "stickman accountant with glasses surrounded by towering stacks of papers and a long receipt unrolling across the floor"
+   ]
+  },
+  {
+   "text": "But before launch, it had already sold thirty-two and a half million copies.",
+   "pause": 0.3,
+   "shots": [
+    "delivery trucks lined up outside a giant warehouse, stickmen loading boxes, busy night scene"
+   ]
+  },
+  {
+   "text": "And on day one... three point seven nine billion dollars.",
+   "pause": 0.4,
+   "shots": [
+    "stickman businessman staring in shock at a giant glowing pile of gold coins and cash reaching the ceiling, spotlight"
+   ]
+  },
+  {
+   "text": "More than Avengers: Endgame made in its entire run in theaters.",
+   "pause": 0.3,
+   "shots": [
+    "empty movie theater with red seats, sad stickman next to a small pile of coins, a huge mountain of gold glowing through the doorway"
+   ]
+  },
+  {
+   "text": "Nearly five times what GTA Five made on its first day.",
+   "pause": 0.5,
+   "shots": [
+    "two stacks of coins side by side, one small and one enormous towering into the clouds, stickman pointing at them"
+   ]
+  },
+  {
+   "text": "Rockstar ignored the memes, the deadlines... even a massive leak. And bet that people would wait.",
+   "pause": 0.3,
+   "shots": [
+    "long line of patient stickmen stretching to the horizon waiting outside a glowing door, golden light"
+   ]
+  },
+  {
+   "text": "Thirteen years later... it looks like they were right.",
+   "pause": 0.4,
+   "shots": [
+    "stickman developer team celebrating on a rooftop at night with the neon city behind them, fireworks"
+   ]
+  },
+  {
+   "text": "So what do you think? Worth thirteen years? Tell me in the comments.",
+   "pause": 0.3,
+   "shots": [
+    "stickman on a couch playing a video game with a huge smile, cozy living room at night, TV glow"
+   ]
+  },
+  {
+   "text": "And if you want more stories like this, subscribe. See you in the next one.",
+   "pause": 0.8,
+   "shots": [
+    "friendly stickman waving goodbye in front of a colorful neon city skyline, cheerful"
+   ]
+  }
  ]
 }
