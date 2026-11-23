@@ -6,7 +6,24 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "diffusers", "transformers", "accelerate",
                 "bitsandbytes", "gguf", "peft"], check=False)
 import torch
+import torch.nn.functional as F
 from PIL import Image
+
+# T4 has no bf16 flash/mem-efficient SDPA, so attention falls back to the math path and materializes the full
+# heads x L x L matrix. Slice the queries: exact same result, peak memory / (L / QCHUNK).
+_sdpa, QCHUNK = F.scaled_dot_product_attention, 1024
+def _sliced_sdpa(query, key, value, attn_mask=None, dropout_p=0.0, is_causal=False, scale=None, **kw):
+    L = query.shape[-2]
+    if L <= QCHUNK or is_causal:
+        return _sdpa(query, key, value, attn_mask=attn_mask, dropout_p=dropout_p, is_causal=is_causal, scale=scale, **kw)
+    outs = []
+    for i in range(0, L, QCHUNK):
+        m = attn_mask
+        if m is not None and m.ndim >= 2 and m.shape[-2] == L:
+            m = m[..., i:i + QCHUNK, :]
+        outs.append(_sdpa(query[..., i:i + QCHUNK, :], key, value, attn_mask=m, dropout_p=dropout_p, scale=scale, **kw))
+    return torch.cat(outs, dim=-2)
+F.scaled_dot_product_attention = _sliced_sdpa
 
 CFG = json.loads(r'''__CONFIG_JSON__''')
 SHOTS = json.loads(r'''__SHOTS_JSON__''')
@@ -70,7 +87,7 @@ import diffusers.pipelines.qwenimage.pipeline_qwenimage_edit_plus as QM
 QM.VAE_IMAGE_SIZE = CFG.get("vae_area", 640 * 640)
 if NG > 1:
     blocks = pipe.transformer.transformer_blocks
-    for b in list(blocks)[len(blocks) - CFG.get("split", 20):]:
+    for b in list(blocks)[len(blocks) - CFG.get("split", 14):]:
         b.to("cuda:1")
     for b in blocks:
         dev = next(b.parameters()).device
