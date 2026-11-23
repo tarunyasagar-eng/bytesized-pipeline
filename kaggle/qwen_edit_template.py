@@ -83,10 +83,17 @@ pipe.transformer.register_forward_hook(_post)
 if te_dev != 0:
     type(pipe)._execution_device = property(lambda self: EXEC)
 if TDT == torch.float16:
-    def _clamp(m, a, o):
-        return tuple(t.clamp(-65000, 65000) if torch.is_tensor(t) and t.dtype == torch.float16 else t for t in o)
+    def _clamp(m, a, o):   # block outputs back to fp16, clamped to its range
+        return tuple(t.float().clamp(-65000, 65000).half() if torch.is_tensor(t) and t.is_floating_point() else t for t in o)
+    # The FFN down-projections overflow fp16 (inputs ~2e3 summed over 12k dims): feed them input/S and return
+    # output*S in fp32 (same math); the gated residual add then runs in fp32 and _clamp brings it back to fp16.
+    FS = CFG.get("ffn_scale", 32.0)
     for b in pipe.transformer.transformer_blocks:
         b.register_forward_hook(_clamp)
+        for mlp in (b.img_mlp, b.txt_mlp):
+            down = mlp.net[2]
+            down.register_forward_pre_hook(lambda m, a: (a[0] / FS,) + tuple(a[1:]))
+            down.register_forward_hook(lambda m, a, o: o.float() * FS)
     if CFG.get("debug_nan"):   # report the first submodule whose output goes non-finite, plus input ranges
         FIRST = []
         def _dbg(name):
