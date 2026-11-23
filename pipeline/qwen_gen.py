@@ -1,5 +1,5 @@
 """Generate consistent-cast scenes with Qwen-Image-Edit-2509 on Kaggle (free GPU).
-usage: python pipeline/qwen_gen.py projects/<name>/qshots.json [--variants 1] [--slug bytesized-qwen-edit] [--dtype bf16|fp16]
+usage: python pipeline/qwen_gen.py projects/<name>/qshots.json [--variants 1] [--slug bytesized-qwen-edit] [--dtype bf16|fp16|mixed]
 qshots.json: [{"id":"s01","ref":"byte","prompt":"..."}, {"id":"s02","from":"s01","prompt":"same scene, ..."}]
 Cast sheets are cast/<name>_ref.png."""
 import json, os, sys, time, shutil, base64, argparse

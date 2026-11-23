@@ -31,7 +31,10 @@ REFS = {k: Image.open(io.BytesIO(base64.b64decode(v))).convert("RGB") for k, v i
 OUT = "/kaggle/working"
 NG = torch.cuda.device_count()
 print("torch", torch.__version__, "gpus", NG, [torch.cuda.get_device_name(i) for i in range(NG)], flush=True)
-DT = torch.bfloat16 if CFG.get("dtype", "bf16") == "bf16" else torch.float16
+# T4 runs fp16 natively (~5x faster than emulated bf16) but Qwen-Image overflows in fp16 -> black frames.
+# "mixed": transformer in fp16 with per-block clamping (as ComfyUI does); text encoder + VAE stay bf16.
+DT = torch.bfloat16 if CFG.get("dtype", "bf16") in ("bf16", "mixed") else torch.float16
+TDT = torch.float16 if CFG.get("dtype") in ("fp16", "mixed") else DT
 
 from huggingface_hub import HfApi, hf_hub_download
 from diffusers import QwenImageEditPlusPipeline, QwenImageTransformer2DModel, GGUFQuantizationConfig
@@ -46,7 +49,7 @@ gg = [f for f in files if f.endswith(".gguf") and CFG["gguf_quant"] in f]
 print("gguf candidates:", gg, flush=True)
 gpath = hf_hub_download(CFG["gguf_repo"], gg[0])
 transformer = QwenImageTransformer2DModel.from_single_file(
-    gpath, quantization_config=GGUFQuantizationConfig(compute_dtype=DT), torch_dtype=DT,
+    gpath, quantization_config=GGUFQuantizationConfig(compute_dtype=TDT), torch_dtype=TDT,
     config=BASE, subfolder="transformer")
 te_dev = 1 if NG > 1 else 0
 text_encoder = Qwen2_5_VLForConditionalGeneration.from_pretrained(
@@ -57,16 +60,29 @@ pipe.transformer.to("cuda:0")
 EXEC = torch.device(f"cuda:{te_dev}")
 pipe.vae.to(EXEC)
 pipe.vae.enable_tiling()   # VAE encode/decode of a ~1MP image OOMs on a T4 without tiling
-def _mv(x, d):
-    if torch.is_tensor(x): return x.to(d)
-    if isinstance(x, (list, tuple)): return type(x)(_mv(i, d) for i in x)
-    if isinstance(x, dict): return {k: _mv(v, d) for k, v in x.items()}
-    if hasattr(x, "to_tuple"): return type(x)(*[_mv(i, d) for i in x.to_tuple()])
+def _mv(x, d, dt=None):
+    if torch.is_tensor(x):
+        x = x.to(d)
+        return x.to(dt) if dt is not None and x.is_floating_point() else x
+    if isinstance(x, (list, tuple)): return type(x)(_mv(i, d, dt) for i in x)
+    if isinstance(x, dict): return {k: _mv(v, d, dt) for k, v in x.items()}
+    if hasattr(x, "to_tuple"): return type(x)(*[_mv(i, d, dt) for i in x.to_tuple()])
     return x
-if te_dev != 0:   # transformer lives on cuda:0, everything else on cuda:1
-    pipe.transformer.register_forward_pre_hook(lambda m, a, k: (_mv(a, "cuda:0"), _mv(k, "cuda:0")), with_kwargs=True)
-    pipe.transformer.register_forward_hook(lambda m, a, o: _mv(o, EXEC))
+# transformer lives on cuda:0 in TDT; everything else on EXEC in DT
+pipe.transformer.register_forward_pre_hook(lambda m, a, k: (_mv(a, "cuda:0", TDT), _mv(k, "cuda:0", TDT)), with_kwargs=True)
+NANS = [0]
+def _post(m, a, o):
+    t = o[0] if isinstance(o, (tuple, list)) else getattr(o, "sample", o)
+    if torch.is_tensor(t) and not torch.isfinite(t).all(): NANS[0] += 1
+    return _mv(o, EXEC, DT)
+pipe.transformer.register_forward_hook(_post)
+if te_dev != 0:
     type(pipe)._execution_device = property(lambda self: EXEC)
+if TDT == torch.float16:
+    def _clamp(m, a, o):
+        return tuple(t.clamp(-65000, 65000) if torch.is_tensor(t) and t.dtype == torch.float16 else t for t in o)
+    for b in pipe.transformer.transformer_blocks:
+        b.register_forward_hook(_clamp)
 print(f"loaded in {time.time()-t0:.0f}s; mem", [f"{torch.cuda.memory_allocated(i)/1e9:.1f}GB" for i in range(NG)], flush=True)
 
 steps, cfg_scale = CFG["steps"], CFG["true_cfg"]
@@ -106,6 +122,7 @@ for sh in SHOTS:
         t = time.time()
         try:
             for i in range(NG): torch.cuda.empty_cache()
+            NANS[0] = 0
             img = pipe(image=[src], prompt=prompt, height=CFG.get("height", 576), width=CFG.get("width", 1024), negative_prompt=CFG["negative"], true_cfg_scale=cfg_scale,
                        num_inference_steps=steps, generator=torch.Generator("cpu").manual_seed(CFG["seed"] + v * 7919)).images[0]
         except Exception:
@@ -114,7 +131,7 @@ for sh in SHOTS:
         name = f'{sh["id"]}_{"abcd"[v]}.png'
         img.save(f"{OUT}/{name}")
         px = torch.tensor(list(img.convert("L").getdata()), dtype=torch.float32)
-        print(f'{name}: {img.size} {dt:.0f}s mean_lum={px.mean():.0f} std={px.std():.0f}', flush=True)
+        print(f'{name}: {img.size} {dt:.0f}s nonfinite_steps={NANS[0]} mean_lum={px.mean():.0f} std={px.std():.0f}', flush=True)
         if v == 0:
             done[sh["id"]] = img
 print(f"images: {len(times)}  avg {sum(times)/max(1,len(times)):.0f}s/image  total {time.time()-t0:.0f}s", flush=True)
