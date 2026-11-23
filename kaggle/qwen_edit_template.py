@@ -2,6 +2,7 @@
 # Shots: {"id", "prompt", "ref": "<cast name>"} starts from a cast sheet; {"id", "prompt", "from": "<shot id>"} edits an
 # earlier output (pose swap / same scene). Placeholders are filled by pipeline/qwen_gen.py.
 import subprocess, sys, os, time, json, base64, io, traceback
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "diffusers", "transformers", "accelerate",
                 "bitsandbytes", "gguf", "peft"], check=False)
 import torch
@@ -38,6 +39,7 @@ pipe = QwenImageEditPlusPipeline.from_pretrained(BASE, transformer=transformer, 
 pipe.transformer.to("cuda:0")
 EXEC = torch.device(f"cuda:{te_dev}")
 pipe.vae.to(EXEC)
+pipe.vae.enable_tiling()   # VAE encode/decode of a ~1MP image OOMs on a T4 without tiling
 def _mv(x, d):
     if torch.is_tensor(x): return x.to(d)
     if isinstance(x, (list, tuple)): return type(x)(_mv(i, d) for i in x)
@@ -71,10 +73,11 @@ for sh in SHOTS:
     for v in range(CFG.get("variants", 1)):
         t = time.time()
         try:
-            img = pipe(image=[src], prompt=prompt, negative_prompt=CFG["negative"], true_cfg_scale=cfg_scale,
+            for i in range(NG): torch.cuda.empty_cache()
+            img = pipe(image=[src], prompt=prompt, height=CFG.get("height", 768), width=CFG.get("width", 1344), negative_prompt=CFG["negative"], true_cfg_scale=cfg_scale,
                        num_inference_steps=steps, generator=torch.Generator("cpu").manual_seed(CFG["seed"] + v * 7919)).images[0]
         except Exception:
-            traceback.print_exc(); continue
+            traceback.print_exc(); print("mem", [f"{torch.cuda.memory_allocated(i)/1e9:.1f}GB" for i in range(NG)], flush=True); continue
         dt = time.time() - t; times.append(dt)
         name = f'{sh["id"]}_{"abcd"[v]}.png'
         img.save(f"{OUT}/{name}")
