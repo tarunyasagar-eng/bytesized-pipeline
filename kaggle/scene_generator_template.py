@@ -54,7 +54,7 @@ if CFG.get("score", True):
         inp = proc(text=[sh["prompt"]], images=ims, return_tensors="pt", padding=True, truncation=True).to("cuda")
         with torch.no_grad():
             out = clip(**{k: (v.half() if v.dtype == torch.float32 else v) for k, v in inp.items()})
-        sims = (out.logits_per_image[:, 0] / clip.logit_scale.exp()).float().cpu().numpy() * 100
+        sims = (out.logits_per_image[:, 0] / clip.logit_scale.exp()).detach().float().cpu().numpy() * 100
         for f, im, sim in zip(files, ims, sims):
             g = np.asarray(im.convert("L").resize((512, int(512 * im.height / im.width))), dtype=np.float32)
             lap = (g[1:-1, 1:-1] * 4 - g[:-2, 1:-1] - g[2:, 1:-1] - g[1:-1, :-2] - g[1:-1, 2:])
