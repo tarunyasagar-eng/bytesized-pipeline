@@ -1,0 +1,6 @@
+[
+ {"id":"s01","ref":"byte","prompt":"Byte, the stickman with the orange cap and teal hoodie, standing in a cozy detailed living room in the evening, warm lamp light, couch and a TV on the wall, smiling at the viewer"},
+ {"id":"s02","from":"s01","prompt":"same scene and camera, Byte now points at the TV with an excited open-mouth smile"},
+ {"id":"s03","ref":"byte","prompt":"Byte, the stickman with the orange cap and teal hoodie, sitting at a desk in a modern office at sunset, tired face, laptop open, city skyline through big windows"},
+ {"id":"s04","from":"s03","prompt":"same scene and camera, Byte leans back in the chair stretching both arms up and yawning"}
+]
