@@ -1,0 +1,18 @@
+# ByteSized AI pipeline
+
+Script → LoRA v3 scenes on Kaggle GPU → edit → upload to YouTube.
+
+| Step | Command |
+|---|---|
+| Voiceover (Edge-TTS, paced per sentence) | `python pipeline/tts.py en-US-BrianNeural` (edit `SEG` list) |
+| Music (original, procedural) | `python pipeline/music.py` |
+| Scenes (SDXL + Quill Daily LoRA v3 on Kaggle T4) | `python pipeline/gen_scenes.py projects/<name>/shots.json --format short` |
+| Edit / assemble | `python pipeline/assemble.py projects/<name>` |
+| Thumbnail (long-form) | `python pipeline/thumbnail.py img.png thumb.jpg --text "LINE 1\|LINE 2"` |
+| Upload (private by default) | `python pipeline/upload_youtube.py video.mp4 --meta projects/<name>/upload.json` |
+
+## Notes
+- **Prompts must stay under 77 CLIP tokens.** Scene description goes first, short style trigger last. The Kaggle log prints a token count per shot.
+- Kaggle auth: `tools/kaggle_cli.py` (token is injected by the session proxy).
+- YouTube auth: env vars `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN`.
+- Every upload is private (or scheduled with `--publish-at`) so a human reviews it first.

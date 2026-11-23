@@ -1,0 +1,29 @@
+{
+ "scene_dir": "scenes_short",
+ "output": "dancing_plague_short.mp4",
+ "hook": {"lines": ["SHE COULDN'T", "STOP DANCING"], "until": 2.9},
+ "keywords": ["1518","dancing","couldn't","stop","bled","hundreds","doctors","more","stage","worse","died","hysteria","famine","fear","plague","days","musicians","collapsed","going"],
+ "shots": [
+  {"id":"s01","at":0,"move":"push"},
+  {"id":"s02","at":3.0,"move":"left"},
+  {"id":"s03","at":"word:she@6.0","move":"pull"},
+  {"id":"s04","at":"word:her@7.0","move":"punch","transition":"flash"},
+  {"id":"s05","at":"word:within@10.0","move":"up"},
+  {"id":"s06","at":"word:so@13.5","move":"right"},
+  {"id":"s07","at":"word:more@15.0","move":"punch","transition":"flash"},
+  {"id":"s08","at":"word:they@17.0","move":"push"},
+  {"id":"s09","at":"word:it@20.0","move":"down"},
+  {"id":"s10","at":"word:collapsed@21.0","move":"push"},
+  {"id":"s11","at":"word:historians@25.0","move":"push"},
+  {"id":"s12","at":"word:fear@26.0","move":"punch","transition":"flash"},
+  {"id":"s13","at":"word:it's@30.0","move":"pull"}
+ ],
+ "overlays": [
+  {"type":"counter","prefix":"DAY ","from":1,"to":6,"at":"word:she@6.0","until":"word:within@10.0"},
+  {"type":"bubble","text":"MORE DANCING!","at":"word:more@15.0","until":"word:they@17.0","caption_y":1500},
+  {"type":"tag","text":"FAMINE","at":"word:famine@25.0","until":"word:fear@26.0","y":420,"size":150},
+  {"type":"tag","text":"FEAR","at":"word:fear@26.0","until":"word:it's@30.0","y":420,"size":150,"fill":"#ff6b6b"},
+  {"type":"title","at":"word:it's@30.0","y":440,"lines":[["THE","#ffd166",110],["DANCING","#ffffff",190],["PLAGUE","#e63946",190]],
+   "sub":[["1374","#ffffff",300,"word:only@32.0"],["1518","#ffd166",780,"word:only@32.0"]]}
+ ]
+}

@@ -1,0 +1,6 @@
+# generated media (large) — regenerate from shots.json / edit.json
+projects/*/scenes_*/
+projects/*/*.mp4
+projects/*/*.wav
+projects/*/prev_*.png
+__pycache__/
