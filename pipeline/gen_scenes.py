@@ -23,6 +23,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("shots"); ap.add_argument("--format", default="short"); ap.add_argument("--variants", type=int, default=2)
     ap.add_argument("--slug", default="bytesized-scene-generator")
+    ap.add_argument("--machine", default="NvidiaTeslaT4")
     ap.add_argument("--only", help="comma-separated shot ids to render (for quick tests)")
     a = ap.parse_args()
     shots = json.load(open(a.shots))
@@ -39,7 +40,7 @@ def main():
     json.dump({"id": f"{OWNER}/{a.slug}", "title": a.slug.replace("-", " ").title(), "code_file": "generator.py",
                "language": "python", "kernel_type": "script", "is_private": True, "enable_gpu": True,
                "enable_internet": True, "dataset_sources": [f"{OWNER}/quill-daily-lora-v3-model"],
-               "machine_shape": "NvidiaTeslaT4"}, open(f"{work}/kernel-metadata.json", "w"), indent=1)
+               "machine_shape": a.machine}, open(f"{work}/kernel-metadata.json", "w"), indent=1)
     print(kaggle("kernels", "push", "-p", work))
     ref = f"{OWNER}/{a.slug}"
     t0 = time.time()
