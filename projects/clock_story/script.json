@@ -1,0 +1,730 @@
+{
+ "title": "How Did Humans Invent the Clock?",
+ "voice": "en-US-BrianNeural",
+ "notes": "Series format: Byte bookends.",
+ "segments": [
+  {
+   "text": "This is Byte. And Byte has a very important job interview at nine a.m.",
+   "pause": 0.3,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) asleep in bed in a cozy bedroom at dawn, phone on the nightstand, soft morning light through curtains",
+    "E: same scene and camera, Byte asleep and drooling, smiling in his sleep"
+   ],
+   "ch": "Cold open"
+  },
+  {
+   "text": "His phone alarm is set. He's ready. Nothing can go wrong.",
+   "pause": 0.3,
+   "shots": [
+    "B: close-up of Byte (the stickman with the orange cap and teal hoodie)'s hand setting an alarm on a smartphone at night, bedside lamp glow",
+    "E: same scene, Byte gives a confident thumbs up to the viewer"
+   ]
+  },
+  {
+   "text": "Except his phone died at three in the morning.",
+   "pause": 0.45,
+   "shots": [
+    "S: close-up of a smartphone on a nightstand with a red empty battery icon on its black screen, dark bedroom, moonlight"
+   ]
+  },
+  {
+   "text": "He wakes up. Sunlight. Birds. And a horrible feeling.",
+   "pause": 0.3,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) sitting up in bed in a bright sunny bedroom, birds outside the window, sleepy face",
+    "E: same scene and camera, Byte's eyes go wide with dread, sweat drop on his head"
+   ]
+  },
+  {
+   "text": "What time is it? Without a clock, Byte has no idea.",
+   "pause": 0.4,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) in pajamas standing in his bedroom, holding a dead phone, panicked shrug",
+    "E: same scene, Byte pulling at his face in panic"
+   ]
+  },
+  {
+   "text": "And for most of human history, that was everyone's life.",
+   "pause": 0.35,
+   "shots": [
+    "S: wide shot of an ancient village of mud brick huts at sunrise, stickmen farmers walking to fields, no clocks anywhere"
+   ]
+  },
+  {
+   "text": "So how did we go from guessing the time by the sun, to clocks so precise they lose one second in a hundred million years?",
+   "pause": 0.45,
+   "shots": [
+    "S: stickman in ancient robes squinting up at the sun with hand over his eyes, desert landscape",
+    "S: stickman scientist in a lab coat beside a futuristic glowing atomic clock machine with lasers, clean modern laboratory"
+   ]
+  },
+  {
+   "text": "Let's go back. Way back.",
+   "pause": 0.6,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) being sucked into a swirling time portal with clock faces flying around, comedic panic"
+   ]
+  },
+  {
+   "text": "Around four thousand years ago, ancient Egyptians noticed something simple.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman dressed as an ancient Egyptian priest with a white linen kilt and gold collar standing beside a tall stone obelisk, pyramids behind, golden afternoon",
+    "E: same scene and camera, the priest strokes his chin thoughtfully looking at the obelisk's shadow"
+   ],
+   "ch": "Chapter 1: Shadows"
+  },
+  {
+   "text": "A shadow moves across the ground as the sun crosses the sky.",
+   "pause": 0.3,
+   "shots": [
+    "S: a tall stone obelisk casting a long shadow across sand marked with stones, pyramids in the distance, warm light, no people",
+    "E: same scene, the shadow is now short and points the other way, midday sun"
+   ]
+  },
+  {
+   "text": "Mark where the shadow falls, and you've cut the day into pieces.",
+   "pause": 0.3,
+   "shots": [
+    "S: the Egyptian priest stickman placing marker stones in a curved line on the sand along the shadow, smiling",
+    "E: same scene, the priest proudly gestures at his row of marker stones"
+   ]
+  },
+  {
+   "text": "That was the first sundial. And it worked great.",
+   "pause": 0.25,
+   "shots": [
+    "S: a small ancient Egyptian stone sundial on a pedestal, the priest stickman next to it giving a thumbs up"
+   ]
+  },
+  {
+   "text": "Until a cloud showed up.",
+   "pause": 0.4,
+   "shots": [
+    "E: same scene, dark grey cloud above, no shadow on the sundial, the priest looks up annoyed"
+   ]
+  },
+  {
+   "text": "Or the sun went down.",
+   "pause": 0.45,
+   "shots": [
+    "E: same scene at night, dark blue sky with stars, the priest holds a torch and squints at the useless sundial"
+   ]
+  },
+  {
+   "text": "The Egyptians split daylight into twelve hours, and the night into twelve more.",
+   "pause": 0.3,
+   "shots": [
+    "S: a big papyrus scroll with a sun and moon drawn on it and twelve marks for each, the priest stickman pointing at it, temple interior"
+   ]
+  },
+  {
+   "text": "That's where our twenty-four hour day comes from.",
+   "pause": 0.3,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) in pajamas inside the ancient Egyptian temple pointing at the papyrus scroll, surprised"
+   ]
+  },
+  {
+   "text": "But their hours weren't equal. A summer hour was longer than a winter hour, because summer days are longer.",
+   "pause": 0.4,
+   "shots": [
+    "S: split scene, left side a hot summer day with a long sun path, right side a snowy winter day with a short sun path, a stickman confused in the middle",
+    "E: same scene, the stickman scratching his head with question marks above him"
+   ]
+  },
+  {
+   "text": "Imagine a job interview at 'the third hour'. Good luck.",
+   "pause": 0.45,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) in a suit holding a briefcase in an ancient Egyptian street, confused, looking at the sky"
+   ]
+  },
+  {
+   "text": "So people tried something that worked at night. Water.",
+   "pause": 0.3,
+   "shots": [
+    "S: inside an ancient Egyptian temple at night, a large stone bowl of water lit by oil lamps, the priest stickman next to it"
+   ],
+   "ch": "Chapter 2: Water"
+  },
+  {
+   "text": "A water clock is a bowl with a tiny hole. Water drips out at a steady rate.",
+   "pause": 0.3,
+   "shots": [
+    "S: close-up of an ancient stone water clock bowl with a thin stream of water dripping from a small hole at the bottom into a basin",
+    "E: same scene, the water level inside the bowl is lower"
+   ]
+  },
+  {
+   "text": "Read the water level against marks on the inside, and you know how much time has passed.",
+   "pause": 0.3,
+   "shots": [
+    "S: the Egyptian priest stickman peering into the stone water bowl, reading carved marks on the inside, holding an oil lamp"
+   ]
+  },
+  {
+   "text": "The Greeks loved it. In court, a water clock timed how long a lawyer could speak.",
+   "pause": 0.3,
+   "shots": [
+    "S: ancient Greek courtroom with marble columns, a stickman lawyer in a toga speaking passionately next to a water clock jar",
+    "E: same scene, the water runs out and the lawyer stops mid-sentence with his finger raised"
+   ]
+  },
+  {
+   "text": "When the water ran out, so did your argument.",
+   "pause": 0.35,
+   "shots": [
+    "E: same scene, a guard stickman gently pushes the lawyer away while the crowd laughs"
+   ]
+  },
+  {
+   "text": "Around two hundred fifty B.C., an inventor in Alexandria called Ctesibius built a water clock with floats and gears that could ring bells and move little figures.",
+   "pause": 0.35,
+   "shots": [
+    "S: a stickman dressed as an ancient Greek inventor with a short beard and blue toga in a workshop full of bronze gears and pipes, Alexandria",
+    "E: same scene, the inventor proudly presents a bronze water clock with a little moving figure and a bell"
+   ]
+  },
+  {
+   "text": "But water has problems. It evaporates. It freezes. It gets dirty.",
+   "pause": 0.3,
+   "shots": [
+    "S: three panels: a water clock in blazing sun with steam, a water clock frozen solid with icicles, a water clock with mud and a frog in it"
+   ]
+  },
+  {
+   "text": "People needed something better.",
+   "pause": 0.5,
+   "shots": [
+    "S: the Greek inventor stickman sitting on a step with his head in his hands next to a frozen water clock"
+   ]
+  },
+  {
+   "text": "In ten eighty-eight, in China, a scholar called Su Song built a monster.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman dressed as a Song dynasty Chinese scholar with a black official hat and long red robe standing in a palace courtyard, proud",
+    "E: same scene, the scholar unrolls a large blueprint of a tower"
+   ],
+   "ch": "Chapter 3: Gears"
+  },
+  {
+   "text": "A clock tower about twelve metres tall, powered by a giant water wheel.",
+   "pause": 0.3,
+   "shots": [
+    "S: a tall wooden Chinese astronomical clock tower about forty feet high with a pagoda roof and a big water wheel inside, palace setting, tiny stickmen at the base looking up"
+   ]
+  },
+  {
+   "text": "Every few seconds the wheel ticked forward one step. It had an armillary sphere on top to track the stars, and puppets that rang gongs and drums on the hour.",
+   "pause": 0.35,
+   "shots": [
+    "S: cutaway view of the inside of the wooden clock tower showing a big water wheel with buckets and gears, the scholar stickman pointing at it",
+    "S: top of the clock tower with a bronze armillary sphere under the night stars, the scholar looking up",
+    "S: small wooden puppet figures on a rotating platform ringing a gong and a drum inside the tower"
+   ]
+  },
+  {
+   "text": "That ticking idea, letting energy out in small controlled steps, is called an escapement. It's the heart of every mechanical clock.",
+   "pause": 0.35,
+   "shots": [
+    "S: big simple diagram style close-up of a wooden escapement wheel with teeth and a catch, the scholar stickman pointing at it like a teacher, warm workshop light",
+    "E: same scene, the scholar smiles and raises one finger, explaining"
+   ]
+  },
+  {
+   "text": "Two hundred years later, Europe built its own version. With weights instead of water.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman monk in a brown robe in a medieval stone workshop hanging a heavy stone weight on a rope wound around an iron clock mechanism"
+   ]
+  },
+  {
+   "text": "Monks needed to pray at exact times, day and night. So they put iron clocks in church towers.",
+   "pause": 0.3,
+   "shots": [
+    "S: a medieval stone church tower with a big clock and bell, village below at dusk, stickmen monks walking toward it",
+    "E: same scene, the bell swings and sound lines come from the tower"
+   ]
+  },
+  {
+   "text": "The clocks didn't even have faces at first. They just rang a bell. The word clock comes from an old word for bell.",
+   "pause": 0.35,
+   "shots": [
+    "S: inside a medieval bell tower, a monk stickman covering his ears as a giant bronze bell rings"
+   ]
+  },
+  {
+   "text": "And they were terrible. They could drift fifteen minutes a day.",
+   "pause": 0.3,
+   "shots": [
+    "S: a medieval town square with a big church clock, a stickman merchant comparing it to the sun with an annoyed face",
+    "E: same scene, the merchant throws up his hands angrily"
+   ]
+  },
+  {
+   "text": "Most clocks only had an hour hand. A minute hand was pointless.",
+   "pause": 0.45,
+   "shots": [
+    "S: close-up of an old medieval clock face with only one ornate hour hand, a stickman holding a tiny minute hand and shrugging"
+   ]
+  },
+  {
+   "text": "Then, in Pisa, a bored young student was sitting in church.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman dressed as a young Italian Renaissance student with a dark doublet and white ruff collar sitting on a church bench, bored, cathedral interior"
+   ],
+   "ch": "Chapter 4: The pendulum"
+  },
+  {
+   "text": "His name was Galileo Galilei. And he wasn't listening to the sermon.",
+   "pause": 0.3,
+   "shots": [
+    "E: same scene, the student stares upward with curious eyes, ignoring the priest in the background"
+   ]
+  },
+  {
+   "text": "He was watching a lamp swinging from the ceiling.",
+   "pause": 0.3,
+   "shots": [
+    "S: a bronze oil lamp hanging on a long chain swinging in a grand cathedral interior, motion lines"
+   ]
+  },
+  {
+   "text": "He timed it with his own pulse, and noticed something weird.",
+   "pause": 0.3,
+   "shots": [
+    "S: the young Galileo stickman holding two fingers on his wrist, eyes on the swinging lamp, concentrating"
+   ]
+  },
+  {
+   "text": "Big swings or small swings, each one took the same time.",
+   "pause": 0.35,
+   "shots": [
+    "S: simple illustrated diagram of a pendulum making a wide swing and a narrow swing side by side, the Galileo stickman pointing excitedly",
+    "E: same scene, Galileo with a huge excited smile and arms raised"
+   ]
+  },
+  {
+   "text": "A steady beat. Exactly what a clock needs.",
+   "pause": 0.3,
+   "shots": [
+    "S: a pendulum with a brass bob swinging in front of a wooden wall, glowing beat marks, warm light"
+   ]
+  },
+  {
+   "text": "Galileo sketched a pendulum clock, but died before he could build it.",
+   "pause": 0.35,
+   "shots": [
+    "S: an old Galileo stickman with a long grey beard at a candle lit desk sketching a pendulum clock design on paper, night"
+   ]
+  },
+  {
+   "text": "In sixteen fifty-six, a Dutch scientist called Christiaan Huygens finished the job.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman dressed as a 17th century Dutch gentleman with a long curly brown wig and lace collar in a study, holding a pendulum clock"
+   ]
+  },
+  {
+   "text": "His pendulum clock was accurate to about fifteen seconds a day, instead of fifteen minutes.",
+   "pause": 0.3,
+   "shots": [
+    "S: Huygens stickman proudly standing next to a tall wooden pendulum clock, a scroll on the table",
+    "E: same scene, Huygens bows dramatically"
+   ]
+  },
+  {
+   "text": "Suddenly the minute hand made sense. Then the second hand.",
+   "pause": 0.45,
+   "shots": [
+    "S: close-up of an elegant 17th century clock face with hour, minute and second hands, golden details"
+   ]
+  },
+  {
+   "text": "But there was one place a pendulum couldn't work. On a ship.",
+   "pause": 0.3,
+   "shots": [
+    "S: an old wooden sailing ship tossing on big waves, inside the cabin a pendulum clock swinging wildly, a stickman sailor dizzy"
+   ],
+   "ch": "Chapter 5: Lost at sea"
+  },
+  {
+   "text": "And on a ship, time was life or death.",
+   "pause": 0.35,
+   "shots": [
+    "S: an 18th century sailing ship on a stormy dark sea, lightning, dramatic"
+   ]
+  },
+  {
+   "text": "Sailors could find how far north or south they were from the sun. But east or west, their longitude, was guesswork.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman ship captain in a navy blue coat and tricorn hat studying a map in a cabin with a brass sextant, worried",
+    "E: same scene, the captain shrugs with a question mark over the map"
+   ]
+  },
+  {
+   "text": "In seventeen-oh-seven, a British fleet got lost in fog and smashed into rocks near the Isles of Scilly.",
+   "pause": 0.3,
+   "shots": [
+    "S: four wooden warships in thick fog heading toward jagged rocks, dark grey sea, tense",
+    "S: a wooden warship breaking apart on sharp rocks in a storm, waves crashing, no gore"
+   ]
+  },
+  {
+   "text": "More than fourteen hundred sailors died.",
+   "pause": 0.5,
+   "shots": [
+    "S: a quiet grey beach at dawn with broken wooden planks and a lone sailor's hat on the sand, somber"
+   ]
+  },
+  {
+   "text": "So Britain offered a prize. Twenty thousand pounds, millions today, to anyone who could solve longitude.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman royal official in a white wig reading a large proclamation scroll to a crowd in a London street",
+    "E: same scene, the crowd stickmen with dollar-sign eyes and open mouths"
+   ]
+  },
+  {
+   "text": "The trick was time. If you carry a clock showing the exact time back home, you can compare it to local noon and work out how far east or west you are.",
+   "pause": 0.35,
+   "shots": [
+    "S: simple illustrated diagram of the globe with a clock over London and a ship far away with a sun at noon, dotted line between them, the captain stickman pointing"
+   ]
+  },
+  {
+   "text": "But no clock could survive a rolling, freezing, salty ship.",
+   "pause": 0.3,
+   "shots": [
+    "S: a fancy clock on a ship deck soaked by a wave with a cracked glass, a sailor stickman holding it sadly"
+   ]
+  },
+  {
+   "text": "The experts said it was impossible.",
+   "pause": 0.4,
+   "shots": [
+    "S: a group of stickman scientists in white wigs at the Royal Society laughing at a ship model, wood panelled hall"
+   ]
+  },
+  {
+   "text": "Then came John Harrison. A carpenter from Yorkshire with no formal training.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman dressed as an 18th century English carpenter with a brown leather apron, white shirt and a simple brown wig, standing in a wood workshop",
+    "E: same scene, the carpenter rolls up his sleeves with a determined face"
+   ],
+   "ch": "Chapter 6: The carpenter"
+  },
+  {
+   "text": "He'd built clocks out of wood, so smooth they barely needed oil.",
+   "pause": 0.3,
+   "shots": [
+    "S: a beautiful wooden clock mechanism with wooden gears on a workbench, the carpenter stickman polishing it"
+   ]
+  },
+  {
+   "text": "He spent decades building sea clocks. The first was a strange brass machine the size of a small car engine.",
+   "pause": 0.3,
+   "shots": [
+    "S: the carpenter stickman next to a large brass sea clock with spinning balance arms and springs in a glass case"
+   ]
+  },
+  {
+   "text": "Then a second one. Then a third that took him nineteen years.",
+   "pause": 0.3,
+   "shots": [
+    "S: the carpenter stickman getting older, now with grey hair, working on a brass clock by candlelight",
+    "E: same scene, the carpenter yawns with tired eyes, calendar pages flying in the air"
+   ]
+  },
+  {
+   "text": "And then he realised he'd been thinking too big.",
+   "pause": 0.3,
+   "shots": [
+    "S: the old carpenter stickman sitting in his workshop looking at a small pocket watch with a lightbulb above his head"
+   ]
+  },
+  {
+   "text": "His fourth timekeeper was a watch you could hold in your hand.",
+   "pause": 0.3,
+   "shots": [
+    "S: close-up of an old stickman hand holding a large silver pocket watch with an ornate white face, glowing softly"
+   ]
+  },
+  {
+   "text": "In seventeen sixty-one it sailed to Jamaica. Eighty-one days at sea.",
+   "pause": 0.3,
+   "shots": [
+    "S: an 18th century sailing ship on a calm blue sea at sunset heading toward a tropical island",
+    "S: in the ship's cabin, a young stickman in a brown coat carefully winding the silver pocket watch in a padded box"
+   ]
+  },
+  {
+   "text": "When they arrived, it was only five seconds off.",
+   "pause": 0.4,
+   "shots": [
+    "S: on a tropical dock in Jamaica, the young stickman holds up the watch and the captain stickman's jaw drops"
+   ]
+  },
+  {
+   "text": "Harrison had solved longitude.",
+   "pause": 0.3,
+   "shots": [
+    "S: the old carpenter Harrison stickman smiling with the watch in his workshop, warm golden light"
+   ]
+  },
+  {
+   "text": "And the experts still refused to pay him.",
+   "pause": 0.3,
+   "shots": [
+    "S: the stickman scientists in white wigs at a long table shaking their heads, the old carpenter standing in front of them angry"
+   ]
+  },
+  {
+   "text": "It took a personal push from King George the Third before Harrison got most of his money, at the age of eighty.",
+   "pause": 0.4,
+   "shots": [
+    "S: a stickman king with a crown and red royal robe putting a hand on the shoulder of the old carpenter, palace room",
+    "E: same scene, the old carpenter holding a bag of gold coins, tired but smiling"
+   ]
+  },
+  {
+   "text": "Accurate clocks created a brand new problem. Every town had its own time.",
+   "pause": 0.3,
+   "shots": [
+    "S: a row of three Victorian town halls side by side, each with a clock showing a different time, stickmen confused below"
+   ],
+   "ch": "Chapter 7: Railway time"
+  },
+  {
+   "text": "Noon was when the sun was highest, and that's a few minutes different in every town.",
+   "pause": 0.3,
+   "shots": [
+    "S: a Victorian stickman in a top hat looking up at the sun at noon in a town square, checking his pocket watch"
+   ]
+  },
+  {
+   "text": "That was fine when travel was slow. Then trains arrived.",
+   "pause": 0.3,
+   "shots": [
+    "S: a black steam locomotive puffing white smoke across green English countryside, motion lines"
+   ]
+  },
+  {
+   "text": "Imagine train timetables where every station runs on a different clock.",
+   "pause": 0.3,
+   "shots": [
+    "S: a chaotic Victorian railway station, stickmen passengers running with luggage, clocks on the wall all showing different times",
+    "E: same scene, a stickman conductor tearing his hair out holding a timetable"
+   ]
+  },
+  {
+   "text": "So British railways switched to London time in the eighteen-forties.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman station master in a navy uniform and cap setting a big station clock with a long pole, proud"
+   ]
+  },
+  {
+   "text": "And in eighteen eighty-three, American railways split the country into time zones. People called it the day of two noons.",
+   "pause": 0.35,
+   "shots": [
+    "S: an American 19th century railway office, a big map of the United States split into colored time zone bands, stickmen in waistcoats pointing",
+    "S: a 19th century American town street where a church clock strikes twelve twice, stickmen looking up puzzled"
+   ]
+  },
+  {
+   "text": "A year later, the world agreed to count time from Greenwich, in London.",
+   "pause": 0.35,
+   "shots": [
+    "S: the Royal Observatory at Greenwich on a green hill with a red time ball on its roof, sunny, stickmen visitors"
+   ]
+  },
+  {
+   "text": "Clocks moved from towers, to pockets, to wrists. Soldiers in the First World War needed both hands free.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman soldier in a WW1 khaki uniform and helmet checking a wristwatch in a muddy trench, other soldiers waiting",
+    "E: same scene, the soldier gives a nod and raises his hand to signal"
+   ],
+   "ch": "Chapter 8: Quartz and atoms"
+  },
+  {
+   "text": "Then, in nineteen twenty-seven, engineers at Bell Labs found a crystal that keeps time.",
+   "pause": 0.3,
+   "shots": [
+    "S: a 1920s laboratory with wooden benches and vacuum tubes, two stickman engineers in white shirts and ties looking at a glowing quartz crystal"
+   ]
+  },
+  {
+   "text": "Quartz. Run electricity through it, and it vibrates at a perfectly steady rate.",
+   "pause": 0.3,
+   "shots": [
+    "S: big close-up of a clear quartz crystal with glowing blue vibration lines and a tiny lightning bolt, dark background"
+   ]
+  },
+  {
+   "text": "In your watch, it vibrates thirty-two thousand, seven hundred and sixty-eight times every second.",
+   "pause": 0.3,
+   "shots": [
+    "S: inside a modern wristwatch, a tiny tuning-fork shaped quartz crystal glowing on a circuit board, macro view"
+   ]
+  },
+  {
+   "text": "In nineteen sixty-nine, the first quartz wristwatch went on sale. It cost about as much as a small car.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman in a 1960s suit in a jewelry shop looking at a gold wristwatch in a glass case, a price tag shaped like a car",
+    "E: same scene, the stickman gasps at the price tag"
+   ]
+  },
+  {
+   "text": "But scientists wanted something even more steady than a crystal. Atoms.",
+   "pause": 0.35,
+   "shots": [
+    "S: a glowing atom with orbiting electrons floating above a stickman scientist's palm in a dark lab"
+   ]
+  },
+  {
+   "text": "In nineteen fifty-five, British physicists Louis Essen and Jack Parry built the first practical atomic clock, using caesium.",
+   "pause": 0.3,
+   "shots": [
+    "S: a 1950s British laboratory, two stickman scientists in tweed jackets and glasses standing beside a large metal atomic clock machine with dials"
+   ]
+  },
+  {
+   "text": "Since nineteen sixty-seven, one second has officially been nine billion, one hundred ninety-two million, six hundred thirty-one thousand, seven hundred seventy vibrations of a caesium atom.",
+   "pause": 0.35,
+   "shots": [
+    "S: a giant chalkboard filled with the number 9192631770, a stickman professor pointing at it with chalk, students amazed",
+    "E: same scene, the professor wipes sweat from his forehead"
+   ]
+  },
+  {
+   "text": "The best clocks today would lose less than a second in a hundred million years.",
+   "pause": 0.3,
+   "shots": [
+    "S: a modern optical atomic clock lab with lasers, mirrors and blue light, a stickman scientist in a lab coat smiling"
+   ]
+  },
+  {
+   "text": "And you use them every day without knowing it.",
+   "pause": 0.4,
+   "shots": [
+    "S: GPS satellites orbiting Earth with glowing signal lines down to a city, space background"
+   ]
+  },
+  {
+   "text": "Every GPS satellite carries atomic clocks. If their time was off by just a millionth of a second, your map would put you three hundred metres away.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman driver in a car looking at a phone map showing the car in the middle of a lake, confused",
+    "E: same scene, the stickman driver facepalms"
+   ]
+  },
+  {
+   "text": "Your phone quietly checks its time against those clocks all day.",
+   "pause": 0.45,
+   "shots": [
+    "B: close-up of a smartphone on a desk showing the time, glowing signal lines coming from the sky, Byte (the stickman with the orange cap and teal hoodie) in the background looking at it"
+   ]
+  },
+  {
+   "text": "Which brings us back to Byte.",
+   "pause": 0.3,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) in pajamas in his sunny bedroom holding a dead phone, frozen in panic"
+   ],
+   "ch": "Back to Byte"
+  },
+  {
+   "text": "He plugs in his phone. It instantly knows the time, to a fraction of a second.",
+   "pause": 0.3,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) plugging a charging cable into his phone in the bedroom",
+    "E: same scene, the phone lights up showing 8:42 and Byte's jaw drops"
+   ]
+  },
+  {
+   "text": "Eight forty-two.",
+   "pause": 0.4,
+   "shots": [
+    "E: same scene, extreme panic, Byte's hair standing up under his cap"
+   ]
+  },
+  {
+   "text": "Four thousand years of sundials, water, gears, pendulums, sea clocks and atoms.",
+   "pause": 0.3,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) running down a sunny city sidewalk in a suit with his tie flying, a big clock on a building behind him",
+    "S: a row of a sundial, a water clock, a pendulum clock, a pocket watch and a glowing atomic clock lined up like trophies in a museum"
+   ]
+  },
+  {
+   "text": "All so Byte could know, precisely, how late he is.",
+   "pause": 0.4,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) bursting through the glass door of an office building, out of breath, a receptionist stickman pointing at a wall clock showing 9:01"
+   ]
+  },
+  {
+   "text": "He made it. Mostly.",
+   "pause": 0.35,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) shaking hands with an interviewer stickman in an office, sweaty but smiling",
+    "E: same scene, both laughing"
+   ]
+  },
+  {
+   "text": "Subscribe to ByteSized AI, and next time, we'll find out how humans invented something else you use every day without thinking about it.",
+   "pause": 0.6,
+   "shots": [
+    "B: Byte (the stickman with the orange cap and teal hoodie) waving goodbye at the viewer in front of a big glowing clock tower at sunset"
+   ]
+  }
+ ],
+ "meta": {
+  "hook_line": "For most of human history, nobody knew exactly what time it was. So how did we get clocks that lose one second in 100 million years?",
+  "summary": "From shadows on Egyptian obelisks to atomic clocks inside every GPS satellite, this is the story of how humans learned to measure time: a 12-metre Chinese clock tower, a bored Galileo watching a lamp swing, a naval disaster that killed 1,400 sailors, a self-taught carpenter who solved longitude, railways that invented time zones, and the crystal vibrating 32,768 times a second inside your watch.",
+  "bullets": [
+   "Why we have 24 hours (and why ancient hours changed length)",
+   "Water clocks, Ctesibius and Su Song's 1088 clock tower",
+   "Galileo, Huygens and the pendulum clock",
+   "The longitude problem and John Harrison's sea watch",
+   "Railway time, time zones and the 'day of two noons'",
+   "Quartz watches, atomic clocks and GPS"
+  ],
+  "sources": [
+   "Dava Sobel, 'Longitude' (1995)",
+   "Royal Museums Greenwich: John Harrison and the longitude problem",
+   "National Physical Laboratory: the first caesium atomic clock (1955)",
+   "Smithsonian: standard time and the railroads (1883)",
+   "Science Museum Group: Su Song's astronomical clock tower"
+  ],
+  "cta": "Subscribe to ByteSized AI for the stories behind everyday things. What invention should we cover next? Tell us in the comments.",
+  "hashtags": [
+   "#history",
+   "#inventions",
+   "#clock",
+   "#science",
+   "#ByteSizedAI"
+  ],
+  "tags": [
+   "how was the clock invented",
+   "history of clocks",
+   "history of timekeeping",
+   "john harrison longitude",
+   "atomic clock",
+   "pendulum clock",
+   "sundial",
+   "water clock",
+   "how did humans invent",
+   "invention history"
+  ],
+  "categoryId": 27
+ }
+}

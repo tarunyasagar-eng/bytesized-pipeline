@@ -1,0 +1,614 @@
+[
+{
+"id": "c048_0",
+"prompt": "four wooden warships in thick fog heading toward jagged rocks, dark grey sea, tense",
+"seg": 48,
+"ref": "stick"
+},
+{
+"id": "c048_1",
+"prompt": "a wooden warship breaking apart on sharp rocks in a storm, waves crashing, no gore",
+"seg": 48,
+"ref": "stick"
+},
+{
+"id": "c048_2",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 48,
+"from": "c048_1"
+},
+{
+"id": "c049_0",
+"prompt": "a quiet grey beach at dawn with broken wooden planks and a lone sailor's hat on the sand, somber",
+"seg": 49,
+"ref": "stick"
+},
+{
+"id": "c049_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 49,
+"from": "c049_0"
+},
+{
+"id": "c050_0",
+"prompt": "a stickman royal official in a white wig reading a large proclamation scroll to a crowd in a London street",
+"seg": 50,
+"ref": "stick"
+},
+{
+"id": "c050_1",
+"prompt": "same scene, the crowd stickmen with dollar-sign eyes and open mouths",
+"seg": 50,
+"from": "c050_0"
+},
+{
+"id": "c050_2",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 50,
+"from": "c050_1"
+},
+{
+"id": "c051_0",
+"prompt": "simple illustrated diagram of the globe with a clock over London and a ship far away with a sun at noon, dotted line between them, the captain stickman pointing",
+"seg": 51,
+"ref": "stick"
+},
+{
+"id": "c051_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 51,
+"from": "c051_0"
+},
+{
+"id": "c051_2",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 51,
+"from": "c051_1"
+},
+{
+"id": "c051_3",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 51,
+"from": "c051_2"
+},
+{
+"id": "c052_0",
+"prompt": "a fancy clock on a ship deck soaked by a wave with a cracked glass, a sailor stickman holding it sadly",
+"seg": 52,
+"ref": "stick"
+},
+{
+"id": "c052_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 52,
+"from": "c052_0"
+},
+{
+"id": "c053_0",
+"prompt": "a group of stickman scientists in white wigs at the Royal Society laughing at a ship model, wood panelled hall",
+"seg": 53,
+"ref": "stick"
+},
+{
+"id": "c054_0",
+"prompt": "a stickman dressed as an 18th century English carpenter with a brown leather apron, white shirt and a simple brown wig, standing in a wood workshop",
+"seg": 54,
+"ref": "stick"
+},
+{
+"id": "c054_1",
+"prompt": "same scene, the carpenter rolls up his sleeves with a determined face",
+"seg": 54,
+"from": "c054_0"
+},
+{
+"id": "c055_0",
+"prompt": "a beautiful wooden clock mechanism with wooden gears on a workbench, the carpenter stickman polishing it",
+"seg": 55,
+"ref": "stick"
+},
+{
+"id": "c055_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 55,
+"from": "c055_0"
+},
+{
+"id": "c056_0",
+"prompt": "the carpenter stickman next to a large brass sea clock with spinning balance arms and springs in a glass case",
+"seg": 56,
+"ref": "stick"
+},
+{
+"id": "c056_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 56,
+"from": "c056_0"
+},
+{
+"id": "c056_2",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 56,
+"from": "c056_1"
+},
+{
+"id": "c057_0",
+"prompt": "the carpenter stickman getting older, now with grey hair, working on a brass clock by candlelight",
+"seg": 57,
+"ref": "stick"
+},
+{
+"id": "c057_1",
+"prompt": "same scene, the carpenter yawns with tired eyes, calendar pages flying in the air",
+"seg": 57,
+"from": "c057_0"
+},
+{
+"id": "c058_0",
+"prompt": "the old carpenter stickman sitting in his workshop looking at a small pocket watch with a lightbulb above his head",
+"seg": 58,
+"ref": "stick"
+},
+{
+"id": "c058_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 58,
+"from": "c058_0"
+},
+{
+"id": "c059_0",
+"prompt": "close-up of an old stickman hand holding a large silver pocket watch with an ornate white face, glowing softly",
+"seg": 59,
+"ref": "stick"
+},
+{
+"id": "c059_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 59,
+"from": "c059_0"
+},
+{
+"id": "c060_0",
+"prompt": "an 18th century sailing ship on a calm blue sea at sunset heading toward a tropical island",
+"seg": 60,
+"ref": "stick"
+},
+{
+"id": "c060_1",
+"prompt": "in the ship's cabin, a young stickman in a brown coat carefully winding the silver pocket watch in a padded box",
+"seg": 60,
+"ref": "stick"
+},
+{
+"id": "c061_0",
+"prompt": "on a tropical dock in Jamaica, the young stickman holds up the watch and the captain stickman's jaw drops",
+"seg": 61,
+"ref": "stick"
+},
+{
+"id": "c061_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 61,
+"from": "c061_0"
+},
+{
+"id": "c062_0",
+"prompt": "the old carpenter Harrison stickman smiling with the watch in his workshop, warm golden light",
+"seg": 62,
+"ref": "stick"
+},
+{
+"id": "c063_0",
+"prompt": "the stickman scientists in white wigs at a long table shaking their heads, the old carpenter standing in front of them angry",
+"seg": 63,
+"ref": "stick"
+},
+{
+"id": "c064_0",
+"prompt": "a stickman king with a crown and red royal robe putting a hand on the shoulder of the old carpenter, palace room",
+"seg": 64,
+"ref": "stick"
+},
+{
+"id": "c064_1",
+"prompt": "same scene, the old carpenter holding a bag of gold coins, tired but smiling",
+"seg": 64,
+"from": "c064_0"
+},
+{
+"id": "c064_2",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 64,
+"from": "c064_1"
+},
+{
+"id": "c065_0",
+"prompt": "a row of three Victorian town halls side by side, each with a clock showing a different time, stickmen confused below",
+"seg": 65,
+"ref": "stick"
+},
+{
+"id": "c065_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 65,
+"from": "c065_0"
+},
+{
+"id": "c066_0",
+"prompt": "a Victorian stickman in a top hat looking up at the sun at noon in a town square, checking his pocket watch",
+"seg": 66,
+"ref": "stick"
+},
+{
+"id": "c066_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 66,
+"from": "c066_0"
+},
+{
+"id": "c067_0",
+"prompt": "a black steam locomotive puffing white smoke across green English countryside, motion lines",
+"seg": 67,
+"ref": "stick"
+},
+{
+"id": "c067_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 67,
+"from": "c067_0"
+},
+{
+"id": "c068_0",
+"prompt": "a chaotic Victorian railway station, stickmen passengers running with luggage, clocks on the wall all showing different times",
+"seg": 68,
+"ref": "stick"
+},
+{
+"id": "c068_1",
+"prompt": "same scene, a stickman conductor tearing his hair out holding a timetable",
+"seg": 68,
+"from": "c068_0"
+},
+{
+"id": "c069_0",
+"prompt": "a stickman station master in a navy uniform and cap setting a big station clock with a long pole, proud",
+"seg": 69,
+"ref": "stick"
+},
+{
+"id": "c069_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 69,
+"from": "c069_0"
+},
+{
+"id": "c070_0",
+"prompt": "an American 19th century railway office, a big map of the United States split into colored time zone bands, stickmen in waistcoats pointing",
+"seg": 70,
+"ref": "stick"
+},
+{
+"id": "c070_1",
+"prompt": "a 19th century American town street where a church clock strikes twelve twice, stickmen looking up puzzled",
+"seg": 70,
+"ref": "stick"
+},
+{
+"id": "c070_2",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 70,
+"from": "c070_1"
+},
+{
+"id": "c071_0",
+"prompt": "the Royal Observatory at Greenwich on a green hill with a red time ball on its roof, sunny, stickmen visitors",
+"seg": 71,
+"ref": "stick"
+},
+{
+"id": "c071_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 71,
+"from": "c071_0"
+},
+{
+"id": "c072_0",
+"prompt": "a stickman soldier in a WW1 khaki uniform and helmet checking a wristwatch in a muddy trench, other soldiers waiting",
+"seg": 72,
+"ref": "stick"
+},
+{
+"id": "c072_1",
+"prompt": "same scene, the soldier gives a nod and raises his hand to signal",
+"seg": 72,
+"from": "c072_0"
+},
+{
+"id": "c072_2",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 72,
+"from": "c072_1"
+},
+{
+"id": "c073_0",
+"prompt": "a 1920s laboratory with wooden benches and vacuum tubes, two stickman engineers in white shirts and ties looking at a glowing quartz crystal",
+"seg": 73,
+"ref": "stick"
+},
+{
+"id": "c073_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 73,
+"from": "c073_0"
+},
+{
+"id": "c073_2",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 73,
+"from": "c073_1"
+},
+{
+"id": "c074_0",
+"prompt": "big close-up of a clear quartz crystal with glowing blue vibration lines and a tiny lightning bolt, dark background",
+"seg": 74,
+"ref": "stick"
+},
+{
+"id": "c074_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 74,
+"from": "c074_0"
+},
+{
+"id": "c075_0",
+"prompt": "inside a modern wristwatch, a tiny tuning-fork shaped quartz crystal glowing on a circuit board, macro view",
+"seg": 75,
+"ref": "stick"
+},
+{
+"id": "c075_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 75,
+"from": "c075_0"
+},
+{
+"id": "c075_2",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 75,
+"from": "c075_1"
+},
+{
+"id": "c076_0",
+"prompt": "a stickman in a 1960s suit in a jewelry shop looking at a gold wristwatch in a glass case, a price tag shaped like a car",
+"seg": 76,
+"ref": "stick"
+},
+{
+"id": "c076_1",
+"prompt": "same scene, the stickman gasps at the price tag",
+"seg": 76,
+"from": "c076_0"
+},
+{
+"id": "c076_2",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 76,
+"from": "c076_1"
+},
+{
+"id": "c077_0",
+"prompt": "a glowing atom with orbiting electrons floating above a stickman scientist's palm in a dark lab",
+"seg": 77,
+"ref": "stick"
+},
+{
+"id": "c077_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 77,
+"from": "c077_0"
+},
+{
+"id": "c078_0",
+"prompt": "a 1950s British laboratory, two stickman scientists in tweed jackets and glasses standing beside a large metal atomic clock machine with dials",
+"seg": 78,
+"ref": "stick"
+},
+{
+"id": "c078_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 78,
+"from": "c078_0"
+},
+{
+"id": "c078_2",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 78,
+"from": "c078_1"
+},
+{
+"id": "c078_3",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 78,
+"from": "c078_2"
+},
+{
+"id": "c079_0",
+"prompt": "a giant chalkboard filled with the number 9192631770, a stickman professor pointing at it with chalk, students amazed",
+"seg": 79,
+"ref": "stick"
+},
+{
+"id": "c079_1",
+"prompt": "same scene, the professor wipes sweat from his forehead",
+"seg": 79,
+"from": "c079_0"
+},
+{
+"id": "c079_2",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 79,
+"from": "c079_1"
+},
+{
+"id": "c079_3",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 79,
+"from": "c079_2"
+},
+{
+"id": "c079_4",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 79,
+"from": "c079_3"
+},
+{
+"id": "c080_0",
+"prompt": "a modern optical atomic clock lab with lasers, mirrors and blue light, a stickman scientist in a lab coat smiling",
+"seg": 80,
+"ref": "stick"
+},
+{
+"id": "c080_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 80,
+"from": "c080_0"
+},
+{
+"id": "c081_0",
+"prompt": "GPS satellites orbiting Earth with glowing signal lines down to a city, space background",
+"seg": 81,
+"ref": "stick"
+},
+{
+"id": "c081_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 81,
+"from": "c081_0"
+},
+{
+"id": "c082_0",
+"prompt": "a stickman driver in a car looking at a phone map showing the car in the middle of a lake, confused",
+"seg": 82,
+"ref": "stick"
+},
+{
+"id": "c082_1",
+"prompt": "same scene, the stickman driver facepalms",
+"seg": 82,
+"from": "c082_0"
+},
+{
+"id": "c082_2",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 82,
+"from": "c082_1"
+},
+{
+"id": "c082_3",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 82,
+"from": "c082_2"
+},
+{
+"id": "c083_0",
+"prompt": "close-up of a smartphone on a desk showing the time, glowing signal lines coming from the sky, Byte (the stickman with the orange cap and teal hoodie) in the background looking at it",
+"seg": 83,
+"ref": "byte"
+},
+{
+"id": "c083_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 83,
+"from": "c083_0"
+},
+{
+"id": "c084_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) in pajamas in his sunny bedroom holding a dead phone, frozen in panic",
+"seg": 84,
+"ref": "byte"
+},
+{
+"id": "c085_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) plugging a charging cable into his phone in the bedroom",
+"seg": 85,
+"ref": "byte"
+},
+{
+"id": "c085_1",
+"prompt": "same scene, the phone lights up showing 8:42 and Byte's jaw drops",
+"seg": 85,
+"from": "c085_0"
+},
+{
+"id": "c086_0",
+"prompt": "same scene, extreme panic, Byte's hair standing up under his cap",
+"seg": 86,
+"from": "c085_1"
+},
+{
+"id": "c087_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) running down a sunny city sidewalk in a suit with his tie flying, a big clock on a building behind him",
+"seg": 87,
+"ref": "byte"
+},
+{
+"id": "c087_1",
+"prompt": "a row of a sundial, a water clock, a pendulum clock, a pocket watch and a glowing atomic clock lined up like trophies in a museum",
+"seg": 87,
+"ref": "stick"
+},
+{
+"id": "c087_2",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 87,
+"from": "c087_1"
+},
+{
+"id": "c088_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) bursting through the glass door of an office building, out of breath, a receptionist stickman pointing at a wall clock showing 9:01",
+"seg": 88,
+"ref": "byte"
+},
+{
+"id": "c088_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 88,
+"from": "c088_0"
+},
+{
+"id": "c089_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) shaking hands with an interviewer stickman in an office, sweaty but smiling",
+"seg": 89,
+"ref": "byte"
+},
+{
+"id": "c089_1",
+"prompt": "same scene, both laughing",
+"seg": 89,
+"from": "c089_0"
+},
+{
+"id": "c090_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) waving goodbye at the viewer in front of a big glowing clock tower at sunset",
+"seg": 90,
+"ref": "byte"
+},
+{
+"id": "c090_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 90,
+"from": "c090_0"
+},
+{
+"id": "c090_2",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 90,
+"from": "c090_1"
+},
+{
+"id": "c090_3",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 90,
+"from": "c090_2"
+}
+]

@@ -1,0 +1,626 @@
+[
+{
+"id": "c000_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) asleep in bed in a cozy bedroom at dawn, phone on the nightstand, soft morning light through curtains",
+"seg": 0,
+"ref": "byte"
+},
+{
+"id": "c000_1",
+"prompt": "same scene and camera, Byte asleep and drooling, smiling in his sleep",
+"seg": 0,
+"from": "c000_0"
+},
+{
+"id": "c001_0",
+"prompt": "close-up of Byte (the stickman with the orange cap and teal hoodie)'s hand setting an alarm on a smartphone at night, bedside lamp glow",
+"seg": 1,
+"ref": "byte"
+},
+{
+"id": "c001_1",
+"prompt": "same scene, Byte gives a confident thumbs up to the viewer",
+"seg": 1,
+"from": "c001_0"
+},
+{
+"id": "c002_0",
+"prompt": "close-up of a smartphone on a nightstand with a red empty battery icon on its black screen, dark bedroom, moonlight",
+"seg": 2,
+"ref": "stick"
+},
+{
+"id": "c002_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 2,
+"from": "c002_0"
+},
+{
+"id": "c003_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) sitting up in bed in a bright sunny bedroom, birds outside the window, sleepy face",
+"seg": 3,
+"ref": "byte"
+},
+{
+"id": "c003_1",
+"prompt": "same scene and camera, Byte's eyes go wide with dread, sweat drop on his head",
+"seg": 3,
+"from": "c003_0"
+},
+{
+"id": "c004_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) in pajamas standing in his bedroom, holding a dead phone, panicked shrug",
+"seg": 4,
+"ref": "byte"
+},
+{
+"id": "c004_1",
+"prompt": "same scene, Byte pulling at his face in panic",
+"seg": 4,
+"from": "c004_0"
+},
+{
+"id": "c005_0",
+"prompt": "wide shot of an ancient village of mud brick huts at sunrise, stickmen farmers walking to fields, no clocks anywhere",
+"seg": 5,
+"ref": "stick"
+},
+{
+"id": "c005_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 5,
+"from": "c005_0"
+},
+{
+"id": "c006_0",
+"prompt": "stickman in ancient robes squinting up at the sun with hand over his eyes, desert landscape",
+"seg": 6,
+"ref": "stick"
+},
+{
+"id": "c006_1",
+"prompt": "stickman scientist in a lab coat beside a futuristic glowing atomic clock machine with lasers, clean modern laboratory",
+"seg": 6,
+"ref": "stick"
+},
+{
+"id": "c006_2",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 6,
+"from": "c006_1"
+},
+{
+"id": "c007_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) being sucked into a swirling time portal with clock faces flying around, comedic panic",
+"seg": 7,
+"ref": "byte"
+},
+{
+"id": "c008_0",
+"prompt": "a stickman dressed as an ancient Egyptian priest with a white linen kilt and gold collar standing beside a tall stone obelisk, pyramids behind, golden afternoon",
+"seg": 8,
+"ref": "stick"
+},
+{
+"id": "c008_1",
+"prompt": "same scene and camera, the priest strokes his chin thoughtfully looking at the obelisk's shadow",
+"seg": 8,
+"from": "c008_0"
+},
+{
+"id": "c009_0",
+"prompt": "a tall stone obelisk casting a long shadow across sand marked with stones, pyramids in the distance, warm light, no people",
+"seg": 9,
+"ref": "stick"
+},
+{
+"id": "c009_1",
+"prompt": "same scene, the shadow is now short and points the other way, midday sun",
+"seg": 9,
+"from": "c009_0"
+},
+{
+"id": "c010_0",
+"prompt": "the Egyptian priest stickman placing marker stones in a curved line on the sand along the shadow, smiling",
+"seg": 10,
+"ref": "stick"
+},
+{
+"id": "c010_1",
+"prompt": "same scene, the priest proudly gestures at his row of marker stones",
+"seg": 10,
+"from": "c010_0"
+},
+{
+"id": "c011_0",
+"prompt": "a small ancient Egyptian stone sundial on a pedestal, the priest stickman next to it giving a thumbs up",
+"seg": 11,
+"ref": "stick"
+},
+{
+"id": "c011_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 11,
+"from": "c011_0"
+},
+{
+"id": "c012_0",
+"prompt": "same scene, dark grey cloud above, no shadow on the sundial, the priest looks up annoyed",
+"seg": 12,
+"from": "c011_1"
+},
+{
+"id": "c013_0",
+"prompt": "same scene at night, dark blue sky with stars, the priest holds a torch and squints at the useless sundial",
+"seg": 13,
+"from": "c012_0"
+},
+{
+"id": "c014_0",
+"prompt": "a big papyrus scroll with a sun and moon drawn on it and twelve marks for each, the priest stickman pointing at it, temple interior",
+"seg": 14,
+"ref": "stick"
+},
+{
+"id": "c014_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 14,
+"from": "c014_0"
+},
+{
+"id": "c015_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) in pajamas inside the ancient Egyptian temple pointing at the papyrus scroll, surprised",
+"seg": 15,
+"ref": "byte"
+},
+{
+"id": "c015_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 15,
+"from": "c015_0"
+},
+{
+"id": "c016_0",
+"prompt": "split scene, left side a hot summer day with a long sun path, right side a snowy winter day with a short sun path, a stickman confused in the middle",
+"seg": 16,
+"ref": "stick"
+},
+{
+"id": "c016_1",
+"prompt": "same scene, the stickman scratching his head with question marks above him",
+"seg": 16,
+"from": "c016_0"
+},
+{
+"id": "c016_2",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 16,
+"from": "c016_1"
+},
+{
+"id": "c017_0",
+"prompt": "Byte (the stickman with the orange cap and teal hoodie) in a suit holding a briefcase in an ancient Egyptian street, confused, looking at the sky",
+"seg": 17,
+"ref": "byte"
+},
+{
+"id": "c017_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 17,
+"from": "c017_0"
+},
+{
+"id": "c018_0",
+"prompt": "inside an ancient Egyptian temple at night, a large stone bowl of water lit by oil lamps, the priest stickman next to it",
+"seg": 18,
+"ref": "stick"
+},
+{
+"id": "c018_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 18,
+"from": "c018_0"
+},
+{
+"id": "c019_0",
+"prompt": "close-up of an ancient stone water clock bowl with a thin stream of water dripping from a small hole at the bottom into a basin",
+"seg": 19,
+"ref": "stick"
+},
+{
+"id": "c019_1",
+"prompt": "same scene, the water level inside the bowl is lower",
+"seg": 19,
+"from": "c019_0"
+},
+{
+"id": "c020_0",
+"prompt": "the Egyptian priest stickman peering into the stone water bowl, reading carved marks on the inside, holding an oil lamp",
+"seg": 20,
+"ref": "stick"
+},
+{
+"id": "c020_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 20,
+"from": "c020_0"
+},
+{
+"id": "c021_0",
+"prompt": "ancient Greek courtroom with marble columns, a stickman lawyer in a toga speaking passionately next to a water clock jar",
+"seg": 21,
+"ref": "stick"
+},
+{
+"id": "c021_1",
+"prompt": "same scene, the water runs out and the lawyer stops mid-sentence with his finger raised",
+"seg": 21,
+"from": "c021_0"
+},
+{
+"id": "c022_0",
+"prompt": "same scene, a guard stickman gently pushes the lawyer away while the crowd laughs",
+"seg": 22,
+"from": "c021_1"
+},
+{
+"id": "c022_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 22,
+"from": "c022_0"
+},
+{
+"id": "c023_0",
+"prompt": "a stickman dressed as an ancient Greek inventor with a short beard and blue toga in a workshop full of bronze gears and pipes, Alexandria",
+"seg": 23,
+"ref": "stick"
+},
+{
+"id": "c023_1",
+"prompt": "same scene, the inventor proudly presents a bronze water clock with a little moving figure and a bell",
+"seg": 23,
+"from": "c023_0"
+},
+{
+"id": "c023_2",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 23,
+"from": "c023_1"
+},
+{
+"id": "c023_3",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 23,
+"from": "c023_2"
+},
+{
+"id": "c024_0",
+"prompt": "three panels: a water clock in blazing sun with steam, a water clock frozen solid with icicles, a water clock with mud and a frog in it",
+"seg": 24,
+"ref": "stick"
+},
+{
+"id": "c024_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 24,
+"from": "c024_0"
+},
+{
+"id": "c024_2",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 24,
+"from": "c024_1"
+},
+{
+"id": "c025_0",
+"prompt": "the Greek inventor stickman sitting on a step with his head in his hands next to a frozen water clock",
+"seg": 25,
+"ref": "stick"
+},
+{
+"id": "c026_0",
+"prompt": "a stickman dressed as a Song dynasty Chinese scholar with a black official hat and long red robe standing in a palace courtyard, proud",
+"seg": 26,
+"ref": "stick"
+},
+{
+"id": "c026_1",
+"prompt": "same scene, the scholar unrolls a large blueprint of a tower",
+"seg": 26,
+"from": "c026_0"
+},
+{
+"id": "c027_0",
+"prompt": "a tall wooden Chinese astronomical clock tower about forty feet high with a pagoda roof and a big water wheel inside, palace setting, tiny stickmen at the base looking up",
+"seg": 27,
+"ref": "stick"
+},
+{
+"id": "c027_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 27,
+"from": "c027_0"
+},
+{
+"id": "c028_0",
+"prompt": "cutaway view of the inside of the wooden clock tower showing a big water wheel with buckets and gears, the scholar stickman pointing at it",
+"seg": 28,
+"ref": "stick"
+},
+{
+"id": "c028_1",
+"prompt": "top of the clock tower with a bronze armillary sphere under the night stars, the scholar looking up",
+"seg": 28,
+"ref": "stick"
+},
+{
+"id": "c028_2",
+"prompt": "small wooden puppet figures on a rotating platform ringing a gong and a drum inside the tower",
+"seg": 28,
+"ref": "stick"
+},
+{
+"id": "c028_3",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 28,
+"from": "c028_2"
+},
+{
+"id": "c029_0",
+"prompt": "big simple diagram style close-up of a wooden escapement wheel with teeth and a catch, the scholar stickman pointing at it like a teacher, warm workshop light",
+"seg": 29,
+"ref": "stick"
+},
+{
+"id": "c029_1",
+"prompt": "same scene, the scholar smiles and raises one finger, explaining",
+"seg": 29,
+"from": "c029_0"
+},
+{
+"id": "c029_2",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 29,
+"from": "c029_1"
+},
+{
+"id": "c030_0",
+"prompt": "a stickman monk in a brown robe in a medieval stone workshop hanging a heavy stone weight on a rope wound around an iron clock mechanism",
+"seg": 30,
+"ref": "stick"
+},
+{
+"id": "c030_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 30,
+"from": "c030_0"
+},
+{
+"id": "c031_0",
+"prompt": "a medieval stone church tower with a big clock and bell, village below at dusk, stickmen monks walking toward it",
+"seg": 31,
+"ref": "stick"
+},
+{
+"id": "c031_1",
+"prompt": "same scene, the bell swings and sound lines come from the tower",
+"seg": 31,
+"from": "c031_0"
+},
+{
+"id": "c031_2",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 31,
+"from": "c031_1"
+},
+{
+"id": "c032_0",
+"prompt": "inside a medieval bell tower, a monk stickman covering his ears as a giant bronze bell rings",
+"seg": 32,
+"ref": "stick"
+},
+{
+"id": "c032_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 32,
+"from": "c032_0"
+},
+{
+"id": "c032_2",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 32,
+"from": "c032_1"
+},
+{
+"id": "c033_0",
+"prompt": "a medieval town square with a big church clock, a stickman merchant comparing it to the sun with an annoyed face",
+"seg": 33,
+"ref": "stick"
+},
+{
+"id": "c033_1",
+"prompt": "same scene, the merchant throws up his hands angrily",
+"seg": 33,
+"from": "c033_0"
+},
+{
+"id": "c034_0",
+"prompt": "close-up of an old medieval clock face with only one ornate hour hand, a stickman holding a tiny minute hand and shrugging",
+"seg": 34,
+"ref": "stick"
+},
+{
+"id": "c034_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 34,
+"from": "c034_0"
+},
+{
+"id": "c035_0",
+"prompt": "a stickman dressed as a young Italian Renaissance student with a dark doublet and white ruff collar sitting on a church bench, bored, cathedral interior",
+"seg": 35,
+"ref": "stick"
+},
+{
+"id": "c035_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 35,
+"from": "c035_0"
+},
+{
+"id": "c036_0",
+"prompt": "same scene, the student stares upward with curious eyes, ignoring the priest in the background",
+"seg": 36,
+"from": "c035_1"
+},
+{
+"id": "c036_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 36,
+"from": "c036_0"
+},
+{
+"id": "c037_0",
+"prompt": "a bronze oil lamp hanging on a long chain swinging in a grand cathedral interior, motion lines",
+"seg": 37,
+"ref": "stick"
+},
+{
+"id": "c037_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 37,
+"from": "c037_0"
+},
+{
+"id": "c038_0",
+"prompt": "the young Galileo stickman holding two fingers on his wrist, eyes on the swinging lamp, concentrating",
+"seg": 38,
+"ref": "stick"
+},
+{
+"id": "c038_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 38,
+"from": "c038_0"
+},
+{
+"id": "c039_0",
+"prompt": "simple illustrated diagram of a pendulum making a wide swing and a narrow swing side by side, the Galileo stickman pointing excitedly",
+"seg": 39,
+"ref": "stick"
+},
+{
+"id": "c039_1",
+"prompt": "same scene, Galileo with a huge excited smile and arms raised",
+"seg": 39,
+"from": "c039_0"
+},
+{
+"id": "c040_0",
+"prompt": "a pendulum with a brass bob swinging in front of a wooden wall, glowing beat marks, warm light",
+"seg": 40,
+"ref": "stick"
+},
+{
+"id": "c040_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 40,
+"from": "c040_0"
+},
+{
+"id": "c041_0",
+"prompt": "an old Galileo stickman with a long grey beard at a candle lit desk sketching a pendulum clock design on paper, night",
+"seg": 41,
+"ref": "stick"
+},
+{
+"id": "c041_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 41,
+"from": "c041_0"
+},
+{
+"id": "c042_0",
+"prompt": "a stickman dressed as a 17th century Dutch gentleman with a long curly brown wig and lace collar in a study, holding a pendulum clock",
+"seg": 42,
+"ref": "stick"
+},
+{
+"id": "c042_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 42,
+"from": "c042_0"
+},
+{
+"id": "c042_2",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 42,
+"from": "c042_1"
+},
+{
+"id": "c043_0",
+"prompt": "Huygens stickman proudly standing next to a tall wooden pendulum clock, a scroll on the table",
+"seg": 43,
+"ref": "stick"
+},
+{
+"id": "c043_1",
+"prompt": "same scene, Huygens bows dramatically",
+"seg": 43,
+"from": "c043_0"
+},
+{
+"id": "c043_2",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 43,
+"from": "c043_1"
+},
+{
+"id": "c044_0",
+"prompt": "close-up of an elegant 17th century clock face with hour, minute and second hands, golden details",
+"seg": 44,
+"ref": "stick"
+},
+{
+"id": "c044_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 44,
+"from": "c044_0"
+},
+{
+"id": "c045_0",
+"prompt": "an old wooden sailing ship tossing on big waves, inside the cabin a pendulum clock swinging wildly, a stickman sailor dizzy",
+"seg": 45,
+"ref": "stick"
+},
+{
+"id": "c045_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 45,
+"from": "c045_0"
+},
+{
+"id": "c046_0",
+"prompt": "an 18th century sailing ship on a stormy dark sea, lightning, dramatic",
+"seg": 46,
+"ref": "stick"
+},
+{
+"id": "c047_0",
+"prompt": "a stickman ship captain in a navy blue coat and tricorn hat studying a map in a cabin with a brass sextant, worried",
+"seg": 47,
+"ref": "stick"
+},
+{
+"id": "c047_1",
+"prompt": "same scene, the captain shrugs with a question mark over the map",
+"seg": 47,
+"from": "c047_0"
+},
+{
+"id": "c047_2",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 47,
+"from": "c047_1"
+}
+]
