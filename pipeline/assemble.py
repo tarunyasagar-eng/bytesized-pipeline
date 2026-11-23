@@ -7,12 +7,15 @@ from PIL import Image, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT = os.path.join(ROOT, "assets", "fonts", "LilitaOne-Regular.ttf")
-W, H, FPS = 1080, 1920, 30
+FPS = 30
 INK = "#1e1a1d"
 
 proj = sys.argv[1]
 P = lambda f: os.path.join(proj, f)
 E = json.load(open(P("edit.json")))
+W, H = (1920, 1080) if E.get("format") == "long" else (1080, 1920)
+CAPTIONS = E.get("captions", True)
+MUSIC_VOL = E.get("music_volume", 0.15)
 D = json.load(open(P("words.json")))
 WORDS = D["words"]
 TOTAL = D["total"] + 0.5
@@ -95,7 +98,7 @@ def camera_frame(s, gt):
 
 # ---------------- overlays ----------------
 def captions(gt):
-    if gt < HOOK.get("until", 0):
+    if not CAPTIONS or gt < HOOK.get("until", 0):
         return ""
     active = None
     for ci, ch in enumerate(CHUNKS):
@@ -152,6 +155,15 @@ def overlay(o, gt):
                 f'<rect x="-400" y="-115" width="800" height="230" rx="46" fill="#fff" stroke="{INK}" stroke-width="8"/>'
                 f'<rect x="-270" y="100" width="140" height="18" fill="#fff"/>'
                 f'<text y="40" font-family="Lilita One" font-size="112" text-anchor="middle" fill="#d62828">{esc(o["text"])}</text></g>')
+    if kind == "chapter":    # {"kicker":"REASON 3","text":"BURNOUT"} slides in top-left for ~3s
+        dur = (o["until"] or o["t"] + 3.2) - o["t"]
+        k_in, k_out = ease(lt / 0.35), 1 - ease((lt - dur + 0.4) / 0.4)
+        x = -700 + 760 * k_in - 760 * (1 - k_out)
+        f = font(96); w = max(f.getlength(o["text"]) + 80, 420)
+        return (f'<g transform="translate({x:.0f},90)"><rect x="0" y="0" width="{w:.0f}" height="190" rx="22" fill="#e63946" stroke="{INK}" stroke-width="8"/>'
+                f'<rect x="0" y="-52" width="{font(52).getlength(o["kicker"])+50:.0f}" height="70" rx="16" fill="#ffd166" stroke="{INK}" stroke-width="7"/>'
+                f'<text x="25" y="0" font-family="Lilita One" font-size="52" fill="{INK}">{esc(o["kicker"])}</text>'
+                + label(40, 130, o["text"], 96, "#ffffff", INK, 16, anchor="start") + '</g>')
     if kind == "tag":        # big label that pops in
         return label(o.get("x", 540), o.get("y", 360), o["text"], o.get("size", 130), o.get("fill", "#ffd166"), INK, 22, scale=pop(lt / 0.3), rot=o.get("rot", 0))
     if kind == "title":      # {"lines":[["THE","#ffd166",110],["DANCING","#fff",190],...],"sub":[...]}
@@ -210,7 +222,8 @@ if __name__ == "__main__":
     n = int(TOTAL * FPS)
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                            "-i", P("vo.wav"), "-i", P("music.wav"), "-filter_complex",
-                           "[1:a]loudnorm=I=-14:TP=-1.5:LRA=11,apad=pad_dur=1[vo];[2:a]volume=0.15[mu];[vo][mu]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]",
+                           f"[1:a]loudnorm=I=-14:TP=-1.5:LRA=11,apad=pad_dur=1[vo];[2:a]volume={MUSIC_VOL}[mu];"
+                           "[vo][mu]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]",
                            "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p",
                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
     for k in range(n):
