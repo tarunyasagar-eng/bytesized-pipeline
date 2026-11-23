@@ -4,3 +4,4 @@ projects/*/*.mp4
 projects/*/*.wav
 projects/*/prev_*.png
 __pycache__/
+*.mp4
