@@ -37,4 +37,29 @@ for i, sh in enumerate(SHOTS, 1):
                    num_inference_steps=CFG.get("steps", 40), guidance_scale=CFG.get("guidance", 7.0), generator=g).images[0]
         img.save(f'/kaggle/working/{sh["id"]}_{"abcd"[v]}.png')
         print(f'[{i}/{len(SHOTS)}] {sh["id"]} v{v} seed={seed} {time.time()-t0:.0f}s', flush=True)
+print("RENDER DONE in", round((time.time() - t0) / 60, 1), "min")
+
+# ---- automatic quality scoring: CLIP prompt match + sharpness/contrast ----
+if CFG.get("score", True):
+    import numpy as np
+    from transformers import CLIPModel, CLIPProcessor
+    del pipe; torch.cuda.empty_cache()
+    clip = CLIPModel.from_pretrained("openai/clip-vit-large-patch14", torch_dtype=torch.float16).to("cuda").eval()
+    proc = CLIPProcessor.from_pretrained("openai/clip-vit-large-patch14")
+    scores = {}
+    for sh in SHOTS:
+        files = sorted(glob.glob(f'/kaggle/working/{sh["id"]}_*.png'))
+        if not files: continue
+        ims = [Image.open(f).convert("RGB") for f in files]
+        inp = proc(text=[sh["prompt"]], images=ims, return_tensors="pt", padding=True, truncation=True).to("cuda")
+        with torch.no_grad():
+            out = clip(**{k: (v.half() if v.dtype == torch.float32 else v) for k, v in inp.items()})
+        sims = (out.logits_per_image[:, 0] / clip.logit_scale.exp()).float().cpu().numpy() * 100
+        for f, im, sim in zip(files, ims, sims):
+            g = np.asarray(im.convert("L").resize((512, int(512 * im.height / im.width))), dtype=np.float32)
+            lap = (g[1:-1, 1:-1] * 4 - g[:-2, 1:-1] - g[2:, 1:-1] - g[1:-1, :-2] - g[1:-1, 2:])
+            scores[os.path.basename(f)] = dict(clip=round(float(sim), 2), sharp=round(float(lap.var()), 1),
+                                               contrast=round(float(g.std()), 1), lum=round(float(g.mean()), 1))
+    json.dump(scores, open("/kaggle/working/scores.json", "w"), indent=0)
+    print("scored", len(scores), "images")
 print("DONE in", round((time.time() - t0) / 60, 1), "min")

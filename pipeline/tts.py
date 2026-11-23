@@ -1,27 +1,11 @@
-import asyncio, json, os, subprocess, wave, sys
+"""Voiceover from projects/<name>/script.json: one TTS clip per segment, joined with exact pauses.
+Writes vo.wav + words.json (word timings, segment start times).
+usage: python pipeline/tts.py projects/<name> [--voice en-US-BrianNeural]"""
+import argparse, asyncio, json, os, subprocess, wave
 import numpy as np, edge_tts
-VOICE = sys.argv[1] if len(sys.argv) > 1 else "en-US-AndrewMultilingualNeural"
-RATE, PITCH = "+9%", "+2Hz"
 SR = 48000
-SEG = [  # (text, pause after, scene line)
- ("In 1518, a woman in Strasbourg started dancing in the street...", 0.22, 0),
- ("and she couldn't stop.", 0.45, 0),
- ("She danced for days.", 0.22, 1),
- ("Her feet bled.", 0.18, 1),
- ("She kept going!", 0.42, 1),
- ("Within a month, hundreds of people had joined her!", 0.42, 2),
- ("So the city's doctors prescribed...", 0.55, 3),
- ("more dancing!", 0.40, 3),
- ("They built a stage, and hired musicians!", 0.42, 4),
- ("It only got worse.", 0.30, 5),
- ("Some accounts say dancers collapsed... and died.", 0.50, 5),
- ("Historians now think it was mass hysteria, sparked by famine and fear.", 0.42, 6),
- ("It's called the Dancing Plague.", 0.28, 7),
- ("And it wasn't the only one.", 0.40, 7),
-]
-async def synth(text):
-    c = edge_tts.Communicate(text, VOICE, rate=RATE, pitch=PITCH, boundary="WordBoundary",
-                             proxy=os.environ.get("HTTPS_PROXY"))
+async def synth(text, voice, rate, pitch):
+    c = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch, boundary="WordBoundary", proxy=os.environ.get("HTTPS_PROXY"))
     audio = b""; words = []
     async for ch in c.stream():
         if ch["type"] == "audio": audio += ch["data"]
@@ -31,22 +15,27 @@ async def synth(text):
                          input=audio, capture_output=True).stdout
     return np.frombuffer(pcm, np.int16).astype(np.float32), words
 async def main():
-    out = [np.zeros(int(SR * 0.05), np.float32)]; t = 0.05
-    allw = []; line_t = {}
-    for text, pause, li in SEG:
-        a, ws = await synth(text)
-        st = max(0.0, ws[0]["t"] - 0.04); en = min(len(a) / SR, ws[-1]["t"] + ws[-1]["d"] + 0.12)
-        clip = a[int(st * SR):int(en * SR)]
-        fade = int(SR * 0.01); clip[:fade] *= np.linspace(0, 1, fade); clip[-fade:] *= np.linspace(1, 0, fade)
-        line_t.setdefault(li, t)
-        for w in ws:
-            allw.append({"t": round(t + w["t"] - st, 3), "d": round(w["d"], 3), "w": w["w"]})
-        out += [clip, np.zeros(int(SR * pause), np.float32)]
-        t += len(clip) / SR + pause
-    y = np.concatenate(out)
-    with wave.open("vo.wav", "wb") as f:
-        f.setnchannels(1); f.setsampwidth(2); f.setframerate(SR); f.writeframes(y.astype(np.int16).tobytes())
-    json.dump({"lines": [s[0] for s in SEG], "line_t": [line_t[i] for i in range(8)], "words": allw, "total": t},
-              open("words.json", "w"), indent=0)
-    print("duration", round(t, 2), "line starts", [round(line_t[i], 2) for i in range(8)])
+    ap = argparse.ArgumentParser(); ap.add_argument("project"); ap.add_argument("--voice")
+    ap.add_argument("--rate", default="+9%"); ap.add_argument("--pitch", default="+2Hz")
+    a = ap.parse_args()
+    S = json.load(open(os.path.join(a.project, "script.json")))
+    voice = a.voice or S.get("voice", "en-US-BrianNeural")
+    out = [np.zeros(int(SR * 0.05), np.float32)]; t = 0.05; allw = []; seg_t = []
+    for i, seg in enumerate(S["segments"]):
+        for attempt in range(3):
+            try:
+                y, ws = await synth(seg["text"], voice, a.rate, a.pitch); break
+            except Exception as e:
+                print("retry", i, e); await asyncio.sleep(2)
+        st = max(0.0, ws[0]["t"] - 0.04); en = min(len(y) / SR, ws[-1]["t"] + ws[-1]["d"] + 0.12)
+        clip = y[int(st * SR):int(en * SR)].copy()
+        f = int(SR * 0.01); clip[:f] *= np.linspace(0, 1, f); clip[-f:] *= np.linspace(1, 0, f)
+        seg_t.append(round(t, 3))
+        allw += [{"t": round(t + w["t"] - st, 3), "d": round(w["d"], 3), "w": w["w"], "seg": i} for w in ws]
+        pause = seg.get("pause", 0.3)
+        out += [clip, np.zeros(int(SR * pause), np.float32)]; t += len(clip) / SR + pause
+    with wave.open(os.path.join(a.project, "vo.wav"), "wb") as f:
+        f.setnchannels(1); f.setsampwidth(2); f.setframerate(SR); f.writeframes(np.concatenate(out).astype(np.int16).tobytes())
+    json.dump({"seg_t": seg_t, "words": allw, "total": t}, open(os.path.join(a.project, "words.json"), "w"))
+    print(f"{len(S['segments'])} segments, {len(allw)} words, {t/60:.2f} min")
 asyncio.run(main())
