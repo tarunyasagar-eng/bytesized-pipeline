@@ -1,0 +1,750 @@
+{
+ "format": "long",
+ "captions": false,
+ "music_volume": 0.1,
+ "scene_dir": "scenes_long",
+ "output": "final_long.mp4",
+ "keywords": [],
+ "shots": [
+  {
+   "img": "g001_b.png",
+   "at": 0.05,
+   "move": "push"
+  },
+  {
+   "img": "g002_b.png",
+   "at": 3.455,
+   "move": "right"
+  },
+  {
+   "img": "g003_b.png",
+   "at": 7.126,
+   "move": "pull"
+  },
+  {
+   "img": "g004_c.png",
+   "at": 8.627,
+   "move": "left"
+  },
+  {
+   "img": "g004_b.png",
+   "at": 11.334,
+   "move": "up"
+  },
+  {
+   "img": "g005_b.png",
+   "at": 14.041,
+   "move": "push"
+  },
+  {
+   "img": "g006_d.png",
+   "at": 17.627,
+   "move": "down"
+  },
+  {
+   "img": "g007_d.png",
+   "at": 21.835,
+   "move": "push"
+  },
+  {
+   "img": "g007_a.png",
+   "at": 24.402,
+   "move": "right"
+  },
+  {
+   "img": "g008_a.png",
+   "at": 26.97,
+   "move": "pull"
+  },
+  {
+   "img": "g009_c.png",
+   "at": 31.146,
+   "move": "left"
+  },
+  {
+   "img": "g010_a.png",
+   "at": 35.957,
+   "move": "up"
+  },
+  {
+   "img": "g010_d.png",
+   "at": 39.168,
+   "move": "push"
+  },
+  {
+   "img": "g011_b.png",
+   "at": 42.378,
+   "move": "down"
+  },
+  {
+   "img": "g012_a.png",
+   "at": 47.129,
+   "move": "push"
+  },
+  {
+   "img": "g012_c.png",
+   "at": 49.932,
+   "move": "right"
+  },
+  {
+   "img": "g013_b.png",
+   "at": 52.735,
+   "move": "pull"
+  },
+  {
+   "img": "g014_c.png",
+   "at": 57.234,
+   "move": "left"
+  },
+  {
+   "img": "g014_a.png",
+   "at": 60.499,
+   "move": "up"
+  },
+  {
+   "img": "g015_a.png",
+   "at": 63.764,
+   "move": "push"
+  },
+  {
+   "img": "g015_d.png",
+   "at": 68.834,
+   "move": "down"
+  },
+  {
+   "img": "g016_a.png",
+   "at": 73.903,
+   "move": "push"
+  },
+  {
+   "img": "g017_a.png",
+   "at": 78.892,
+   "move": "right"
+  },
+  {
+   "img": "g018_b.png",
+   "at": 82.204,
+   "move": "pull"
+  },
+  {
+   "img": "g018_d.png",
+   "at": 84.856,
+   "move": "left"
+  },
+  {
+   "img": "g019_c.png",
+   "at": 87.508,
+   "move": "up"
+  },
+  {
+   "img": "g019_b.png",
+   "at": 91.35,
+   "move": "push"
+  },
+  {
+   "img": "g020_c.png",
+   "at": 95.193,
+   "move": "down"
+  },
+  {
+   "img": "g020_a.png",
+   "at": 98.625,
+   "move": "push"
+  },
+  {
+   "img": "g021_b.png",
+   "at": 102.057,
+   "move": "right"
+  },
+  {
+   "img": "g021_a.png",
+   "at": 105.714,
+   "move": "pull"
+  },
+  {
+   "img": "g022_a.png",
+   "at": 109.37,
+   "move": "left"
+  },
+  {
+   "img": "g022_c.png",
+   "at": 112.898,
+   "move": "up"
+  },
+  {
+   "img": "g023_c.png",
+   "at": 116.426,
+   "move": "push"
+  },
+  {
+   "img": "g024_b.png",
+   "at": 119.749,
+   "move": "down"
+  },
+  {
+   "img": "g024_a.png",
+   "at": 123.248,
+   "move": "push"
+  },
+  {
+   "img": "g025_a.png",
+   "at": 126.747,
+   "move": "right"
+  },
+  {
+   "img": "g026_c.png",
+   "at": 131.196,
+   "move": "pull"
+  },
+  {
+   "img": "g026_b.png",
+   "at": 133.781,
+   "move": "left"
+  },
+  {
+   "img": "g027_b.png",
+   "at": 136.367,
+   "move": "up"
+  },
+  {
+   "img": "g027_c.png",
+   "at": 140.197,
+   "move": "push"
+  },
+  {
+   "img": "g028_c.png",
+   "at": 144.028,
+   "move": "down"
+  },
+  {
+   "img": "g029_b.png",
+   "at": 149.576,
+   "move": "push"
+  },
+  {
+   "img": "g030_d.png",
+   "at": 152.334,
+   "move": "right"
+  },
+  {
+   "img": "g030_a.png",
+   "at": 154.944,
+   "move": "pull"
+  },
+  {
+   "img": "g031_d.png",
+   "at": 157.554,
+   "move": "left"
+  },
+  {
+   "img": "g031_c.png",
+   "at": 160.224,
+   "move": "up"
+  },
+  {
+   "img": "g032_a.png",
+   "at": 162.893,
+   "move": "push"
+  },
+  {
+   "img": "g033_b.png",
+   "at": 167.392,
+   "move": "down"
+  },
+  {
+   "img": "g034_a.png",
+   "at": 171.047,
+   "move": "push"
+  },
+  {
+   "img": "g035_b.png",
+   "at": 175.391,
+   "move": "right"
+  },
+  {
+   "img": "g035_d.png",
+   "at": 178.097,
+   "move": "pull"
+  },
+  {
+   "img": "g036_b.png",
+   "at": 180.803,
+   "move": "left"
+  },
+  {
+   "img": "g036_a.png",
+   "at": 184.338,
+   "move": "up"
+  },
+  {
+   "img": "g037_b.png",
+   "at": 187.873,
+   "move": "push"
+  },
+  {
+   "img": "g037_c.png",
+   "at": 191.657,
+   "move": "down"
+  },
+  {
+   "img": "g038_a.png",
+   "at": 195.441,
+   "move": "push"
+  },
+  {
+   "img": "g038_d.png",
+   "at": 198.218,
+   "move": "right"
+  },
+  {
+   "img": "g039_c.png",
+   "at": 200.994,
+   "move": "pull"
+  },
+  {
+   "img": "g039_a.png",
+   "at": 204.005,
+   "move": "left"
+  },
+  {
+   "img": "g040_b.png",
+   "at": 207.017,
+   "move": "up"
+  },
+  {
+   "img": "g041_c.png",
+   "at": 209.907,
+   "move": "push"
+  },
+  {
+   "img": "g042_d.png",
+   "at": 214.129,
+   "move": "down"
+  },
+  {
+   "img": "g042_a.png",
+   "at": 217.116,
+   "move": "push"
+  },
+  {
+   "img": "g043_b.png",
+   "at": 220.103,
+   "move": "right"
+  },
+  {
+   "img": "g043_d.png",
+   "at": 224.064,
+   "move": "pull"
+  },
+  {
+   "img": "g044_b.png",
+   "at": 228.025,
+   "move": "left"
+  },
+  {
+   "img": "g045_a.png",
+   "at": 230.698,
+   "move": "up"
+  },
+  {
+   "img": "g045_d.png",
+   "at": 234.666,
+   "move": "push"
+  },
+  {
+   "img": "g046_b.png",
+   "at": 238.634,
+   "move": "down"
+  },
+  {
+   "img": "g046_a.png",
+   "at": 241.604,
+   "move": "push"
+  },
+  {
+   "img": "g047_b.png",
+   "at": 244.575,
+   "move": "right"
+  },
+  {
+   "img": "g047_c.png",
+   "at": 249.078,
+   "move": "pull"
+  },
+  {
+   "img": "g048_d.png",
+   "at": 253.582,
+   "move": "left"
+  },
+  {
+   "img": "g049_d.png",
+   "at": 257.576,
+   "move": "up"
+  },
+  {
+   "img": "g050_c.png",
+   "at": 261.293,
+   "move": "push"
+  },
+  {
+   "img": "g050_b.png",
+   "at": 264.382,
+   "move": "down"
+  },
+  {
+   "img": "g051_b.png",
+   "at": 267.472,
+   "move": "push"
+  },
+  {
+   "img": "g051_d.png",
+   "at": 271.252,
+   "move": "right"
+  },
+  {
+   "img": "g052_a.png",
+   "at": 275.033,
+   "move": "pull"
+  },
+  {
+   "img": "g053_d.png",
+   "at": 278.872,
+   "move": "left"
+  },
+  {
+   "img": "g054_c.png",
+   "at": 282.962,
+   "move": "up"
+  },
+  {
+   "img": "g054_d.png",
+   "at": 285.656,
+   "move": "push"
+  },
+  {
+   "img": "g055_b.png",
+   "at": 288.35,
+   "move": "down"
+  },
+  {
+   "img": "g055_c.png",
+   "at": 291.478,
+   "move": "push"
+  },
+  {
+   "img": "g056_c.png",
+   "at": 294.606,
+   "move": "right"
+  },
+  {
+   "img": "g056_d.png",
+   "at": 297.799,
+   "move": "pull"
+  },
+  {
+   "img": "g057_a.png",
+   "at": 300.992,
+   "move": "left"
+  },
+  {
+   "img": "g057_b.png",
+   "at": 303.513,
+   "move": "up"
+  },
+  {
+   "img": "g058_a.png",
+   "at": 306.033,
+   "move": "push"
+  },
+  {
+   "img": "g058_c.png",
+   "at": 309.97,
+   "move": "down"
+  },
+  {
+   "img": "g059_c.png",
+   "at": 313.906,
+   "move": "push"
+  },
+  {
+   "img": "g060_c.png",
+   "at": 317.66,
+   "move": "right"
+  },
+  {
+   "img": "g060_a.png",
+   "at": 320.955,
+   "move": "pull"
+  },
+  {
+   "img": "g061_b.png",
+   "at": 324.249,
+   "move": "left"
+  },
+  {
+   "img": "g062_a.png",
+   "at": 328.507,
+   "move": "up"
+  },
+  {
+   "img": "g062_d.png",
+   "at": 331.899,
+   "move": "push"
+  },
+  {
+   "img": "g063_a.png",
+   "at": 335.291,
+   "move": "down"
+  },
+  {
+   "img": "g064_c.png",
+   "at": 337.853,
+   "move": "push"
+  },
+  {
+   "img": "g065_a.png",
+   "at": 341.161,
+   "move": "right"
+  },
+  {
+   "img": "g065_c.png",
+   "at": 345.293,
+   "move": "pull"
+  },
+  {
+   "img": "g066_b.png",
+   "at": 349.424,
+   "move": "left"
+  },
+  {
+   "img": "g067_a.png",
+   "at": 354.381,
+   "move": "up"
+  },
+  {
+   "img": "g068_c.png",
+   "at": 358.821,
+   "move": "push"
+  },
+  {
+   "img": "g069_a.png",
+   "at": 363.726,
+   "move": "down"
+  },
+  {
+   "img": "g070_a.png",
+   "at": 366.171,
+   "move": "push"
+  },
+  {
+   "img": "g070_d.png",
+   "at": 369.587,
+   "move": "right"
+  },
+  {
+   "img": "g071_d.png",
+   "at": 373.002,
+   "move": "pull"
+  },
+  {
+   "img": "g072_c.png",
+   "at": 377.452,
+   "move": "left"
+  },
+  {
+   "img": "g073_a.png",
+   "at": 381.606,
+   "move": "up"
+  },
+  {
+   "img": "g074_c.png",
+   "at": 386.296,
+   "move": "push"
+  },
+  {
+   "img": "g075_a.png",
+   "at": 390.346,
+   "move": "down"
+  },
+  {
+   "img": "g075_d.png",
+   "at": 393.618,
+   "move": "push"
+  },
+  {
+   "img": "g076_b.png",
+   "at": 396.889,
+   "move": "right"
+  },
+  {
+   "img": "g077_b.png",
+   "at": 400.453,
+   "move": "pull"
+  },
+  {
+   "img": "g078_a.png",
+   "at": 405.0,
+   "move": "left"
+  },
+  {
+   "img": "g078_d.png",
+   "at": 408.151,
+   "move": "up"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "chapter",
+   "kicker": "REASON 1",
+   "text": "GTA 5 NEVER STOPPED MAKING MONEY",
+   "at": 27.169999999999998,
+   "until": 30.57
+  },
+  {
+   "type": "chapter",
+   "kicker": "REASON 2",
+   "text": "A COWBOY GOT IN THE WAY",
+   "at": 79.092,
+   "until": 82.49199999999999
+  },
+  {
+   "type": "chapter",
+   "kicker": "REASON 3",
+   "text": "BURNOUT",
+   "at": 116.626,
+   "until": 120.026
+  },
+  {
+   "type": "chapter",
+   "kicker": "REASON 4",
+   "text": "LOSING THE FOUNDERS",
+   "at": 171.24699999999999,
+   "until": 174.647
+  },
+  {
+   "type": "chapter",
+   "kicker": "REASON 5",
+   "text": "THE WORLD STOPPED",
+   "at": 207.21699999999998,
+   "until": 210.617
+  },
+  {
+   "type": "chapter",
+   "kicker": "REASON 6",
+   "text": "THE AMBITION",
+   "at": 228.225,
+   "until": 231.625
+  },
+  {
+   "type": "chapter",
+   "kicker": "REASON 7",
+   "text": "THE HACK",
+   "at": 275.233,
+   "until": 278.63300000000004
+  },
+  {
+   "type": "chapter",
+   "kicker": "REASON 8",
+   "text": "TWO DELAYS",
+   "at": 314.106,
+   "until": 317.50600000000003
+  },
+  {
+   "type": "chapter",
+   "kicker": "CHAPTER",
+   "text": "WAS IT WORTH IT?",
+   "at": 363.926,
+   "until": 367.326
+  },
+  {
+   "type": "tag",
+   "text": "13 YEARS",
+   "at": 7.426,
+   "until": 8.527000000000001,
+   "x": 960,
+   "y": 930,
+   "size": 120
+  },
+  {
+   "type": "tag",
+   "text": "$800M DAY ONE",
+   "at": 31.446,
+   "until": 35.857,
+   "x": 960,
+   "y": 930,
+   "size": 120
+  },
+  {
+   "type": "tag",
+   "text": "200M+ COPIES",
+   "at": 42.678,
+   "until": 47.028999999999996,
+   "x": 960,
+   "y": 930,
+   "size": 120
+  },
+  {
+   "type": "tag",
+   "text": "100-HOUR WEEKS?",
+   "at": 120.04899999999999,
+   "until": 126.647,
+   "x": 960,
+   "y": 930,
+   "size": 120
+  },
+  {
+   "type": "tag",
+   "text": "90 LEAKED CLIPS",
+   "at": 279.172,
+   "until": 282.86199999999997,
+   "x": 960,
+   "y": 930,
+   "size": 120
+  },
+  {
+   "type": "tag",
+   "text": "90M VIEWS / 24H",
+   "at": 317.96000000000004,
+   "until": 324.149,
+   "x": 960,
+   "y": 930,
+   "size": 120
+  },
+  {
+   "type": "tag",
+   "text": "475M VIEWS",
+   "at": 341.461,
+   "until": 349.32399999999996,
+   "x": 960,
+   "y": 930,
+   "size": 120
+  },
+  {
+   "type": "tag",
+   "text": "32.5M PRE-SOLD",
+   "at": 373.302,
+   "until": 377.352,
+   "x": 960,
+   "y": 930,
+   "size": 120
+  },
+  {
+   "type": "tag",
+   "text": "$3.79 BILLION",
+   "at": 377.752,
+   "until": 381.506,
+   "x": 960,
+   "y": 930,
+   "size": 120
+  },
+  {
+   "type": "tag",
+   "text": "~5x GTA 5",
+   "at": 386.596,
+   "until": 390.246,
+   "x": 960,
+   "y": 930,
+   "size": 120
+  }
+ ]
+}

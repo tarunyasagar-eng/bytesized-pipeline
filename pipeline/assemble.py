@@ -216,7 +216,7 @@ def frame(gt):
 if __name__ == "__main__":
     if "--preview" in sys.argv:
         for t in sys.argv[sys.argv.index("--preview") + 1:]:
-            frame(float(t)).resize((540, 960)).save(P(f"prev_{t}.png"))
+            frame(float(t)).resize((W // 2, H // 2)).save(P(f"prev_{t}.png"))
         sys.exit()
     out = P(E.get("output", "final.mp4"))
     n = int(TOTAL * FPS)
