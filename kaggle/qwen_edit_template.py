@@ -13,6 +13,8 @@ from PIL import Image
 # heads x L x L matrix. Slice the queries: exact same result, peak memory / (L / QCHUNK).
 _sdpa, QCHUNK = F.scaled_dot_product_attention, 1024
 def _sliced_sdpa(query, key, value, attn_mask=None, dropout_p=0.0, is_causal=False, scale=None, **kw):
+    if not (query.dtype == key.dtype == value.dtype):   # mixed mode: fp32 projections meet fp16-normed q/k
+        query, key, value = query.float(), key.float(), value.float()
     L = query.shape[-2]
     if L <= QCHUNK or is_causal:
         return _sdpa(query, key, value, attn_mask=attn_mask, dropout_p=dropout_p, is_causal=is_causal, scale=scale, **kw)
