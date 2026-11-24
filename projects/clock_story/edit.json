@@ -75,13 +75,6 @@
    "group": 4
   },
   {
-   "img": "c004_1_a.png",
-   "at": 17.325,
-   "move": "drift",
-   "group": 4,
-   "transition": "cut"
-  },
-  {
    "img": "c005_0_a.png",
    "at": 19.107,
    "move": "drift_r",
@@ -192,23 +185,9 @@
   },
   {
    "img": "c014_1_a.png",
-   "at": 50.693,
-   "move": "drift",
-   "group": 14,
-   "transition": "cut"
-  },
-  {
-   "img": "c015_0_a.png",
    "at": 52.84,
    "move": "drift_l",
    "group": 15
-  },
-  {
-   "img": "c015_1_a.png",
-   "at": 54.08,
-   "move": "drift_l",
-   "group": 15,
-   "transition": "cut"
   },
   {
    "img": "c016_0_a.png",
@@ -231,17 +210,10 @@
    "transition": "cut"
   },
   {
-   "img": "c017_0_a.png",
+   "img": "c004_1_a.png",
    "at": 61.166,
    "move": "drift_r",
    "group": 17
-  },
-  {
-   "img": "c017_1_a.png",
-   "at": 62.996,
-   "move": "drift_r",
-   "group": 17,
-   "transition": "cut"
   },
   {
    "img": "c018_0_a.png",
@@ -264,23 +236,9 @@
   },
   {
    "img": "c019_1_a.png",
-   "at": 70.262,
-   "move": "drift_l",
-   "group": 19,
-   "transition": "cut"
-  },
-  {
-   "img": "c020_0_a.png",
    "at": 72.558,
    "move": "drift",
    "group": 20
-  },
-  {
-   "img": "c020_1_a.png",
-   "at": 74.759,
-   "move": "drift",
-   "group": 20,
-   "transition": "cut"
   },
   {
    "img": "c021_0_a.png",
@@ -546,13 +504,6 @@
    "group": 37
   },
   {
-   "img": "c037_1_a.png",
-   "at": 157.239,
-   "move": "drift_r",
-   "group": 37,
-   "transition": "cut"
-  },
-  {
    "img": "c038_0_a.png",
    "at": 158.533,
    "move": "drift",
@@ -697,675 +648,388 @@
    "transition": "cut"
   },
   {
-   "img": "c048_0_a.png",
+   "img": "d048_0_a.png",
    "at": 198.426,
    "move": "drift",
    "group": 48
   },
   {
-   "img": "c048_1_a.png",
-   "at": 200.362,
+   "img": "d048_1_a.png",
+   "at": 201.33,
    "move": "drift",
    "group": 48,
    "transition": "cut"
   },
   {
-   "img": "c048_2_a.png",
-   "at": 202.298,
-   "move": "drift",
-   "group": 48,
-   "transition": "cut"
-  },
-  {
-   "img": "c049_0_a.png",
+   "img": "d049_0_a.png",
    "at": 204.234,
    "move": "drift_r",
    "group": 49
   },
   {
-   "img": "c049_1_a.png",
-   "at": 205.555,
-   "move": "drift_r",
-   "group": 49,
-   "transition": "cut"
-  },
-  {
-   "img": "c050_0_a.png",
+   "img": "d050_0_a.png",
    "at": 206.877,
    "move": "drift",
    "group": 50
   },
   {
-   "img": "c050_1_a.png",
-   "at": 208.905,
+   "img": "d050_1_a.png",
+   "at": 209.918,
    "move": "drift",
    "group": 50,
    "transition": "cut"
   },
   {
-   "img": "c050_2_a.png",
-   "at": 210.932,
-   "move": "drift",
-   "group": 50,
-   "transition": "cut"
-  },
-  {
-   "img": "c051_0_a.png",
+   "img": "d051_0_a.png",
    "at": 212.96,
    "move": "drift_l",
    "group": 51
   },
   {
-   "img": "c051_1_a.png",
-   "at": 214.959,
-   "move": "drift_l",
-   "group": 51,
-   "transition": "cut"
-  },
-  {
-   "img": "c051_2_a.png",
+   "img": "d051_1_a.png",
    "at": 216.958,
    "move": "drift_l",
    "group": 51,
    "transition": "cut"
   },
   {
-   "img": "c051_3_a.png",
-   "at": 218.957,
-   "move": "drift_l",
-   "group": 51,
-   "transition": "cut"
-  },
-  {
-   "img": "c052_0_a.png",
+   "img": "d052_0_a.png",
    "at": 220.956,
    "move": "drift",
    "group": 52
   },
   {
-   "img": "c052_1_a.png",
-   "at": 222.562,
-   "move": "drift",
-   "group": 52,
-   "transition": "cut"
-  },
-  {
-   "img": "c053_0_a.png",
+   "img": "d053_0_a.png",
    "at": 224.169,
    "move": "drift_r",
    "group": 53
   },
   {
-   "img": "c054_0_a.png",
+   "img": "d054_0_a.png",
    "at": 226.327,
    "move": "drift",
    "group": 54
   },
   {
-   "img": "c054_1_a.png",
+   "img": "d054_1_a.png",
    "at": 228.534,
    "move": "drift",
    "group": 54,
    "transition": "cut"
   },
   {
-   "img": "c055_0_a.png",
+   "img": "d055_0_a.png",
    "at": 230.74,
    "move": "drift_l",
    "group": 55
   },
   {
-   "img": "c055_1_a.png",
-   "at": 232.556,
-   "move": "drift_l",
-   "group": 55,
-   "transition": "cut"
-  },
-  {
-   "img": "c056_0_a.png",
+   "img": "d056_0_clean.png",
    "at": 234.373,
    "move": "drift",
    "group": 56
   },
   {
-   "img": "c056_1_a.png",
-   "at": 236.493,
+   "img": "d056_1_clean.png",
+   "at": 237.553,
    "move": "drift",
    "group": 56,
    "transition": "cut"
   },
   {
-   "img": "c056_2_a.png",
-   "at": 238.612,
-   "move": "drift",
-   "group": 56,
-   "transition": "cut"
-  },
-  {
-   "img": "c057_0_a.png",
+   "img": "d057_0_a.png",
    "at": 240.732,
    "move": "drift_r",
    "group": 57
   },
   {
-   "img": "c057_1_a.png",
+   "img": "d057_1_a.png",
    "at": 242.553,
    "move": "drift_r",
    "group": 57,
    "transition": "cut"
   },
   {
-   "img": "c058_0_a.png",
+   "img": "d058_0_a.png",
    "at": 244.375,
    "move": "drift",
    "group": 58
   },
   {
-   "img": "c058_1_a.png",
-   "at": 245.663,
-   "move": "drift",
-   "group": 58,
-   "transition": "cut"
-  },
-  {
-   "img": "c059_0_a.png",
+   "img": "d059_0_a.png",
    "at": 246.951,
    "move": "drift_l",
    "group": 59
   },
   {
-   "img": "c059_1_a.png",
-   "at": 248.569,
-   "move": "drift_l",
-   "group": 59,
-   "transition": "cut"
-  },
-  {
-   "img": "c060_0_a.png",
+   "img": "d060_0_a.png",
    "at": 250.187,
    "move": "drift",
    "group": 60
   },
   {
-   "img": "c060_1_a.png",
+   "img": "d060_1_a.png",
    "at": 252.309,
    "move": "drift",
    "group": 60,
    "transition": "cut"
   },
   {
-   "img": "c061_0_a.png",
+   "img": "d061_0_a.png",
    "at": 254.431,
    "move": "drift_r",
    "group": 61
   },
   {
-   "img": "c061_1_a.png",
-   "at": 255.859,
-   "move": "drift_r",
-   "group": 61,
-   "transition": "cut"
-  },
-  {
-   "img": "c062_0_a.png",
+   "img": "d062_0_a.png",
    "at": 257.287,
    "move": "drift",
    "group": 62
   },
   {
-   "img": "c063_0_a.png",
+   "img": "d063_0_a.png",
    "at": 259.321,
    "move": "drift_l",
    "group": 63
   },
   {
-   "img": "c064_0_a.png",
+   "img": "d064_0_a.png",
    "at": 261.656,
    "move": "drift",
    "group": 64
   },
   {
-   "img": "c064_1_a.png",
-   "at": 263.722,
+   "img": "d064_1_a.png",
+   "at": 264.755,
    "move": "drift",
    "group": 64,
    "transition": "cut"
   },
   {
-   "img": "c064_2_a.png",
-   "at": 265.787,
-   "move": "drift",
-   "group": 64,
-   "transition": "cut"
-  },
-  {
-   "img": "c065_0_a.png",
+   "img": "d065_0_a.png",
    "at": 267.853,
    "move": "drift_r",
    "group": 65
   },
   {
-   "img": "c065_1_a.png",
-   "at": 270.066,
-   "move": "drift_r",
-   "group": 65,
-   "transition": "cut"
-  },
-  {
-   "img": "c066_0_a.png",
+   "img": "d066_0_a.png",
    "at": 272.278,
    "move": "drift",
    "group": 66
   },
   {
-   "img": "c066_1_a.png",
-   "at": 274.383,
-   "move": "drift",
-   "group": 66,
-   "transition": "cut"
-  },
-  {
-   "img": "c067_0_a.png",
+   "img": "d067_0_a.png",
    "at": 276.488,
    "move": "drift_l",
    "group": 67
   },
   {
-   "img": "c067_1_a.png",
-   "at": 278.231,
-   "move": "drift_l",
-   "group": 67,
-   "transition": "cut"
-  },
-  {
-   "img": "c068_0_a.png",
+   "img": "d068_0_a.png",
    "at": 279.975,
    "move": "drift",
    "group": 68
   },
   {
-   "img": "c068_1_a.png",
+   "img": "d068_1_a.png",
    "at": 282.032,
    "move": "drift",
    "group": 68,
    "transition": "cut"
   },
   {
-   "img": "c069_0_a.png",
+   "img": "d069_0_a.png",
    "at": 284.089,
    "move": "drift_r",
    "group": 69
   },
   {
-   "img": "c069_1_a.png",
-   "at": 285.971,
-   "move": "drift_r",
-   "group": 69,
-   "transition": "cut"
-  },
-  {
-   "img": "c070_0_a.png",
+   "img": "d070_0_a.png",
    "at": 287.854,
    "move": "drift",
    "group": 70
   },
   {
-   "img": "c070_1_a.png",
-   "at": 290.083,
+   "img": "d070_1_a.png",
+   "at": 291.197,
    "move": "drift",
    "group": 70,
    "transition": "cut"
   },
   {
-   "img": "c070_2_a.png",
-   "at": 292.311,
-   "move": "drift",
-   "group": 70,
-   "transition": "cut"
-  },
-  {
-   "img": "c071_0_a.png",
+   "img": "d071_0_a.png",
    "at": 294.54,
    "move": "drift_l",
    "group": 71
   },
   {
-   "img": "c071_1_a.png",
-   "at": 296.471,
-   "move": "drift_l",
-   "group": 71,
-   "transition": "cut"
-  },
-  {
-   "img": "c072_0_a.png",
+   "img": "d072_0_a.png",
    "at": 298.403,
    "move": "drift",
    "group": 72
   },
   {
-   "img": "c072_1_a.png",
-   "at": 300.543,
+   "img": "d072_1_a.png",
+   "at": 301.613,
    "move": "drift",
    "group": 72,
    "transition": "cut"
   },
   {
-   "img": "c072_2_a.png",
-   "at": 302.683,
-   "move": "drift",
-   "group": 72,
-   "transition": "cut"
-  },
-  {
-   "img": "c073_0_a.png",
+   "img": "d073_0_a.png",
    "at": 304.823,
    "move": "drift_r",
    "group": 73
   },
   {
-   "img": "c073_1_a.png",
-   "at": 306.439,
-   "move": "drift_r",
-   "group": 73,
-   "transition": "cut"
-  },
-  {
-   "img": "c073_2_a.png",
-   "at": 308.054,
-   "move": "drift_r",
-   "group": 73,
-   "transition": "cut"
-  },
-  {
-   "img": "c074_0_a.png",
+   "img": "d074_0_a.png",
    "at": 309.67,
    "move": "drift",
    "group": 74
   },
   {
-   "img": "c074_1_a.png",
-   "at": 311.972,
-   "move": "drift",
-   "group": 74,
-   "transition": "cut"
-  },
-  {
-   "img": "c075_0_a.png",
+   "img": "d075_0_a.png",
    "at": 314.274,
    "move": "drift_l",
    "group": 75
   },
   {
-   "img": "c075_1_a.png",
-   "at": 316.094,
+   "img": "d075_1_a.png",
+   "at": 317.004,
    "move": "drift_l",
    "group": 75,
    "transition": "cut"
   },
   {
-   "img": "c075_2_a.png",
-   "at": 317.914,
-   "move": "drift_l",
-   "group": 75,
-   "transition": "cut"
-  },
-  {
-   "img": "c076_0_a.png",
+   "img": "d076_0_a.png",
    "at": 319.734,
    "move": "drift",
    "group": 76
   },
   {
-   "img": "c076_1_a.png",
-   "at": 321.726,
+   "img": "d076_1_a.png",
+   "at": 322.721,
    "move": "drift",
    "group": 76,
    "transition": "cut"
   },
   {
-   "img": "c076_2_a.png",
-   "at": 323.717,
-   "move": "drift",
-   "group": 76,
-   "transition": "cut"
-  },
-  {
-   "img": "c077_0_a.png",
+   "img": "d077_0_a.png",
    "at": 325.709,
    "move": "drift_r",
    "group": 77
   },
   {
-   "img": "c077_1_a.png",
-   "at": 327.892,
-   "move": "drift_r",
-   "group": 77,
-   "transition": "cut"
-  },
-  {
-   "img": "c078_0_a.png",
+   "img": "d078_0_a.png",
    "at": 330.075,
    "move": "drift",
    "group": 78
   },
   {
-   "img": "c078_1_a.png",
-   "at": 331.879,
-   "move": "drift",
-   "group": 78,
-   "transition": "cut"
-  },
-  {
-   "img": "c078_2_a.png",
+   "img": "d078_1_a.png",
    "at": 333.683,
    "move": "drift",
    "group": 78,
    "transition": "cut"
   },
   {
-   "img": "c078_3_a.png",
-   "at": 335.486,
-   "move": "drift",
-   "group": 78,
-   "transition": "cut"
-  },
-  {
-   "img": "c079_0_a.png",
+   "img": "d079_0_a.png",
    "at": 337.29,
    "move": "drift_l",
    "group": 79
   },
   {
-   "img": "c079_1_a.png",
-   "at": 339.452,
+   "img": "d079_1_a.png",
+   "at": 340.894,
    "move": "drift_l",
    "group": 79,
    "transition": "cut"
   },
   {
-   "img": "c079_2_a.png",
-   "at": 341.614,
+   "img": "d079_2_a.png",
+   "at": 344.497,
    "move": "drift_l",
    "group": 79,
    "transition": "cut"
   },
   {
-   "img": "c079_3_a.png",
-   "at": 343.777,
-   "move": "drift_l",
-   "group": 79,
-   "transition": "cut"
-  },
-  {
-   "img": "c079_4_a.png",
-   "at": 345.939,
-   "move": "drift_l",
-   "group": 79,
-   "transition": "cut"
-  },
-  {
-   "img": "c080_0_a.png",
+   "img": "d080_0_a.png",
    "at": 348.101,
    "move": "drift",
    "group": 80
   },
   {
-   "img": "c080_1_a.png",
-   "at": 350.29,
-   "move": "drift",
-   "group": 80,
-   "transition": "cut"
-  },
-  {
-   "img": "c081_0_a.png",
+   "img": "d081_0_a.png",
    "at": 352.479,
    "move": "drift_r",
    "group": 81
   },
   {
-   "img": "c081_1_a.png",
-   "at": 353.769,
-   "move": "drift_r",
-   "group": 81,
-   "transition": "cut"
-  },
-  {
-   "img": "c082_0_a.png",
+   "img": "d082_0_a.png",
    "at": 355.058,
    "move": "drift",
    "group": 82
   },
   {
-   "img": "c082_1_a.png",
-   "at": 357.041,
-   "move": "drift",
-   "group": 82,
-   "transition": "cut"
-  },
-  {
-   "img": "c082_2_a.png",
+   "img": "d082_1_a.png",
    "at": 359.025,
    "move": "drift",
    "group": 82,
    "transition": "cut"
   },
   {
-   "img": "c082_3_a.png",
-   "at": 361.009,
-   "move": "drift",
-   "group": 82,
-   "transition": "cut"
-  },
-  {
-   "img": "c083_0_a.png",
+   "img": "d083_0_a.png",
    "at": 362.992,
    "move": "drift_l",
    "group": 83
   },
   {
-   "img": "c083_1_a.png",
-   "at": 364.806,
-   "move": "drift_l",
-   "group": 83,
-   "transition": "cut"
-  },
-  {
-   "img": "c084_0_a.png",
+   "img": "d084_0_a.png",
    "at": 366.619,
    "move": "drift",
    "group": 84
   },
   {
-   "img": "c085_0_a.png",
+   "img": "d083_0_a.png",
    "at": 368.269,
    "move": "drift_r",
    "group": 85
   },
   {
-   "img": "c085_1_a.png",
-   "at": 370.475,
-   "move": "drift_r",
-   "group": 85,
-   "transition": "cut"
-  },
-  {
-   "img": "c086_0_a.png",
+   "img": "c004_0_a.png",
    "at": 372.681,
    "move": "drift",
    "group": 86
   },
   {
-   "img": "c087_0_a.png",
+   "img": "d087_0_a.png",
    "at": 374.095,
    "move": "drift_l",
    "group": 87
   },
   {
-   "img": "c087_1_a.png",
-   "at": 375.831,
-   "move": "drift_l",
-   "group": 87,
-   "transition": "cut"
-  },
-  {
-   "img": "c087_2_a.png",
-   "at": 377.566,
-   "move": "drift_l",
-   "group": 87,
-   "transition": "cut"
-  },
-  {
-   "img": "c088_0_a.png",
+   "img": "d088_0_a.png",
    "at": 379.302,
    "move": "drift",
    "group": 88
   },
   {
-   "img": "c088_1_a.png",
-   "at": 380.832,
-   "move": "drift",
-   "group": 88,
-   "transition": "cut"
-  },
-  {
-   "img": "c089_0_a.png",
+   "img": "d089_0_clean.png",
    "at": 382.362,
    "move": "drift_r",
    "group": 89
   },
   {
-   "img": "c089_1_a.png",
+   "img": "d089_1_clean.png",
    "at": 383.326,
    "move": "drift_r",
    "group": 89,
    "transition": "cut"
   },
   {
-   "img": "c090_0_a.png",
+   "img": "c001_1_a.png",
    "at": 384.289,
    "move": "drift",
    "group": 90
-  },
-  {
-   "img": "c090_1_a.png",
-   "at": 386.311,
-   "move": "drift",
-   "group": 90,
-   "transition": "cut"
-  },
-  {
-   "img": "c090_2_a.png",
-   "at": 388.332,
-   "move": "drift",
-   "group": 90,
-   "transition": "cut"
-  },
-  {
-   "img": "c090_3_a.png",
-   "at": 390.354,
-   "move": "drift",
-   "group": 90,
-   "transition": "cut"
   }
  ],
  "overlays": [
@@ -1522,5 +1186,12 @@
    "y": 760,
    "size": 120
   }
- ]
+ ],
+ "hook": {
+  "lines": [
+   "WHAT TIME",
+   "IS IT?"
+  ],
+  "until": 2.8
+ }
 }

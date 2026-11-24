@@ -49,5 +49,6 @@ for i, seg in enumerate(S["segments"]):
 E0 = {"format": "long", "captions": True,
       "caption_style": {"y": 1000, "size": 64, "max_w": 1500, "words": 6, "highlight": False, "pop": False, "stroke": 14, "gap": 2.0}, "music_volume": 0.10, "scene_dir": a.scene_dir,
       "output": "final_long.mp4", "keywords": [], "shots": out_shots, "overlays": overlays}
+if os.path.exists(P("hook.json")): E0["hook"] = json.load(open(P("hook.json")))   # {"lines": [l1, l2], "until": 2.8}
 json.dump(E0, open(P("edit.json"), "w"), indent=1)
 print(len(out_shots), "cuts,", len(overlays), "overlays, avg cut", round(seg_t[-1] / max(1, len(out_shots)), 2), "s")

@@ -27,7 +27,7 @@ for i, seg in enumerate(S["segments"]):
                       "group": i, **({"transition": "cut"} if k or i else {})})
 E0 = {"layout": "panel", "panel_y": 520, "scene_dir": S["src"], "output": "final_short.mp4", "captions": True,
       "caption_style": {"y": 1520, "size": 108, "max_w": 980, "words": 3, "highlight": False, "pop": True, "stroke": 22},
-      "music_volume": 0.12, "hook": {"lines": S["hook"], "until": 2.6}, "top_title": S.get("top_title", ""),
+      "music_volume": 0.08, "hook": {"lines": S["hook"], "until": 2.6}, "top_title": S.get("top_title", ""),
       "keywords": S.get("keywords", []), "shots": shots, "overlays": S.get("overlays", [])}
 json.dump(E0, open(P("edit.json"), "w"), indent=1)
 subprocess.run([py, os.path.join(here, "music_curious.py"), a.proj], check=True)

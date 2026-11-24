@@ -1,0 +1,90 @@
+{
+ "title": "A Teenager Leaked GTA 6... Using a Hotel TV",
+ "src": "../gta6_story/scenes_long",
+ "hook": [
+  "LEAKED WITH",
+  "A HOTEL TV?"
+ ],
+ "top_title": "WHY GTA 6 TOOK 13 YEARS",
+ "segments": [
+  {
+   "text": "A teenager leaked GTA Six... using a hotel TV.",
+   "imgs": [
+    "g052_c.png"
+   ]
+  },
+  {
+   "text": "September twenty twenty-two. Ninety clips of unfinished GTA Six footage appear online.",
+   "imgs": [
+    "g053_d.png",
+    "g052_a.png"
+   ]
+  },
+  {
+   "text": "Police say it was a teenager from England.",
+   "imgs": [
+    "g054_c.png"
+   ]
+  },
+  {
+   "text": "And he did it while on bail. From a hotel room.",
+   "imgs": [
+    "g054_d.png"
+   ]
+  },
+  {
+   "text": "His laptop had been taken. So he reportedly used an Amazon Fire Stick and the hotel TV.",
+   "imgs": [
+    "g055_b.png",
+    "g055_c.png"
+   ]
+  },
+  {
+   "text": "The clips confirmed two huge rumours. A return to Vice City. And a female lead.",
+   "imgs": [
+    "g056_c.png",
+    "g056_d.png"
+   ]
+  },
+  {
+   "text": "Later, a court ordered him to be held in a secure hospital indefinitely.",
+   "imgs": [
+    "g057_a.png",
+    "g057_b.png"
+   ]
+  },
+  {
+   "text": "Rockstar said the leak wouldn't change the schedule. But it was a gut punch.",
+   "imgs": [
+    "g058_a.png",
+    "g058_c.png"
+   ]
+  },
+  {
+   "text": "Follow ByteSized AI for more stories like this.",
+   "imgs": [
+    "g056_d.png"
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "tag",
+   "text": "90 CLIPS",
+   "at": 4.5,
+   "until": 8.8,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  },
+  {
+   "type": "tag",
+   "text": "ON BAIL",
+   "at": 11.8,
+   "until": 13.9,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  }
+ ]
+}

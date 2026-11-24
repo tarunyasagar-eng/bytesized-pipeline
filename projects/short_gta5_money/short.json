@@ -1,0 +1,93 @@
+{
+ "title": "GTA 5 Refused to Die (That's Why GTA 6 Took So Long)",
+ "src": "../gta6_story/scenes_long",
+ "hook": [
+  "GTA 5",
+  "WOULDN'T DIE"
+ ],
+ "top_title": "WHY GTA 6 TOOK 13 YEARS",
+ "segments": [
+  {
+   "text": "GTA Five is the reason GTA Six took thirteen years.",
+   "imgs": [
+    "g008_a.png"
+   ]
+  },
+  {
+   "text": "It made eight hundred million dollars on day one. A billion in three days.",
+   "imgs": [
+    "g009_c.png",
+    "g009_b.png"
+   ]
+  },
+  {
+   "text": "Then Rockstar released it again, on the next consoles. And then again.",
+   "imgs": [
+    "g010_a.png",
+    "g010_d.png"
+   ]
+  },
+  {
+   "text": "Three console generations. More than two hundred million copies.",
+   "imgs": [
+    "g011_b.png",
+    "g011_c.png"
+   ]
+  },
+  {
+   "text": "And in GTA Online, players kept buying virtual cash with real money. Year after year.",
+   "imgs": [
+    "g012_a.png",
+    "g012_c.png",
+    "g013_b.png"
+   ]
+  },
+  {
+   "text": "Every few months, new heists, new cars, new businesses.",
+   "imgs": [
+    "g014_c.png",
+    "g014_a.png"
+   ]
+  },
+  {
+   "text": "One estimate called it the most profitable entertainment product of all time.",
+   "imgs": [
+    "g015_a.png",
+    "g015_d.png"
+   ]
+  },
+  {
+   "text": "When your old game keeps printing money, why rush the next one?",
+   "imgs": [
+    "g016_a.png",
+    "g016_d.png"
+   ]
+  },
+  {
+   "text": "Follow ByteSized AI for more stories like this.",
+   "imgs": [
+    "g013_a.png"
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "tag",
+   "text": "$1B IN 3 DAYS",
+   "at": 6.0,
+   "until": 8.3,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  },
+  {
+   "type": "tag",
+   "text": "200M+ COPIES",
+   "at": 13.5,
+   "until": 16.2,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  }
+ ]
+}

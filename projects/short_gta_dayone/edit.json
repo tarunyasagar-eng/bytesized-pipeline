@@ -1,0 +1,161 @@
+{
+ "layout": "panel",
+ "panel_y": 520,
+ "scene_dir": "../gta6_story/scenes_long",
+ "output": "final_short.mp4",
+ "captions": true,
+ "caption_style": {
+  "y": 1520,
+  "size": 108,
+  "max_w": 980,
+  "words": 3,
+  "highlight": false,
+  "pop": true,
+  "stroke": 22
+ },
+ "music_volume": 0.08,
+ "hook": {
+  "lines": [
+   "$3.79 BILLION",
+   "IN ONE DAY"
+  ],
+  "until": 2.6
+ },
+ "top_title": "WAS GTA 6 WORTH THE WAIT?",
+ "keywords": [],
+ "shots": [
+  {
+   "img": "g072_c.png",
+   "at": 0.05,
+   "move": "punch",
+   "group": 0
+  },
+  {
+   "img": "g064_c.png",
+   "at": 4.679,
+   "move": "drift_r",
+   "group": 1,
+   "transition": "cut"
+  },
+  {
+   "img": "g066_b.png",
+   "at": 6.232,
+   "move": "drift_r",
+   "group": 1,
+   "transition": "cut"
+  },
+  {
+   "img": "g070_a.png",
+   "at": 7.784,
+   "move": "drift",
+   "group": 2,
+   "transition": "cut"
+  },
+  {
+   "img": "g070_d.png",
+   "at": 9.97,
+   "move": "drift",
+   "group": 2,
+   "transition": "cut"
+  },
+  {
+   "img": "g071_d.png",
+   "at": 12.156,
+   "move": "drift_l",
+   "group": 3,
+   "transition": "cut"
+  },
+  {
+   "img": "g071_b.png",
+   "at": 14.311,
+   "move": "drift_l",
+   "group": 3,
+   "transition": "cut"
+  },
+  {
+   "img": "g072_b.png",
+   "at": 16.466,
+   "move": "pull",
+   "group": 4,
+   "transition": "cut"
+  },
+  {
+   "img": "g073_a.png",
+   "at": 17.752,
+   "move": "push",
+   "group": 5,
+   "transition": "cut"
+  },
+  {
+   "img": "g073_c.png",
+   "at": 19.466,
+   "move": "push",
+   "group": 5,
+   "transition": "cut"
+  },
+  {
+   "img": "g074_c.png",
+   "at": 21.181,
+   "move": "drift_r",
+   "group": 6,
+   "transition": "cut"
+  },
+  {
+   "img": "g074_a.png",
+   "at": 22.918,
+   "move": "drift_r",
+   "group": 6,
+   "transition": "cut"
+  },
+  {
+   "img": "g075_a.png",
+   "at": 24.654,
+   "move": "drift",
+   "group": 7,
+   "transition": "cut"
+  },
+  {
+   "img": "g076_b.png",
+   "at": 26.047,
+   "move": "drift",
+   "group": 7,
+   "transition": "cut"
+  },
+  {
+   "img": "g076_a.png",
+   "at": 27.441,
+   "move": "drift_l",
+   "group": 8,
+   "transition": "cut"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "tag",
+   "text": "32.5M COPIES",
+   "at": 13.5,
+   "until": 16.4,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  },
+  {
+   "type": "tag",
+   "text": "MORE THAN ENDGAME",
+   "at": 18.2,
+   "until": 21.1,
+   "x": 540,
+   "y": 620,
+   "size": 90
+  },
+  {
+   "type": "tag",
+   "text": "~5\u00d7 GTA 5",
+   "at": 21.8,
+   "until": 24.5,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  }
+ ]
+}

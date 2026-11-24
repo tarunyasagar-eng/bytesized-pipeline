@@ -152,9 +152,10 @@ def hook(gt):
     fade = 1 - ease((gt - HOOK["until"] + 0.3) / 0.3)
     k = gt / 0.25
     l1, l2 = HOOK["lines"]
-    return (f'<rect x="60" y="190" width="960" height="330" rx="40" fill="#e63946" stroke="{INK}" stroke-width="10" opacity="{fade:.2f}" transform="rotate(-2 540 355)"/>'
-            + label(540, 330, l1, 130, "#ffffff", INK, 18, rot=-2, scale=pop(k), opacity=fade)
-            + label(540, 470, l2, 130, "#ffd166", INK, 18, rot=-2, scale=pop(k - 0.4) if k > 0.4 else 0.001, opacity=fade))
+    cx, y0 = W / 2, (190 if H > W else 600)
+    return (f'<rect x="{cx-480}" y="{y0}" width="960" height="330" rx="40" fill="#e63946" stroke="{INK}" stroke-width="10" opacity="{fade:.2f}" transform="rotate(-2 {cx} {y0+165})"/>'
+            + label(cx, y0 + 140, l1, 130, "#ffffff", INK, 18, rot=-2, scale=pop(k), opacity=fade)
+            + label(cx, y0 + 280, l2, 130, "#ffd166", INK, 18, rot=-2, scale=pop(k - 0.4) if k > 0.4 else 0.001, opacity=fade))
 
 def overlay(o, gt):
     lt = gt - o["t"]
@@ -200,7 +201,9 @@ def overlay(o, gt):
     return ""
 
 def overlay_png(gt):
-    top = label(W / 2, 330, TOP, 84, "#ffffff", INK, 16) if TOP and gt >= HOOK.get("until", 0) else ""
+    tsz = 84
+    while TOP and font(tsz).getlength(TOP) > W - 120 and tsz > 40: tsz -= 2
+    top = label(W / 2, 330, TOP, tsz, "#ffffff", INK, 16) if TOP and gt >= HOOK.get("until", 0) else ""
     body = top + hook(gt) + "".join(overlay(o, gt) for o in OVERLAYS) + captions(gt)
     if not body:
         return None
@@ -256,10 +259,32 @@ if __name__ == "__main__":
         sys.exit()
     out = P(E.get("output", "final.mp4"))
     n = int(TOTAL * FPS)
+    # ---- sound effects: hook impact in the first second, pops on callouts, whooshes on chapter cards ----
+    import wave as _wv, numpy as _np
+    SFXD = os.path.join(ROOT, "assets", "sfx"); SR = 48000
+    def _load(nm):
+        with _wv.open(os.path.join(SFXD, nm + ".wav")) as w:
+            return _np.frombuffer(w.readframes(w.getnframes()), _np.int16).reshape(-1, 2).astype(_np.float32) / 32767
+    ev = list(E.get("sfx", []))
+    if E.get("auto_sfx", True):
+        if HOOK:
+            ev += [{"t": 0.0, "name": "hit", "vol": 0.9}, {"t": 0.12, "name": "pop", "vol": 0.6},
+                   {"t": max(0.0, HOOK["until"] - 0.35), "name": "whoosh", "vol": 0.5}]
+        else:
+            ev += [{"t": 0.0, "name": "hit", "vol": 0.8}]
+        for o in OVERLAYS:
+            if o["type"] in ("tag", "bubble", "counter"): ev.append({"t": o["t"], "name": "pop", "vol": 0.55})
+            elif o["type"] == "chapter": ev.append({"t": max(0.0, o["t"] - 0.15), "name": "whoosh", "vol": 0.45})
+    trk = _np.zeros((int(SR * (TOTAL + 2)), 2), _np.float32)
+    for e in ev:
+        x = _load(e["name"]) * e.get("vol", 0.6); i = int(resolve(e["t"]) * SR); x = x[: len(trk) - i]; trk[i:i + len(x)] += x
+    with _wv.open(P("sfx.wav"), "wb") as w:
+        w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((_np.clip(trk, -1, 1) * 32767).astype(_np.int16).tobytes())
+    SFX_VOL = E.get("sfx_volume", 0.5)
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-                           "-i", P("vo.wav"), "-i", P("music.wav"), "-filter_complex",
-                           f"[1:a]loudnorm=I=-14:TP=-1.5:LRA=11,apad=pad_dur=1[vo];[2:a]volume={MUSIC_VOL}[mu];"
-                           "[vo][mu]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]",
+                           "-i", P("vo.wav"), "-i", P("music.wav"), "-i", P("sfx.wav"), "-filter_complex",
+                           f"[1:a]loudnorm=I=-14:TP=-1.5:LRA=11,apad=pad_dur=1[vo];[2:a]volume={MUSIC_VOL}[mu];[3:a]volume={SFX_VOL}[fx];"
+                           "[vo][mu][fx]amix=inputs=3:duration=first:normalize=0,alimiter=limit=0.95[a]",
                            "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p",
                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
     for k in range(n):
