@@ -15,7 +15,7 @@
 - Sound effects/music: only original synthesis or CC0/clearly licensed for commercial use. No Content-ID evasion.
 - Uploads:
   - **Long-form:** always private, with 3 owner checkpoints (topic pick, script approval, final video). The owner publishes, or tells me to schedule.
-  - **Shorts:** the owner pre-approved auto-publishing with no review. Schedule **1 Short per day at 14:00 UTC** via `publishAt`:
+  - **Shorts:** the owner pre-approved auto-publishing with no review. Schedule **1 Short per day at a different time each day, always at least 12 hours after the previous one** (pick times with `pipeline/short_slots.py`) via `publishAt`:
     upload private with `--publish-at`, or `upload_youtube.py --schedule ID TIME` for an existing upload.
     Nothing was to go public before 2026-12-01 (one-week pause requested on 2026-11-24).
   - Shorts must still follow every rule here (stickman-only, clean images, no profanity, licensed audio).
