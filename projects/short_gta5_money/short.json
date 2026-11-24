@@ -88,6 +88,38 @@
    "x": 540,
    "y": 620,
    "size": 110
+  },
+  {
+   "type": "react",
+   "text": "WHOA!",
+   "at": 1.0,
+   "sfx": "voice/whoa_m",
+   "rot": -7,
+   "color": "#e63946"
+  },
+  {
+   "type": "react",
+   "text": "WOWWW!",
+   "at": 7.3,
+   "sfx": "voice/wow_m",
+   "rot": 7,
+   "color": "#2a9d8f"
+  },
+  {
+   "type": "react",
+   "text": "OMGG!",
+   "at": 14.8,
+   "sfx": "voice/omg_long",
+   "rot": -6,
+   "color": "#e63946"
+  },
+  {
+   "type": "react",
+   "text": "OOOH!",
+   "at": 26.0,
+   "sfx": "voice/crowd_ooh",
+   "rot": 6,
+   "color": "#e63946"
   }
  ]
 }

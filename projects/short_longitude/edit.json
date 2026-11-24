@@ -196,6 +196,38 @@
    "x": 540,
    "y": 620,
    "size": 110
+  },
+  {
+   "type": "react",
+   "text": "WHAT?!",
+   "at": 1.1,
+   "sfx": "voice/what_m",
+   "rot": -7,
+   "color": "#e63946"
+  },
+  {
+   "type": "react",
+   "text": "OMGG!",
+   "at": 14.3,
+   "sfx": "voice/omg_m",
+   "rot": 7,
+   "color": "#e63946"
+  },
+  {
+   "type": "react",
+   "text": "WOWWW!",
+   "at": 39.6,
+   "sfx": "voice/wow_m",
+   "rot": -6,
+   "color": "#2a9d8f"
+  },
+  {
+   "type": "react",
+   "text": "WHAT?!",
+   "at": 41.8,
+   "sfx": "voice/what_m",
+   "rot": 6,
+   "color": "#e63946"
   }
  ]
 }

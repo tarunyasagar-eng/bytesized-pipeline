@@ -174,6 +174,15 @@ def overlay(o, gt):
                 f'<rect x="-400" y="-115" width="800" height="230" rx="46" fill="#fff" stroke="{INK}" stroke-width="8"/>'
                 f'<rect x="-270" y="100" width="140" height="18" fill="#fff"/>'
                 f'<text y="40" font-family="Lilita One" font-size="112" text-anchor="middle" fill="#d62828">{esc(o["text"])}</text></g>')
+    if kind == "react":      # meme reaction burst {"text":"WOWWW!","sfx":"voice/wow_m"} with comic starburst, pops + shakes
+        dur = o.get("dur", 1.1)
+        if lt > dur: return ""
+        x, y = o.get("x", W / 2), o.get("y", 1170); rot = o.get("rot", -7)
+        sc = pop(lt / 0.22) * (1 - 0.6 * ease((lt - dur + 0.15) / 0.15)); sh = 6 * math.sin(lt * 70) * max(0, 1 - lt / 0.5)
+        pts = " ".join(f"{(250 if j % 2 == 0 else 175) * math.cos(j * math.pi / 9):.0f},{(150 if j % 2 == 0 else 105) * math.sin(j * math.pi / 9):.0f}" for j in range(18))
+        return (f'<g transform="translate({x + sh:.0f},{y:.0f}) rotate({rot}) scale({sc:.3f})">'
+                f'<polygon points="{pts}" fill="{o.get("color", "#e63946")}" stroke="{INK}" stroke-width="9" stroke-linejoin="round"/>'
+                + label(0, 38, o["text"], o.get("size", 112), "#ffffff", INK, 16) + '</g>')
     if kind == "chapter":    # {"kicker":"REASON 3","text":"BURNOUT"} slides in top-left for ~3s
         dur = (o["until"] or o["t"] + 3.2) - o["t"]
         k_in, k_out = ease(lt / 0.35), 1 - ease((lt - dur + 0.4) / 0.4)
@@ -268,19 +277,20 @@ if __name__ == "__main__":
     ev = list(E.get("sfx", []))
     if E.get("auto_sfx", True):
         if HOOK:
-            ev += [{"t": 0.0, "name": "hit", "vol": 0.9}, {"t": 0.12, "name": "pop", "vol": 0.6},
-                   {"t": max(0.0, HOOK["until"] - 0.35), "name": "whoosh", "vol": 0.5}]
+            ev += [{"t": 0.0, "name": "hit", "vol": 0.41}, {"t": 0.12, "name": "pop", "vol": 0.27},
+                   {"t": max(0.0, HOOK["until"] - 0.35), "name": "whoosh", "vol": 0.23}]
         else:
-            ev += [{"t": 0.0, "name": "hit", "vol": 0.8}]
+            ev += [{"t": 0.0, "name": "hit", "vol": 0.36}]
         for o in OVERLAYS:
-            if o["type"] in ("tag", "bubble", "counter"): ev.append({"t": o["t"], "name": "pop", "vol": 0.55})
-            elif o["type"] == "chapter": ev.append({"t": max(0.0, o["t"] - 0.15), "name": "whoosh", "vol": 0.45})
+            if o["type"] == "react": ev.append({"t": o["t"], "name": o.get("sfx", "voice/wow_m"), "vol": o.get("vol", 1.0)})
+            elif o["type"] in ("tag", "bubble", "counter"): ev.append({"t": o["t"], "name": "pop", "vol": 0.25})
+            elif o["type"] == "chapter": ev.append({"t": max(0.0, o["t"] - 0.15), "name": "whoosh", "vol": 0.2})
     trk = _np.zeros((int(SR * (TOTAL + 2)), 2), _np.float32)
     for e in ev:
         x = _load(e["name"]) * e.get("vol", 0.6); i = int(resolve(e["t"]) * SR); x = x[: len(trk) - i]; trk[i:i + len(x)] += x
     with _wv.open(P("sfx.wav"), "wb") as w:
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((_np.clip(trk, -1, 1) * 32767).astype(_np.int16).tobytes())
-    SFX_VOL = E.get("sfx_volume", 0.5)
+    SFX_VOL = E.get("sfx_volume", 1.1)   # reaction voices play at full level; the other effects are scaled per event
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                            "-i", P("vo.wav"), "-i", P("music.wav"), "-i", P("sfx.wav"), "-filter_complex",
                            f"[1:a]loudnorm=I=-14:TP=-1.5:LRA=11,apad=pad_dur=1[vo];[2:a]volume={MUSIC_VOL}[mu];[3:a]volume={SFX_VOL}[fx];"
