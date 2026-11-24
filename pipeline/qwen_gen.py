@@ -7,8 +7,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gen_scenes import kaggle, OWNER, ROOT
 
 STYLE = ("2D cartoon illustration, clean thin black outlines, soft cel shading, detailed background, warm muted natural colors, "
-         "keep each character's design exactly as in the reference: round white head, dot eyes, same clothes and colors")
-NEG = "photorealistic, 3d render, text, watermark, extra limbs, deformed hands, blurry, messy lines, gore"
+         "keep each character's design exactly as in the reference: round white head, dot eyes, same clothes and colors. "
+         "EVERY character, including historical figures, crowds and background people, is a stickman with a plain round white head "
+         "and dot eyes (hats, wigs, beards and costumes are fine); no realistic human faces")
+NEG = ("photorealistic, 3d render, text, watermark, extra limbs, deformed hands, blurry, messy lines, gore, "
+       "realistic human, human face, detailed face, nose, wrinkles, anime face, portrait of a person, old man face")
 
 def main():
     ap = argparse.ArgumentParser()
