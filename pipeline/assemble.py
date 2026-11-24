@@ -41,6 +41,14 @@ SHOTS = [dict(s, t=resolve(s["at"])) for s in E["shots"]]
 SHOTS.sort(key=lambda s: s["t"])
 for i, s in enumerate(SHOTS):
     s["end"] = SHOTS[i + 1]["t"] if i + 1 < len(SHOTS) else TOTAL
+# shots sharing a "group" (pose swaps of one scene) share one continuous camera move over the group's span
+_G = {}
+for s in SHOTS:
+    if "group" in s:
+        g = _G.setdefault(s["group"], [s["t"], s["end"]]); g[0] = min(g[0], s["t"]); g[1] = max(g[1], s["end"])
+for s in SHOTS:
+    if "group" in s:
+        s["cam_t"], s["cam_end"] = _G[s["group"]]
 OVERLAYS = [dict(o, t=resolve(o["at"]), until=resolve(o["until"]) if "until" in o else None) for o in E.get("overlays", [])]
 
 CHUNKS, cur = [], []
@@ -81,10 +89,13 @@ MOVES = {  # (zoom_start, zoom_end, pan_x -1..1 start->end, pan_y start->end)
     "left": (1.06, 1.06, (0.8, -0.8), (0, 0)), "right": (1.06, 1.06, (-0.8, 0.8), (0, 0)),
     "up": (1.06, 1.1, (0, 0), (0.7, -0.5)), "down": (1.08, 1.04, (0, 0), (-0.6, 0.6)),
     "punch": (1.0, 1.18, (0, 0), (0, -0.2)),
+    "drift": (1.02, 1.08, (0, 0), (0, 0)), "drift_l": (1.05, 1.07, (0.3, -0.3), (0, 0)),
+    "drift_r": (1.05, 1.07, (-0.3, 0.3), (0, 0)),
 }
 def camera_frame(s, gt):
     im = shot_image(s)
-    k = ease((gt - s["t"]) / max(0.1, s["end"] - s["t"]))
+    ct, ce = s.get("cam_t", s["t"]), s.get("cam_end", s["end"])
+    k = ease((gt - ct) / max(0.1, ce - ct))
     z0, z1, (px0, px1), (py0, py1) = MOVES[s.get("move", "push")]
     z = z0 + (z1 - z0) * k
     if s.get("move") == "punch":                             # fast punch-in then hold
