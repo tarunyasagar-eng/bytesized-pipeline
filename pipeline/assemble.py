@@ -24,6 +24,11 @@ TOTAL = D["total"] + 0.5
 KEYWORDS = set(E.get("keywords", []))
 HOOK = E.get("hook", {})          # {"lines": [...], "until": 2.9}
 SCENE_DIR = P(E.get("scene_dir", "scenes_short"))
+# "panel" layout: landscape art in a 4:3 panel on a blurred copy of itself (vertical Shorts from long-form images)
+PANEL = E.get("layout") == "panel"
+OW, OH = (E.get("panel_w", 1080), E.get("panel_h", 810)) if PANEL else (W, H)
+PY = E.get("panel_y", 520)
+TOP = E.get("top_title", "")
 
 def find_word(word, after=0.0):
     for w in WORDS:
@@ -80,7 +85,7 @@ def shot_image(s):
     key = s["img"]
     if key not in _IMG:
         im = Image.open(os.path.join(SCENE_DIR, key)).convert("RGB")
-        sc = max(W / im.width, H / im.height) * 1.14          # headroom for camera moves
+        sc = max(OW / im.width, OH / im.height) * 1.14          # headroom for camera moves
         _IMG[key] = im.resize((round(im.width * sc), round(im.height * sc)), Image.LANCZOS)
     return _IMG[key]
 
@@ -100,14 +105,14 @@ def camera_frame(s, gt):
     z = z0 + (z1 - z0) * k
     if s.get("move") == "punch":                             # fast punch-in then hold
         z = z0 + (z1 - z0) * ease((gt - s["t"]) / 0.35)
-    base = min(im.width / W, im.height / H) / 1.14          # source px per output px at zoom 1 (leaves pan headroom)
-    cw, ch = W * base / z, H * base / z
+    base = min(im.width / OW, im.height / OH) / 1.14          # source px per output px at zoom 1 (leaves pan headroom)
+    cw, ch = OW * base / z, OH * base / z
     cw, ch = min(cw, im.width), min(ch, im.height)
     px, py = px0 + (px1 - px0) * k, py0 + (py1 - py0) * k
     cx = im.width / 2 + px * (im.width - cw) / 2
     cy = im.height / 2 + py * (im.height - ch) / 2
     box = (cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2)
-    return im.resize((W, H), Image.BILINEAR, box=box)
+    return im.resize((OW, OH), Image.BILINEAR, box=box)
 
 # ---------------- overlays ----------------
 def captions(gt):
@@ -195,7 +200,8 @@ def overlay(o, gt):
     return ""
 
 def overlay_png(gt):
-    body = hook(gt) + "".join(overlay(o, gt) for o in OVERLAYS) + captions(gt)
+    top = label(W / 2, 330, TOP, 84, "#ffffff", INK, 16) if TOP and gt >= HOOK.get("until", 0) else ""
+    body = top + hook(gt) + "".join(overlay(o, gt) for o in OVERLAYS) + captions(gt)
     if not body:
         return None
     svg = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{body}</svg>'
@@ -209,6 +215,21 @@ def vignette():
         vignette.img = Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg.encode()))).convert("RGBA")
     return vignette.img
 
+_BG = {}
+def panel_canvas(s, panel):
+    from PIL import ImageFilter, ImageEnhance
+    if s["img"] not in _BG:
+        im = Image.open(os.path.join(SCENE_DIR, s["img"])).convert("RGB")
+        sc = max(W / im.width, H / im.height); im = im.resize((round(im.width * sc), round(im.height * sc)), Image.BILINEAR)
+        x0, y0 = (im.width - W) // 2, (im.height - H) // 2
+        bg = im.crop((x0, y0, x0 + W, y0 + H)).filter(ImageFilter.GaussianBlur(28))
+        _BG[s["img"]] = ImageEnhance.Brightness(bg).enhance(0.5)
+    c = _BG[s["img"]].copy()
+    from PIL import ImageDraw
+    ImageDraw.Draw(c).rectangle([0, PY - 8, W, PY + OH + 8], fill=INK)
+    c.paste(panel, (0, PY))
+    return c
+
 def frame(gt):
     i = max(j for j, s in enumerate(SHOTS) if s["t"] <= gt) if gt >= SHOTS[0]["t"] else 0
     s = SHOTS[i]
@@ -218,7 +239,9 @@ def frame(gt):
         prev = camera_frame(SHOTS[i - 1], gt)
         img = Image.blend(prev, img, ease((gt - s["t"]) / xf))
     elif i > 0 and SHOTS[i].get("transition") == "flash" and gt - s["t"] < 0.1:
-        img = Image.blend(img, Image.new("RGB", (W, H), "white"), 0.6 * (1 - (gt - s["t"]) / 0.1))
+        img = Image.blend(img, Image.new("RGB", (OW, OH), "white"), 0.6 * (1 - (gt - s["t"]) / 0.1))
+    if PANEL:
+        img = panel_canvas(s, img)
     img = img.convert("RGBA")
     img.alpha_composite(vignette())
     ov = overlay_png(gt)

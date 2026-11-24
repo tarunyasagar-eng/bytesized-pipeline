@@ -1,0 +1,123 @@
+{
+ "title": "The Clock That Solved the Deadliest Problem at Sea",
+ "src": "../clock_story/scenes_qwen",
+ "hook": [
+  "1,400 SAILORS",
+  "DIED FOR THIS"
+ ],
+ "top_title": "THE LONGITUDE PRIZE",
+ "segments": [
+  {
+   "text": "Over fourteen hundred sailors died because nobody knew what time it was.",
+   "imgs": [
+    "d048_1_a.png",
+    "d049_0_a.png"
+   ]
+  },
+  {
+   "text": "Seventeen-oh-seven. A British fleet is lost in thick fog.",
+   "imgs": [
+    "d048_0_a.png"
+   ]
+  },
+  {
+   "text": "Sailors could tell how far north they were. But east or west? Pure guesswork.",
+   "imgs": [
+    "c047_0_a.png",
+    "c047_1_a.png"
+   ]
+  },
+  {
+   "text": "So Britain offered a prize. Twenty thousand pounds. Millions today.",
+   "imgs": [
+    "d050_0_a.png",
+    "d050_1_a.png"
+   ]
+  },
+  {
+   "text": "The secret was time. Carry the exact time from home, compare it to the sun, and you know where you are.",
+   "imgs": [
+    "d051_0_a.png",
+    "d051_1_a.png"
+   ]
+  },
+  {
+   "text": "But no clock could survive a rolling, salty ship. Experts said it was impossible.",
+   "imgs": [
+    "d052_0_a.png",
+    "d053_0_a.png"
+   ]
+  },
+  {
+   "text": "Then came John Harrison. A carpenter with no formal training.",
+   "imgs": [
+    "d054_0_a.png"
+   ]
+  },
+  {
+   "text": "He spent decades building giant sea clocks.",
+   "imgs": [
+    "d055_0_a.png",
+    "d057_0_a.png"
+   ]
+  },
+  {
+   "text": "Then he realised he'd been thinking too big.",
+   "imgs": [
+    "d058_0_a.png"
+   ]
+  },
+  {
+   "text": "His fourth timekeeper fit in your hand.",
+   "imgs": [
+    "d059_0_a.png"
+   ]
+  },
+  {
+   "text": "Eighty-one days at sea to Jamaica. It was only five seconds off.",
+   "imgs": [
+    "d060_0_a.png",
+    "d061_0_a.png"
+   ]
+  },
+  {
+   "text": "And the experts still refused to pay him.",
+   "imgs": [
+    "d063_0_a.png"
+   ]
+  },
+  {
+   "text": "It took the King himself before Harrison finally got his money.",
+   "imgs": [
+    "d064_0_a.png",
+    "d064_1_a.png"
+   ]
+  },
+  {
+   "text": "Follow ByteSized AI for more history in a byte.",
+   "imgs": [
+    "d062_0_a.png"
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "tag",
+   "text": "\u00a320,000 PRIZE",
+   "at": 13.5,
+   "until": 16.5,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  },
+  {
+   "type": "tag",
+   "text": "5 SECONDS OFF",
+   "at": 38.9,
+   "until": 40.4,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  }
+ ]
+}

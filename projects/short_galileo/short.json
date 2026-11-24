@@ -1,0 +1,113 @@
+{
+ "title": "Galileo Got Bored in Church... and Changed Time Forever",
+ "src": "../clock_story/scenes_qwen",
+ "hook": [
+  "BORED IN",
+  "CHURCH?"
+ ],
+ "top_title": "HOW CLOCKS GOT ACCURATE",
+ "segments": [
+  {
+   "text": "Galileo got bored in church, and it changed time forever.",
+   "imgs": [
+    "c035_0_a.png"
+   ]
+  },
+  {
+   "text": "Pisa, the fifteen-eighties. A young student is stuck in a very long sermon.",
+   "imgs": [
+    "c036_0_a.png",
+    "c035_1_a.png"
+   ]
+  },
+  {
+   "text": "Instead of listening, he's watching a lamp swing from the ceiling.",
+   "imgs": [
+    "c037_0_a.png"
+   ]
+  },
+  {
+   "text": "The story goes, he timed each swing with his own pulse.",
+   "imgs": [
+    "c038_0_a.png"
+   ]
+  },
+  {
+   "text": "And he noticed something weird.",
+   "imgs": [
+    "c038_1_a.png"
+   ]
+  },
+  {
+   "text": "Big swings, small swings. Each one took the same time.",
+   "imgs": [
+    "c039_0_a.png",
+    "c039_1_a.png"
+   ]
+  },
+  {
+   "text": "A perfectly steady beat. Exactly what a clock needs.",
+   "imgs": [
+    "c040_0_a.png",
+    "c040_1_a.png"
+   ]
+  },
+  {
+   "text": "Back then, the best clocks drifted fifteen minutes a day.",
+   "imgs": [
+    "c043_1_a.png"
+   ]
+  },
+  {
+   "text": "Galileo sketched a pendulum clock, but died before he could build it.",
+   "imgs": [
+    "c041_0_a.png",
+    "c041_1_a.png"
+   ]
+  },
+  {
+   "text": "Then in sixteen fifty-six, Christiaan Huygens finished the job.",
+   "imgs": [
+    "c042_0_a.png"
+   ]
+  },
+  {
+   "text": "His clock was off by just fifteen seconds a day.",
+   "imgs": [
+    "c043_0_a.png"
+   ]
+  },
+  {
+   "text": "Suddenly, a minute hand actually made sense.",
+   "imgs": [
+    "c044_0_a.png"
+   ]
+  },
+  {
+   "text": "Follow ByteSized AI for more history in a byte.",
+   "imgs": [
+    "c044_1_a.png"
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "tag",
+   "text": "15 MIN / DAY",
+   "at": 22.4,
+   "until": 25.0,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  },
+  {
+   "type": "tag",
+   "text": "15 SEC / DAY",
+   "at": 32.6,
+   "until": 35.1,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  }
+ ]
+}

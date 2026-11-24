@@ -1,0 +1,173 @@
+{
+ "layout": "panel",
+ "panel_y": 520,
+ "scene_dir": "../clock_story/scenes_qwen",
+ "output": "final_short.mp4",
+ "captions": true,
+ "caption_style": {
+  "y": 1520,
+  "size": 108,
+  "max_w": 980,
+  "words": 3,
+  "highlight": false,
+  "pop": true,
+  "stroke": 22
+ },
+ "music_volume": 0.12,
+ "hook": {
+  "lines": [
+   "YOUR WATCH",
+   "IS VIBRATING"
+  ],
+  "until": 2.6
+ },
+ "top_title": "HOW CLOCKS GOT PERFECT",
+ "keywords": [],
+ "shots": [
+  {
+   "img": "d075_0_a.png",
+   "at": 0.05,
+   "move": "punch",
+   "group": 0
+  },
+  {
+   "img": "d073_0_a.png",
+   "at": 3.947,
+   "move": "drift_r",
+   "group": 1,
+   "transition": "cut"
+  },
+  {
+   "img": "d074_0_a.png",
+   "at": 7.739,
+   "move": "drift",
+   "group": 2,
+   "transition": "cut"
+  },
+  {
+   "img": "d075_1_a.png",
+   "at": 11.268,
+   "move": "drift_l",
+   "group": 3,
+   "transition": "cut"
+  },
+  {
+   "img": "d075_0_a.png",
+   "at": 14.024,
+   "move": "drift_l",
+   "group": 3,
+   "transition": "cut"
+  },
+  {
+   "img": "d076_0_a.png",
+   "at": 16.779,
+   "move": "pull",
+   "group": 4,
+   "transition": "cut"
+  },
+  {
+   "img": "d076_1_a.png",
+   "at": 18.404,
+   "move": "pull",
+   "group": 4,
+   "transition": "cut"
+  },
+  {
+   "img": "d077_0_a.png",
+   "at": 20.029,
+   "move": "push",
+   "group": 5,
+   "transition": "cut"
+  },
+  {
+   "img": "d078_0_a.png",
+   "at": 23.307,
+   "move": "drift_r",
+   "group": 6,
+   "transition": "cut"
+  },
+  {
+   "img": "d079_0_a.png",
+   "at": 26.139,
+   "move": "drift_r",
+   "group": 6,
+   "transition": "cut"
+  },
+  {
+   "img": "d079_1_a.png",
+   "at": 28.971,
+   "move": "drift_r",
+   "group": 6,
+   "transition": "cut"
+  },
+  {
+   "img": "d080_0_a.png",
+   "at": 31.803,
+   "move": "drift",
+   "group": 7,
+   "transition": "cut"
+  },
+  {
+   "img": "d081_0_a.png",
+   "at": 35.611,
+   "move": "drift_l",
+   "group": 8,
+   "transition": "cut"
+  },
+  {
+   "img": "d082_0_a.png",
+   "at": 37.76,
+   "move": "drift_l",
+   "group": 8,
+   "transition": "cut"
+  },
+  {
+   "img": "d082_1_a.png",
+   "at": 39.91,
+   "move": "drift_l",
+   "group": 8,
+   "transition": "cut"
+  },
+  {
+   "img": "d083_0_a.png",
+   "at": 42.059,
+   "move": "pull",
+   "group": 9,
+   "transition": "cut"
+  },
+  {
+   "img": "d084_0_a.png",
+   "at": 43.977,
+   "move": "pull",
+   "group": 9,
+   "transition": "cut"
+  },
+  {
+   "img": "d083_0_a.png",
+   "at": 45.895,
+   "move": "push",
+   "group": 10,
+   "transition": "cut"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "tag",
+   "text": "32,768 / SECOND",
+   "at": 12.0,
+   "until": 16.7,
+   "x": 540,
+   "y": 620,
+   "size": 100
+  },
+  {
+   "type": "tag",
+   "text": "1 SEC / 100M YEARS",
+   "at": 32.3,
+   "until": 35.5,
+   "x": 540,
+   "y": 620,
+   "size": 90
+  }
+ ]
+}

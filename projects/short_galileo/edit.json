@@ -1,0 +1,166 @@
+{
+ "layout": "panel",
+ "panel_y": 520,
+ "scene_dir": "../clock_story/scenes_qwen",
+ "output": "final_short.mp4",
+ "captions": true,
+ "caption_style": {
+  "y": 1520,
+  "size": 108,
+  "max_w": 980,
+  "words": 3,
+  "highlight": false,
+  "pop": true,
+  "stroke": 22
+ },
+ "music_volume": 0.12,
+ "hook": {
+  "lines": [
+   "BORED IN",
+   "CHURCH?"
+  ],
+  "until": 2.6
+ },
+ "top_title": "HOW CLOCKS GOT ACCURATE",
+ "keywords": [],
+ "shots": [
+  {
+   "img": "c035_0_a.png",
+   "at": 0.05,
+   "move": "punch",
+   "group": 0
+  },
+  {
+   "img": "c036_0_a.png",
+   "at": 3.222,
+   "move": "drift_r",
+   "group": 1,
+   "transition": "cut"
+  },
+  {
+   "img": "c035_1_a.png",
+   "at": 5.364,
+   "move": "drift_r",
+   "group": 1,
+   "transition": "cut"
+  },
+  {
+   "img": "c037_0_a.png",
+   "at": 7.505,
+   "move": "drift",
+   "group": 2,
+   "transition": "cut"
+  },
+  {
+   "img": "c038_0_a.png",
+   "at": 10.621,
+   "move": "drift_l",
+   "group": 3,
+   "transition": "cut"
+  },
+  {
+   "img": "c038_1_a.png",
+   "at": 13.581,
+   "move": "pull",
+   "group": 4,
+   "transition": "cut"
+  },
+  {
+   "img": "c039_0_a.png",
+   "at": 15.257,
+   "move": "push",
+   "group": 5,
+   "transition": "cut"
+  },
+  {
+   "img": "c039_1_a.png",
+   "at": 17.024,
+   "move": "push",
+   "group": 5,
+   "transition": "cut"
+  },
+  {
+   "img": "c040_0_a.png",
+   "at": 18.792,
+   "move": "drift_r",
+   "group": 6,
+   "transition": "cut"
+  },
+  {
+   "img": "c040_1_a.png",
+   "at": 20.431,
+   "move": "drift_r",
+   "group": 6,
+   "transition": "cut"
+  },
+  {
+   "img": "c043_1_a.png",
+   "at": 22.071,
+   "move": "drift",
+   "group": 7,
+   "transition": "cut"
+  },
+  {
+   "img": "c041_0_a.png",
+   "at": 25.042,
+   "move": "drift_l",
+   "group": 8,
+   "transition": "cut"
+  },
+  {
+   "img": "c041_1_a.png",
+   "at": 26.873,
+   "move": "drift_l",
+   "group": 8,
+   "transition": "cut"
+  },
+  {
+   "img": "c042_0_a.png",
+   "at": 28.705,
+   "move": "pull",
+   "group": 9,
+   "transition": "cut"
+  },
+  {
+   "img": "c043_0_a.png",
+   "at": 32.357,
+   "move": "push",
+   "group": 10,
+   "transition": "cut"
+  },
+  {
+   "img": "c044_0_a.png",
+   "at": 35.205,
+   "move": "drift_r",
+   "group": 11,
+   "transition": "cut"
+  },
+  {
+   "img": "c044_1_a.png",
+   "at": 37.73,
+   "move": "drift",
+   "group": 12,
+   "transition": "cut"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "tag",
+   "text": "15 MIN / DAY",
+   "at": 22.4,
+   "until": 25.0,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  },
+  {
+   "type": "tag",
+   "text": "15 SEC / DAY",
+   "at": 32.6,
+   "until": 35.1,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  }
+ ]
+}

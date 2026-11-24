@@ -1,0 +1,104 @@
+{
+ "title": "There's a Crystal Vibrating 32,768 Times a Second in Your Watch",
+ "src": "../clock_story/scenes_qwen",
+ "hook": [
+  "YOUR WATCH",
+  "IS VIBRATING"
+ ],
+ "top_title": "HOW CLOCKS GOT PERFECT",
+ "segments": [
+  {
+   "text": "There's a crystal inside your watch, shaking thousands of times every second.",
+   "imgs": [
+    "d075_0_a.png"
+   ]
+  },
+  {
+   "text": "In nineteen twenty-seven, engineers at Bell Labs found it. Quartz.",
+   "imgs": [
+    "d073_0_a.png"
+   ]
+  },
+  {
+   "text": "Run electricity through it, and it vibrates at a perfectly steady rate.",
+   "imgs": [
+    "d074_0_a.png"
+   ]
+  },
+  {
+   "text": "In your watch, thirty-two thousand, seven hundred and sixty-eight times a second. The watch just counts.",
+   "imgs": [
+    "d075_1_a.png",
+    "d075_0_a.png"
+   ]
+  },
+  {
+   "text": "The first quartz wristwatch cost about as much as a small car.",
+   "imgs": [
+    "d076_0_a.png",
+    "d076_1_a.png"
+   ]
+  },
+  {
+   "text": "But scientists wanted something even steadier. Atoms.",
+   "imgs": [
+    "d077_0_a.png"
+   ]
+  },
+  {
+   "text": "Today, one second is officially nine billion, one hundred ninety-two million, six hundred thirty-one thousand, seven hundred and seventy ticks of a caesium atom.",
+   "imgs": [
+    "d078_0_a.png",
+    "d079_0_a.png",
+    "d079_1_a.png"
+   ]
+  },
+  {
+   "text": "The best clocks lose less than one second in a hundred million years.",
+   "imgs": [
+    "d080_0_a.png"
+   ]
+  },
+  {
+   "text": "Every GPS satellite carries atomic clocks. Off by a millionth of a second, and your map misses by hundreds of metres.",
+   "imgs": [
+    "d081_0_a.png",
+    "d082_0_a.png",
+    "d082_1_a.png"
+   ]
+  },
+  {
+   "text": "Your phone checks those clocks all day. That's how it always knows the time.",
+   "imgs": [
+    "d083_0_a.png",
+    "d084_0_a.png"
+   ]
+  },
+  {
+   "text": "Follow ByteSized AI for more history in a byte.",
+   "imgs": [
+    "d083_0_a.png"
+   ]
+  }
+ ],
+ "overlays": [
+  {
+   "type": "tag",
+   "text": "32,768 / SECOND",
+   "at": 12.0,
+   "until": 16.7,
+   "x": 540,
+   "y": 620,
+   "size": 100
+  },
+  {
+   "type": "tag",
+   "text": "1 SEC / 100M YEARS",
+   "at": 32.3,
+   "until": 35.5,
+   "x": 540,
+   "y": 620,
+   "size": 90
+  }
+ ]
+}

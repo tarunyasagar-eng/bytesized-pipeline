@@ -1,0 +1,201 @@
+{
+ "layout": "panel",
+ "panel_y": 520,
+ "scene_dir": "../clock_story/scenes_qwen",
+ "output": "final_short.mp4",
+ "captions": true,
+ "caption_style": {
+  "y": 1520,
+  "size": 108,
+  "max_w": 980,
+  "words": 3,
+  "highlight": false,
+  "pop": true,
+  "stroke": 22
+ },
+ "music_volume": 0.12,
+ "hook": {
+  "lines": [
+   "1,400 SAILORS",
+   "DIED FOR THIS"
+  ],
+  "until": 2.6
+ },
+ "top_title": "THE LONGITUDE PRIZE",
+ "keywords": [],
+ "shots": [
+  {
+   "img": "d048_1_a.png",
+   "at": 0.05,
+   "move": "punch",
+   "group": 0
+  },
+  {
+   "img": "d049_0_a.png",
+   "at": 1.993,
+   "move": "push",
+   "group": 0,
+   "transition": "cut"
+  },
+  {
+   "img": "d048_0_a.png",
+   "at": 3.936,
+   "move": "drift_r",
+   "group": 1,
+   "transition": "cut"
+  },
+  {
+   "img": "c047_0_a.png",
+   "at": 7.605,
+   "move": "drift",
+   "group": 2,
+   "transition": "cut"
+  },
+  {
+   "img": "c047_1_a.png",
+   "at": 9.936,
+   "move": "drift",
+   "group": 2,
+   "transition": "cut"
+  },
+  {
+   "img": "d050_0_a.png",
+   "at": 12.267,
+   "move": "drift_l",
+   "group": 3,
+   "transition": "cut"
+  },
+  {
+   "img": "d050_1_a.png",
+   "at": 14.431,
+   "move": "drift_l",
+   "group": 3,
+   "transition": "cut"
+  },
+  {
+   "img": "d051_0_a.png",
+   "at": 16.595,
+   "move": "pull",
+   "group": 4,
+   "transition": "cut"
+  },
+  {
+   "img": "d051_1_a.png",
+   "at": 19.133,
+   "move": "pull",
+   "group": 4,
+   "transition": "cut"
+  },
+  {
+   "img": "d052_0_a.png",
+   "at": 21.67,
+   "move": "push",
+   "group": 5,
+   "transition": "cut"
+  },
+  {
+   "img": "d053_0_a.png",
+   "at": 23.794,
+   "move": "push",
+   "group": 5,
+   "transition": "cut"
+  },
+  {
+   "img": "d054_0_a.png",
+   "at": 25.919,
+   "move": "drift_r",
+   "group": 6,
+   "transition": "cut"
+  },
+  {
+   "img": "d055_0_a.png",
+   "at": 29.477,
+   "move": "drift",
+   "group": 7,
+   "transition": "cut"
+  },
+  {
+   "img": "d057_0_a.png",
+   "at": 30.84,
+   "move": "drift",
+   "group": 7,
+   "transition": "cut"
+  },
+  {
+   "img": "d058_0_a.png",
+   "at": 32.202,
+   "move": "drift_l",
+   "group": 8,
+   "transition": "cut"
+  },
+  {
+   "img": "d059_0_a.png",
+   "at": 34.559,
+   "move": "pull",
+   "group": 9,
+   "transition": "cut"
+  },
+  {
+   "img": "d060_0_a.png",
+   "at": 36.749,
+   "move": "push",
+   "group": 10,
+   "transition": "cut"
+  },
+  {
+   "img": "d061_0_a.png",
+   "at": 38.617,
+   "move": "push",
+   "group": 10,
+   "transition": "cut"
+  },
+  {
+   "img": "d063_0_a.png",
+   "at": 40.485,
+   "move": "drift_r",
+   "group": 11,
+   "transition": "cut"
+  },
+  {
+   "img": "d064_0_a.png",
+   "at": 42.686,
+   "move": "drift",
+   "group": 12,
+   "transition": "cut"
+  },
+  {
+   "img": "d064_1_a.png",
+   "at": 44.323,
+   "move": "drift",
+   "group": 12,
+   "transition": "cut"
+  },
+  {
+   "img": "d062_0_a.png",
+   "at": 45.959,
+   "move": "drift_l",
+   "group": 13,
+   "transition": "cut"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "tag",
+   "text": "\u00a320,000 PRIZE",
+   "at": 13.5,
+   "until": 16.5,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  },
+  {
+   "type": "tag",
+   "text": "5 SECONDS OFF",
+   "at": 38.9,
+   "until": 40.4,
+   "x": 540,
+   "y": 620,
+   "size": 110
+  }
+ ]
+}
