@@ -13,4 +13,18 @@
   - Reactions on key moments (`react` overlays; CC0 clips in `assets/sfx/voice`).
   - No profanity (no "WTF"), to protect monetisation.
 - Sound effects/music: only original synthesis or CC0/clearly licensed for commercial use. No Content-ID evasion.
-- Uploads: always private (or scheduled), for the owner's review. Never commit secrets; YouTube credentials live in env vars.
+- Uploads:
+  - **Long-form:** always private, with 3 owner checkpoints (topic pick, script approval, final video). The owner publishes, or tells me to schedule.
+  - **Shorts:** the owner pre-approved auto-publishing with no review. Schedule **1 Short per day at 14:00 UTC** via `publishAt`:
+    upload private with `--publish-at`, or `upload_youtube.py --schedule ID TIME` for an existing upload.
+    Nothing was to go public before 2026-12-01 (one-week pause requested on 2026-11-24).
+  - Shorts must still follow every rule here (stickman-only, clean images, no profanity, licensed audio).
+    If one fails a check, fix it or skip it; never publish a doubtful one.
+  - Keep the Shorts queue scheduled at least 7 days ahead. Each weekly long video should yield 5-7 Shorts.
+  - Never commit secrets; YouTube credentials live in env vars.
+- **Weekly cycle** (Saturday, after the Kaggle reset):
+  1. Send 3 topic ideas and the owner picks one.
+  2. Script, and the owner approves.
+  3. Kaggle images overnight.
+  4. Curate, assemble the long video plus Shorts.
+  5. Private upload of the long video and the links to the owner. Schedule the Shorts.

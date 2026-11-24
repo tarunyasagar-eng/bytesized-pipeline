@@ -54,7 +54,18 @@ def set_thumb(video_id, thumb):
                       data=open(thumb, "rb").read(), headers={"Authorization": f"Bearer {tok}", "Content-Type": "image/jpeg"})
     print("thumbnail:", r.status_code, r.text[:200])
 
+def schedule(video_id, publish_at):
+    """Set publishAt on an already-uploaded private video (it goes public automatically at that UTC time)."""
+    tok = access_token()
+    r = requests.put("https://www.googleapis.com/youtube/v3/videos?part=status", verify=CA,
+                     headers={"Authorization": f"Bearer {tok}"},
+                     json={"id": video_id, "status": {"privacyStatus": "private", "publishAt": publish_at, "selfDeclaredMadeForKids": False}})
+    print("schedule:", video_id, publish_at, r.status_code, r.text[:200] if r.status_code != 200 else "ok")
+    r.raise_for_status()
+
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "--schedule":     # python pipeline/upload_youtube.py --schedule VIDEO_ID 2026-12-01T14:00:00Z
+        schedule(sys.argv[2], sys.argv[3]); sys.exit()
     ap = argparse.ArgumentParser()
     ap.add_argument("video"); ap.add_argument("--meta", required=True); ap.add_argument("--thumb"); ap.add_argument("--publish-at")
     a = ap.parse_args()
