@@ -29,3 +29,7 @@ sources → subscribe line → AI-art disclosure → 3–5 hashtags. Never keywo
 - The LoRA can't guarantee identical faces, so identity comes from fixed colours and props. During curation, drop any variant where a character's colours are wrong.
 - Long-form: white captions (`caption_style` in edit.json); number callouts sit above the captions.
 - Scenes the LoRA can't draw well may be replaced with hand-drawn SVG art in `art/`. Example: `art/g002_custom.py`.
+
+### Qwen-Image-Edit on Kaggle T4 x2: notes
+- Works in bf16: about 295 s/image at 1024x576 with the 8-step Lightning LoRA. The transformer is split over both GPUs, attention is query-sliced, and VAE tiling is on.
+- `--dtype fp16` gives black frames (NaN). `--dtype mixed` (fp16 matmuls, fp32 residual, scaled projections) runs at 125 s/image without NaNs, but the output is noise. **Don't use it**; budget around 5 min/image instead.
