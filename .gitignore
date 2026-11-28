@@ -5,3 +5,4 @@ projects/*/*.wav
 projects/*/prev_*.png
 __pycache__/
 *.mp4
+projects/fast_lora/
