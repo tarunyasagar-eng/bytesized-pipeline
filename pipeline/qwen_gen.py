@@ -11,7 +11,8 @@ STYLE = ("2D cartoon illustration, clean thin black outlines, soft cel shading, 
          "EVERY character, including historical figures, crowds and background people, is a stickman with a plain round white head "
          "and dot eyes (hats, wigs, beards and costumes are fine); no realistic human faces")
 NEG = ("photorealistic, 3d render, text, watermark, extra limbs, deformed hands, blurry, messy lines, gore, "
-       "realistic human, human face, detailed face, nose, wrinkles, anime face, portrait of a person, old man face")
+       "realistic human, human face, detailed face, nose, wrinkles, anime face, portrait of a person, old man face, "
+       "duplicate characters, identical twins, cloned people, faceless, blank face, missing eyes, missing mouth")
 
 POSE_STYLE = ("clean flat 2D cartoon character art, thin black outlines, flat colors, the whole body visible from head to feet, "
               "centered, plain pure white background, no scenery, no floor, no shadow, no text. Keep the character's design exactly as in "
