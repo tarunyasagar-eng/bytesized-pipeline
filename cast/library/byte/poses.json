@@ -1,0 +1,186 @@
+{
+"00_standing_neutral": {
+"w": 258,
+"h": 580
+},
+"02_pointing_to_the_left": {
+"w": 350,
+"h": 562
+},
+"03_pointing_to_the_right": {
+"w": 296,
+"h": 564
+},
+"04_pointing_straight_up": {
+"w": 303,
+"h": 587
+},
+"05_counting_on_fingers": {
+"w": 257,
+"h": 521
+},
+"06_open_palm_shrug": {
+"w": 234,
+"h": 536
+},
+"07_presenting_something_with_both": {
+"w": 365,
+"h": 590
+},
+"08_very_happy_with_a": {
+"w": 264,
+"h": 588
+},
+"09_laughing_hard_holding_his": {
+"w": 271,
+"h": 588
+},
+"10_shocked_with_both_hands": {
+"w": 278,
+"h": 595
+},
+"11_scared": {
+"w": 265,
+"h": 537
+},
+"12_angry_with_fists_clenched": {
+"w": 338,
+"h": 573
+},
+"13_sad": {
+"w": 224,
+"h": 490
+},
+"14_confused": {
+"w": 268,
+"h": 518
+},
+"15_smug_grin_with_arms": {
+"w": 265,
+"h": 595
+},
+"16_embarrassed": {
+"w": 256,
+"h": 502
+},
+"17_jumping_in_the_air": {
+"w": 281,
+"h": 524
+},
+"18_facepalm_with_one_hand": {
+"w": 251,
+"h": 545
+},
+"19_thinking_with_a_hand": {
+"w": 255,
+"h": 574
+},
+"20_having_an_idea_with": {
+"w": 280,
+"h": 541
+},
+"21_looking_up_at_the": {
+"w": 291,
+"h": 612
+},
+"22_reading_an_open_book": {
+"w": 260,
+"h": 552
+},
+"23_writing_on_a_piece": {
+"w": 471,
+"h": 493
+},
+"24_looking_through_a_magnifying": {
+"w": 328,
+"h": 563
+},
+"25_walking_to_the_left": {
+"w": 245,
+"h": 529
+},
+"26_walking_to_the_right": {
+"w": 254,
+"h": 514
+},
+"27_running_fast_to_the": {
+"w": 454,
+"h": 471
+},
+"28_sitting_on_a_simple": {
+"w": 263,
+"h": 530
+},
+"29_sitting_cross_legged_on_the": {
+"w": 295,
+"h": 501
+},
+"30_holding_both_hands_out": {
+"w": 259,
+"h": 592
+},
+"31_waving_hello": {
+"w": 298,
+"h": 558
+},
+"32_thumbs_up": {
+"w": 313,
+"h": 574
+},
+"33_thumbs_down": {
+"w": 334,
+"h": 580
+},
+"34_celebrating_with_both_fists": {
+"w": 389,
+"h": 579
+},
+"35_sneaking_on_tiptoes": {
+"w": 235,
+"h": 454
+},
+"37_carrying_a_cardboard_box": {
+"w": 295,
+"h": 534
+},
+"38_hammering_with_a_hammer": {
+"w": 311,
+"h": 519
+},
+"39_sleeping_standing_up_with": {
+"w": 254,
+"h": 575
+},
+"40_seen_from_behind": {
+"w": 267,
+"h": 602
+},
+"41_three_quarter_view_facing_left": {
+"w": 264,
+"h": 594
+},
+"42_three_quarter_view_facing_right": {
+"w": 253,
+"h": 584
+},
+"43_close_up_of_his_head": {
+"w": 295,
+"h": 635
+},
+"44_close_up_of_his_head": {
+"w": 300,
+"h": 637
+},
+"45_close_up_of_his_head": {
+"w": 294,
+"h": 636
+},
+"46_close_up_of_his_head": {
+"w": 294,
+"h": 635
+},
+"47_close_up_of_his_head": {
+"w": 290,
+"h": 626
+}
+}

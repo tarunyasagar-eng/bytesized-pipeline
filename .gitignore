@@ -6,3 +6,4 @@ projects/*/prev_*.png
 __pycache__/
 *.mp4
 projects/fast_lora/
+cast/library/scenes_qwen/
