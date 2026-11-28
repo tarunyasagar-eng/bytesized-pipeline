@@ -1,54 +1,90 @@
 {
  "title": "How Did Humans Invent Money?",
  "voice": "en-US-BrianNeural",
- "notes": "Series format: Byte bookends.",
+ "notes": "Series format: second-person narration, Byte as 'you' in visuals.",
  "segments": [
   {
-   "text": "This is Byte. Byte just ordered the biggest burger in town.",
-   "pause": 0.3,
+   "text": "Imagine you walk into a burger joint. You're starving.",
+   "pause": 0.25,
    "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) at a diner counter, a giant burger on a plate in front of him, excited face, warm diner lights",
-    "E: same scene and camera, Byte licks his lips and rubs his hands together"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) walking through the door of a cosy retro burger diner, hungry face, hand on his stomach, warm lights"
    ],
    "ch": "Cold open"
   },
   {
-   "text": "He taps his card. Declined.",
+   "text": "You order the biggest burger on the menu. Double patty. Extra cheese.",
+   "pause": 0.25,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) sitting at the diner counter, a giant double cheeseburger on a plate in front of him, excited sparkly eyes",
+    "E: same scene and camera, Byte licks his lips and rubs his hands together"
+   ]
+  },
+  {
+   "text": "You tap your card. Beep. Declined.",
    "pause": 0.4,
    "shots": [
-    "B: close-up of Byte (the only stickman in an orange cap and teal hoodie) tapping a bank card on a card reader that shows a big red X, diner counter",
-    "E: same scene, Byte's eyes go wide in shock, sweat drop on his head"
+    "S: close-up of a card reader on a diner counter showing a big red X, a bank card touching it, no people",
+    "B: Byte (the only stickman in an orange cap and teal hoodie) at the diner counter frozen in shock, eyes wide, sweat drop on his head"
    ]
   },
   {
-   "text": "No cash. No coins. Nothing. Just a very hungry stickman.",
+   "text": "You check your pockets. No cash. No coins. Nothing.",
    "pause": 0.3,
    "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) turning his empty hoodie pockets inside out, a moth flying out, diner background",
-    "E: same scene, Byte looks sadly at the burger, stomach rumbling lines"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) pulling his empty hoodie pockets inside out, a single moth flying out, diner background"
    ]
   },
   {
-   "text": "The cook looks at his hoodie and says: I'll take that instead.",
+   "text": "The cook leans over the counter, looks at your hoodie, and says: I'll take that instead.",
    "pause": 0.35,
    "shots": [
-    "S: a stickman cook with dot eyes and a small mouth, white chef hat and apron, pointing at someone's teal hoodie with a cheeky grin, diner kitchen behind",
+    "S: a stickman cook with dot eyes and a small mouth in a white chef hat and apron leaning over a diner counter, pointing and grinning cheekily",
     "B: Byte (the only stickman in an orange cap and teal hoodie) hugging his teal hoodie protectively, horrified face, diner counter"
    ]
   },
   {
-   "text": "Wait. Can you really just trade stuff? For most of history, there were no coins, no cards, no apps.",
+   "text": "Would you do it? Would you trade the hoodie off your back for a burger?",
    "pause": 0.35,
    "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) scratching his head with a thought bubble showing a goat, a coin and a phone, plain warm background"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) looking straight at the viewer with a thinking face, holding his hoodie in one hand and pointing at the burger with the other, diner"
    ]
   },
   {
-   "text": "So how did we go from swapping goats... to paying with numbers on a screen?",
-   "pause": 0.45,
+   "text": "Because for most of human history, that's not a joke. There were no coins. No cards. No apps.",
+   "pause": 0.3,
    "shots": [
-    "S: a stickman farmer with dot eyes and a small mouth in a straw hat holding a rope tied to a goat, dusty ancient field",
-    "S: a stickman with dot eyes and a small mouth in a modern hoodie tapping a glowing smartphone on a payment terminal, sleek shop"
+    "S: a stickman farmer with dot eyes and a small mouth in a straw hat in an ancient dusty village, shrugging with empty hands, mud huts behind"
+   ]
+  },
+  {
+   "text": "So how did we go from trading hoodies and goats... to paying with invisible numbers on a screen?",
+   "pause": 0.3,
+   "shots": [
+    "S: a goat standing in a dusty ancient field next to a sack of wheat, no people",
+    "S: close-up of a glowing smartphone screen showing a payment tick and glowing digits floating out of it, dark background, no people"
+   ]
+  },
+  {
+   "text": "And why does a piece of paper with a number on it buy you a burger at all?",
+   "pause": 0.35,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) holding a green banknote up to the light, squinting at it suspiciously, plain warm background"
+   ]
+  },
+  {
+   "text": "Stick around, because the answer is weirder than you think.",
+   "pause": 0.2,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) leaning toward the viewer with a mischievous grin, finger raised, plain warm background"
+   ]
+  },
+  {
+   "text": "It involves giant stones at the bottom of the ocean, a king so rich he became a saying, and pizzas that cost hundreds of millions of dollars.",
+   "pause": 0.35,
+   "shots": [
+    "S: a giant round stone disc with a hole in the middle resting on the sandy sea floor, fish swimming past, sunbeams, no people",
+    "S: a stickman king with dot eyes and a small mouth with a golden crown sitting on a mountain of gold coins, laughing",
+    "S: two pizza boxes on a table with golden coins spilling out of them, glowing, no people"
    ]
   },
   {
@@ -59,354 +95,679 @@
    ]
   },
   {
-   "text": "Here's the story you probably learned at school. Before money, people bartered.",
-   "pause": 0.3,
+   "text": "Here's the story you probably learned at school.",
+   "pause": 0.25,
    "shots": [
-    "S: a stickman teacher with dot eyes and a small mouth in a brown cardigan pointing at a chalkboard drawing of a goat and a sack of wheat with arrows between them, classroom"
+    "S: a stickman teacher with dot eyes and a small mouth in a brown cardigan standing at a chalkboard, pointing at it with a stick, classroom"
    ],
    "ch": "Chapter 1: The barter myth"
   },
   {
-   "text": "I have a goat. You have wheat. We swap.",
+   "text": "Before money, people bartered. You have a goat. I have wheat. We swap. Easy.",
    "pause": 0.3,
    "shots": [
-    "S: two stickmen with dot eyes and a small mouth in an ancient village, one in a straw hat holding a goat on a rope, the other in a red tunic holding a sack of wheat, facing each other",
-    "E: same scene and camera, the two stickmen shake hands over the goat and the wheat"
+    "S: two stickmen with dot eyes and a small mouth in an ancient village, one in a straw hat holding a goat on a rope, the other in a red tunic holding a sack of wheat",
+    "E: same scene and camera, the two stickmen shake hands, both smiling"
    ]
   },
   {
-   "text": "But what if I don't want a goat?",
-   "pause": 0.35,
-   "shots": [
-    "S: close-up of a stickman with dot eyes and a small mouth in a red tunic crossing his arms and shaking his head at a goat, unimpressed, village background",
-    "E: same scene, the goat looks offended"
-   ]
-  },
-  {
-   "text": "Economists call this the double coincidence of wants. You need someone who has what you want, and wants what you have.",
+   "text": "Except it isn't easy at all.",
    "pause": 0.3,
    "shots": [
-    "S: a stickman merchant with dot eyes and a small mouth in a green robe walking through a market with a goat, thought bubbles of a pot, shoes and a chicken, small distant stalls",
-    "E: same scene, the merchant looks exhausted, sweat drops, the goat chewing his sleeve"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) wagging his finger at the viewer with a knowing smirk, plain warm background"
    ]
   },
   {
-   "text": "Here's the twist. Anthropologists have never found a society that ran purely on barter.",
-   "pause": 0.35,
-   "shots": [
-    "S: a stickman explorer with dot eyes and a small mouth in a khaki pith helmet holding a notebook and a magnifying glass, shrugging, jungle village behind",
-    "E: same scene, the explorer crosses out the word barter in his notebook"
-   ]
-  },
-  {
-   "text": "In small villages, people did something simpler. They kept track of favours.",
+   "text": "What if you have a goat, but I don't want a goat? I want shoes.",
    "pause": 0.3,
    "shots": [
-    "S: a stickman with dot eyes and a small mouth in a blue tunic handing a basket of bread to a neighbour stickman with dot eyes and a small mouth in a yellow tunic, cosy village street"
+    "S: close-up of a stickman with dot eyes and a small mouth in a red tunic crossing his arms and shaking his head at a goat, a thought bubble with a pair of shoes above him, village"
    ]
   },
   {
-   "text": "You give me bread today. I owe you one. Everybody remembers.",
+   "text": "Now you have to find someone who has shoes, and also wants a goat.",
    "pause": 0.3,
    "shots": [
-    "S: the stickman in a yellow tunic with dot eyes and a small mouth giving a thumbs up while a tally mark glows on a wooden post beside him, village street"
+    "S: a stickman with dot eyes and a small mouth in a straw hat dragging a stubborn goat through a busy ancient market, looking around, a few tiny distant stalls",
+    "E: same scene, the stickman looks exhausted and the goat chews his sleeve"
    ]
   },
   {
-   "text": "In other words, debt came before coins.",
+   "text": "Economists even have a name for this headache. The double coincidence of wants.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman professor with dot eyes and a small mouth in round glasses and a tweed jacket holding a pointer next to a whiteboard with two overlapping circles, lecture hall"
+   ]
+  },
+  {
+   "text": "And here's the twist your textbook skipped.",
+   "pause": 0.25,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) slamming a big school textbook shut, dramatic face, plain warm background"
+   ]
+  },
+  {
+   "text": "When anthropologists went looking for a society that actually ran on barter like this, they couldn't find one.",
+   "pause": 0.25,
+   "shots": [
+    "S: a stickman explorer with dot eyes and a small mouth in a khaki pith helmet looking through binoculars on a jungle hill, a small village far below",
+    "E: same scene, the explorer lowers the binoculars and shrugs, confused"
+   ]
+  },
+  {
+   "text": "Not one.",
+   "pause": 0.4,
+   "shots": [
+    "S: close-up of the stickman explorer with dot eyes and a small mouth in a pith helmet crossing out the word barter in his notebook with a big pencil stroke"
+   ]
+  },
+  {
+   "text": "So what did people really do? Something much simpler.",
+   "pause": 0.25,
+   "shots": [
+    "S: a peaceful small ancient village of round huts at golden hour, smoke rising from chimneys, no people visible"
+   ]
+  },
+  {
+   "text": "Imagine you live in a small village. Your neighbour needs bread. You give her some.",
+   "pause": 0.25,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) in a simple tunic handing a basket of bread to a stickman woman neighbour with dot eyes and a small mouth with a red headscarf, village street"
+   ]
+  },
+  {
+   "text": "She doesn't pay you. She owes you. And everybody in the village remembers.",
+   "pause": 0.3,
+   "shots": [
+    "S: the stickman woman with dot eyes and a small mouth with a red headscarf holding the bread basket and giving a grateful thumbs up, village street",
+    "S: close-up of a wooden post with neat tally marks carved into it, village background, no people"
+   ]
+  },
+  {
+   "text": "Next month, when you need help fixing your roof, guess who shows up.",
+   "pause": 0.3,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) on a ladder fixing a thatched roof, the stickman woman with dot eyes and a small mouth with a red headscarf passing him straw from below, both smiling"
+   ]
+  },
+  {
+   "text": "That's not barter. That's credit. In other words, debt came before coins.",
    "pause": 0.5,
    "shots": [
     "B: Byte (the only stickman in an orange cap and teal hoodie) looking at the viewer with a raised eyebrow, a big glowing IOU note floating beside him, plain warm background"
    ]
   },
   {
-   "text": "About five thousand years ago, in Mesopotamia, temples kept track of who owed what.",
+   "text": "But memory only works in a small village. What happens when your village grows into a city?",
    "pause": 0.3,
    "shots": [
-    "S: a stickman scribe with dot eyes and a small mouth in a white wrap and headband pressing marks into a clay tablet with a reed, mud-brick temple and ziggurat behind, golden light",
-    "E: same scene and camera, the scribe proudly holds up the finished tablet"
+    "S: an ancient Mesopotamian city of mud-brick houses with a tall stepped ziggurat temple, river and palm trees, a few tiny distant figures"
    ],
    "ch": "Chapter 2: Clay receipts"
   },
   {
-   "text": "They wrote it down on clay tablets. Some of the oldest writing in the world isn't poetry. It's receipts.",
-   "pause": 0.35,
+   "text": "About five thousand years ago, in Mesopotamia, in what's now Iraq, cities had exactly that problem.",
+   "pause": 0.3,
    "shots": [
-    "S: close-up of a clay tablet covered in neat wedge-shaped marks lying on a wooden table, warm lamp light, no people",
-    "S: a stickman farmer with dot eyes and a small mouth in a straw hat reading a clay tablet with a shocked face, sacks of barley behind him"
+    "S: aerial view of an ancient walled mud-brick city beside a wide river, fields of barley around it, golden light, no close-up people"
    ]
   },
   {
-   "text": "Debts were counted in barley, and in silver, weighed in a unit called the shekel.",
-   "pause": 0.3,
+   "text": "So temple officials started writing debts down. On clay tablets.",
+   "pause": 0.25,
+   "shots": [
+    "S: a stickman scribe with dot eyes and a small mouth in a white wrap and headband pressing marks into a clay tablet with a reed stick, temple interior, oil lamp",
+    "E: same scene and camera, the scribe proudly holds up the finished tablet"
+   ]
+  },
+  {
+   "text": "And here's something wild. Some of the oldest writing on Earth isn't poetry, or prayers. It's receipts.",
+   "pause": 0.35,
+   "shots": [
+    "S: close-up of an ancient clay tablet covered in neat wedge-shaped marks on a wooden table, warm lamp light, no people",
+    "B: Byte (the only stickman in an orange cap and teal hoodie) holding a long paper shop receipt next to a clay tablet, grinning at the viewer, plain warm background"
+   ]
+  },
+  {
+   "text": "Debts were counted in barley, and in silver, measured in a unit called the shekel.",
+   "pause": 0.25,
    "shots": [
     "S: a stickman merchant with dot eyes and a small mouth in a striped robe weighing small pieces of silver on a balance scale next to sacks of barley, market stall"
    ]
   },
   {
-   "text": "A shekel wasn't a coin. It was a weight. About eight grams of silver.",
-   "pause": 0.4,
+   "text": "But a shekel wasn't a coin. It was a weight. About eight grams of silver.",
+   "pause": 0.35,
    "shots": [
     "S: close-up of a bronze balance scale with a small pile of silver on one side and a stone weight on the other, plain warm background, no people"
    ]
   },
   {
-   "text": "Far away, people found other things to count with. Shells.",
+   "text": "There was just one problem with all this debt. It kept piling up.",
+   "pause": 0.25,
+   "shots": [
+    "S: a huge teetering stack of clay tablets piled up to the ceiling of a mud-brick storeroom, dramatic light, no people"
+   ]
+  },
+  {
+   "text": "Farmers who had a bad harvest fell behind. Some lost their land. Some even had to work off their debts as servants.",
    "pause": 0.3,
    "shots": [
-    "S: a stickman trader with dot eyes and a small mouth in a colourful wrap holding a string of white cowrie shells, tropical beach and a wooden boat behind"
+    "S: a sad stickman farmer with dot eyes and a small mouth in a straw hat standing in a dry cracked barley field with wilted crops, hot sun",
+    "E: same scene, the farmer drops to his knees and holds his head in his hands"
+   ]
+  },
+  {
+   "text": "So every so often, a new king would do something amazing. He'd cancel the debts. All of them. A clean slate.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman king with dot eyes and a small mouth in a tall Mesopotamian crown standing on temple steps, raising both arms in a grand announcement",
+    "S: clay tablets shattering into pieces on a stone floor, dust flying, dramatic, no people"
+   ]
+  },
+  {
+   "text": "The Sumerians had a word for it. Amargi. It literally means 'return to mother', because people freed from debt could go home to their families.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman farmer with dot eyes and a small mouth in a straw hat running happily into the open arms of a stickman mother with dot eyes and a small mouth in a long blue dress outside a mud-brick house, sunset"
+   ]
+  },
+  {
+   "text": "Some historians call it one of the earliest written words we have for freedom.",
+   "pause": 0.45,
+   "shots": [
+    "S: a single clay tablet glowing softly on a stone pedestal in a dark museum, spotlight, no people"
+   ]
+  },
+  {
+   "text": "Meanwhile, in other parts of the world, people found other things to count with.",
+   "pause": 0.2,
+   "shots": [
+    "S: a wide tropical coastline with turquoise water, wooden boats on the sand and palm trees, no people"
    ],
    "ch": "Chapter 3: Shells and stones"
   },
   {
-   "text": "Cowrie shells were small, tough and hard to fake. They were used as money across Asia, Africa and the Indian Ocean for centuries.",
+   "text": "Like shells.",
    "pause": 0.3,
    "shots": [
-    "S: close-up of a pile of shiny white cowrie shells spilling out of a woven basket, warm light, no people",
-    "S: two stickmen with dot eyes and a small mouth at a busy harbour market, one in a blue wrap handing cowrie shells to the other in an orange wrap who holds a basket of fish"
+    "S: close-up of a pile of shiny white cowrie shells spilling out of a woven basket on sand, warm light, no people"
    ]
   },
   {
-   "text": "In Chinese writing, the old symbol for a shell even became part of the words for money and buying.",
+   "text": "Cowrie shells were small, shiny, tough, and almost impossible to fake.",
+   "pause": 0.25,
+   "shots": [
+    "S: a stickman trader with dot eyes and a small mouth in a colourful wrap holding a single cowrie shell up to his eye and inspecting it, beach market"
+   ]
+  },
+  {
+   "text": "For centuries, they were used as money across Asia, Africa and the Indian Ocean.",
+   "pause": 0.25,
+   "shots": [
+    "S: two stickmen with dot eyes and a small mouth at a harbour market, one in a blue wrap handing a string of cowrie shells to the other in an orange wrap who holds a basket of fish",
+    "S: an old sailing ship with patched sails crossing a calm ocean at sunset, no people"
+   ]
+  },
+  {
+   "text": "In fact, in Chinese writing, the old symbol for a shell became part of the words for money, wealth and buying.",
    "pause": 0.35,
    "shots": [
     "S: a stickman scholar with dot eyes and a small mouth in a dark blue robe and black cap painting a large simple shell-shaped symbol on a paper scroll with a brush, Chinese study room"
    ]
   },
   {
-   "text": "And on the tiny Pacific island of Yap, money was enormous.",
+   "text": "But if you think shells are strange, wait until you see the money on the island of Yap.",
+   "pause": 0.25,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) raising his eyebrows with a 'wait for it' face, holding a cowrie shell, plain warm background"
+   ]
+  },
+  {
+   "text": "Yap is a tiny island in the Pacific Ocean. And its money was... huge.",
    "pause": 0.3,
    "shots": [
-    "S: a giant round stone disc with a hole in the middle standing upright in a tropical village, a tiny stickman with dot eyes and a small mouth in a grass skirt beside it for scale, palm trees"
+    "S: aerial view of a small green tropical island surrounded by coral reef and deep blue ocean, no people"
    ]
   },
   {
    "text": "Giant stone discs called rai. The biggest are about three and a half metres wide, and weigh around four tonnes.",
-   "pause": 0.3,
+   "pause": 0.25,
    "shots": [
-    "S: a stickman with dot eyes and a small mouth in a grass skirt trying to push a huge round stone disc, straining, sweat drops, palm trees",
-    "E: same scene, the stone hasn't moved at all and the stickman sits down exhausted"
+    "S: a giant round stone disc with a hole in the middle standing upright in a tropical village, a small stickman with dot eyes and a small mouth in a grass skirt standing beside it for scale, palm trees"
    ]
   },
   {
-   "text": "They were carved on another island, hundreds of kilometres away, and brought home by canoe and raft.",
+   "text": "That's heavier than a car.",
    "pause": 0.3,
    "shots": [
+    "S: a giant stone disc sitting on one side of a huge balance scale outweighing a small red car on the other side, plain warm background, no people"
+   ]
+  },
+  {
+   "text": "The stones were carved on another island, hundreds of kilometres away, and brought home across the open ocean by canoe and raft.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman with dot eyes and a small mouth in a grass skirt chiselling a big round stone disc in a rocky quarry",
     "S: a huge stone disc on a bamboo raft towed by an outrigger canoe with one stickman paddler with dot eyes and a small mouth, open blue ocean, big waves"
    ]
   },
   {
-   "text": "They were far too heavy to move. So nobody moved them. Everyone just remembered who owned which stone.",
+   "text": "Once they arrived, they were way too heavy to move. So nobody moved them.",
+   "pause": 0.25,
+   "shots": [
+    "S: a stickman with dot eyes and a small mouth in a grass skirt pushing hard against a huge stone disc, straining, sweat drops, palm trees",
+    "E: same scene, the stone hasn't moved and the stickman sits down exhausted"
+   ]
+  },
+  {
+   "text": "When a stone changed owners, it stayed exactly where it was. Everyone just remembered who it belonged to.",
    "pause": 0.3,
    "shots": [
-    "S: two stickmen with dot eyes and a small mouth in grass skirts shaking hands in front of a big stone disc that stays where it is, village elders watching from far away"
+    "S: two stickmen with dot eyes and a small mouth in grass skirts, one with a flower necklace, shaking hands in front of a big stone disc in a village clearing"
    ]
   },
   {
-   "text": "The story goes that one stone sank to the bottom of the sea on the way home. The family still counted it as theirs.",
-   "pause": 0.35,
+   "text": "And the story goes that one stone sank to the bottom of the sea on the way home.",
+   "pause": 0.25,
    "shots": [
-    "S: a giant stone disc resting on the sandy sea floor with fish swimming around it, sunbeams through the water, no people",
-    "S: a stickman with dot eyes and a small mouth in a grass skirt proudly pointing down at the sea from a beach, a small family beside him smiling"
+    "S: a huge stone disc slipping off a bamboo raft and sinking into stormy dark waves, dramatic, no people visible",
+    "S: a giant stone disc resting on the sandy sea floor with fish swimming around it, sunbeams through the water, no people"
    ]
   },
   {
-   "text": "Money that nobody can see... but everybody agrees exists. Remember that. It comes back later.",
+   "text": "Nobody ever saw it again. But the family that paid for it was still considered rich. Because everyone agreed it was theirs.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman with dot eyes and a small mouth in a grass skirt and flower necklace proudly pointing out to sea from a beach, smiling"
+   ]
+  },
+  {
+   "text": "Think about that. Money that nobody can see, that everybody agrees exists.",
+   "pause": 0.3,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) staring out at the ocean from a beach with his hand on his chin, thoughtful"
+   ]
+  },
+  {
+   "text": "Remember that idea. Because by the end of this video, you'll realise you use money exactly like that, every single day.",
    "pause": 0.5,
    "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) tapping the side of his head knowingly, winking at the viewer, plain warm background"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) tapping the side of his head and winking at the viewer, plain warm background"
    ]
   },
   {
-   "text": "Around six hundred B.C., in a kingdom called Lydia, in what's now Turkey, someone had a brilliant idea.",
-   "pause": 0.3,
+   "text": "Now let's talk about the money you can hold in your hand.",
+   "pause": 0.25,
    "shots": [
-    "S: a stickman king with dot eyes and a small mouth with a golden crown and purple robe on a throne, a lightbulb glowing above his head, ancient palace with columns"
+    "S: close-up of an open palm-shaped wooden dish holding a few shiny ancient gold coins, dark velvet background, no people"
    ],
    "ch": "Chapter 4: The first coins"
   },
   {
-   "text": "Take lumps of electrum, a natural mix of gold and silver, and stamp them with a lion's head.",
-   "pause": 0.3,
+   "text": "Around six hundred B.C., in a kingdom called Lydia, in what's now Turkey, someone had a brilliant idea.",
+   "pause": 0.25,
    "shots": [
-    "S: a stickman metalworker with dot eyes and a small mouth in a leather apron hammering a stamp onto a small golden lump on an anvil, sparks, forge glow",
-    "S: close-up of a small lumpy gold coin stamped with a roaring lion's head, on a dark cloth, no people"
+    "S: a stickman king with dot eyes and a small mouth with a golden crown and purple robe on a throne, a glowing lightbulb above his head, ancient palace with columns"
    ]
   },
   {
-   "text": "The stamp meant: the king guarantees it. No more weighing.",
-   "pause": 0.3,
+   "text": "Take lumps of electrum, a natural mix of gold and silver, and stamp them with a lion's head.",
+   "pause": 0.25,
    "shots": [
-    "S: a stickman shopkeeper with dot eyes and a small mouth in a striped tunic happily accepting a small gold coin, tossing his balance scale aside, market stall"
+    "S: a stickman metalworker with dot eyes and a small mouth in a leather apron hammering a stamp onto a small golden lump on an anvil, sparks, forge glow",
+    "S: close-up of a small lumpy gold coin stamped with a roaring lion's head on a dark cloth, no people"
+   ]
+  },
+  {
+   "text": "That stamp was like a promise from the king. This lump is the real deal. No weighing needed.",
+   "pause": 0.25,
+   "shots": [
+    "S: a stickman shopkeeper with dot eyes and a small mouth in a striped tunic happily accepting a small gold coin and tossing his balance scale aside, market stall"
+   ]
+  },
+  {
+   "text": "Imagine how much faster shopping got. No scales. No arguing. Just hand over a coin.",
+   "pause": 0.25,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) in an ancient tunic flipping a gold coin to a fruit seller and catching a pear in return, ancient market"
    ]
   },
   {
    "text": "These were some of the first coins in history.",
-   "pause": 0.35,
+   "pause": 0.3,
    "shots": [
     "S: a few small ancient gold and silver coins glowing on a museum display stand, dark background, spotlight, no people"
    ]
   },
   {
-   "text": "A later king of Lydia, Croesus, made coins of pure gold and pure silver. People still say 'rich as Croesus'.",
-   "pause": 0.3,
+   "text": "A later king of Lydia, Croesus, went further. He made coins of pure gold and pure silver.",
+   "pause": 0.25,
    "shots": [
-    "S: a stickman king with dot eyes and a small mouth with a big golden crown sitting on a mountain of gold coins, laughing, treasure room",
-    "E: same scene, the king throws coins in the air like confetti"
+    "S: a stickman king with dot eyes and a small mouth with a big golden crown holding up a shiny gold coin in one hand and a silver coin in the other, treasure room"
    ]
   },
   {
-   "text": "Coins spread to Greece, Persia and Rome. Soon, rulers were putting their own faces on them.",
-   "pause": 0.35,
+   "text": "He became so famous for his wealth that, two and a half thousand years later, people still say 'rich as Croesus'.",
+   "pause": 0.3,
    "shots": [
-    "S: a stickman emperor with dot eyes and a small mouth in a laurel wreath and toga admiring a coin with a stickman head on it, Roman forum behind",
+    "S: the stickman king with dot eyes and a small mouth with a big golden crown sitting on a mountain of gold coins, laughing and throwing coins in the air like confetti"
+   ]
+  },
+  {
+   "text": "Coins spread fast. To Greece. To Persia. To Rome.",
+   "pause": 0.25,
+   "shots": [
+    "S: an old parchment map of the ancient Mediterranean with glowing gold coins hopping from Turkey to Greece to Italy along dotted lines, no people"
+   ]
+  },
+  {
+   "text": "And rulers loved them, because they could put their own faces on them. Free advertising, in every pocket.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman emperor with dot eyes and a small mouth in a laurel wreath and white toga admiring a coin with a stickman head on it, Roman forum behind",
     "E: same scene, the emperor kisses the coin proudly"
    ]
   },
   {
-   "text": "But coins have a problem. They're heavy.",
+   "text": "But coins came with a temptation.",
+   "pause": 0.25,
+   "shots": [
+    "S: the stickman emperor with dot eyes and a small mouth in a laurel wreath rubbing his hands together with a sneaky grin, dark palace room"
+   ]
+  },
+  {
+   "text": "If you're an emperor and you need more money, why not just put less silver in each coin?",
+   "pause": 0.25,
+   "shots": [
+    "S: the stickman emperor with dot eyes and a small mouth in a laurel wreath secretly pouring cheap grey metal into a coin mould instead of shiny silver, workshop"
+   ]
+  },
+  {
+   "text": "That's exactly what Rome did. Over a couple of hundred years, the silver in Roman coins fell from almost pure, to just a few percent.",
    "pause": 0.3,
    "shots": [
-    "S: a stickman merchant with dot eyes and a small mouth in a Chinese robe bent over carrying a huge sack of coins on his back, struggling up a road, mountains behind"
+    "S: a row of Roman coins from left to right going from shiny bright silver to dull dark grey, plain warm background, no people"
+   ]
+  },
+  {
+   "text": "People noticed. Prices soared. And trust in Roman money crumbled.",
+   "pause": 0.3,
+   "shots": [
+    "S: an angry stickman shopper with dot eyes and a small mouth in a toga holding up a dull grey coin at a Roman bread stall, the baker stickman with dot eyes and a small mouth in an apron shaking his head"
+   ]
+  },
+  {
+   "text": "Remember that word. Trust. It's the secret ingredient of all money.",
+   "pause": 0.5,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) holding up a small glowing golden heart in both hands, looking seriously at the viewer, plain warm background"
+   ]
+  },
+  {
+   "text": "There's another problem with coins. They're heavy.",
+   "pause": 0.25,
+   "shots": [
+    "S: a stickman merchant with dot eyes and a small mouth in a blue Chinese robe bent over carrying a huge sack of coins on his back up a mountain road"
    ],
    "ch": "Chapter 5: Paper"
   },
   {
-   "text": "In Sichuan, in China, people used iron coins worth so little that a big purchase needed a whole cart of them.",
-   "pause": 0.3,
+   "text": "In Sichuan, in China, people used iron coins worth so little that a big purchase meant hauling a whole cart of them.",
+   "pause": 0.25,
    "shots": [
-    "S: a stickman merchant with dot eyes and a small mouth in a blue Chinese robe pushing a wooden cart overloaded with strings of round iron coins with square holes, busy old Chinese street, a few tiny distant figures"
+    "S: a stickman merchant with dot eyes and a small mouth in a blue Chinese robe pushing a wooden cart overloaded with strings of round iron coins with square holes, old Chinese street, a few tiny distant figures"
    ]
   },
   {
-   "text": "So merchants left their coins with trusted shops, and carried paper receipts instead.",
-   "pause": 0.3,
+   "text": "So merchants came up with a clever trick. Leave your heavy coins with a trusted shop, and carry a paper receipt instead.",
+   "pause": 0.25,
    "shots": [
-    "S: a stickman merchant with dot eyes and a small mouth handing a heavy chest of coins over a counter to a stickman shopkeeper with dot eyes and a small mouth in a red robe who hands back a paper note, old Chinese shop"
+    "S: the stickman merchant with dot eyes and a small mouth in a blue robe handing a heavy chest of coins over a counter to a stickman shopkeeper with dot eyes and a small mouth in a red robe, old Chinese shop",
+    "E: same scene, the shopkeeper hands back a single sheet of paper and the merchant smiles with relief"
    ]
   },
   {
    "text": "In ten twenty-four, the Song government took over, and printed the world's first official paper money. The jiaozi.",
-   "pause": 0.35,
+   "pause": 0.3,
    "shots": [
     "S: a stickman official with dot eyes and a small mouth in a red Song dynasty robe and black winged hat holding up a large printed paper banknote, wooden printing blocks on a table",
     "S: close-up of an old printed paper banknote with simple patterns and a red seal stamp, no readable text, on a wooden table, no people"
    ]
   },
   {
-   "text": "When Marco Polo saw paper money in China, he could hardly believe it. Paper, worth as much as gold.",
+   "text": "When the traveller Marco Polo saw paper money in China a couple of centuries later, he could hardly believe it. Paper, worth as much as gold.",
    "pause": 0.3,
    "shots": [
     "S: a stickman traveller with dot eyes and a small mouth in a medieval European cap and cloak staring in amazement at a paper banknote in his hands, Chinese palace courtyard"
    ]
   },
   {
-   "text": "But printing money is tempting. Print too much, and prices explode. That's inflation.",
-   "pause": 0.3,
+   "text": "But printing money is even more tempting than shaving coins.",
+   "pause": 0.2,
    "shots": [
-    "S: a stickman official with dot eyes and a small mouth in a red robe happily cranking a printing press that spits out piles of paper notes",
-    "S: a stickman shopper with dot eyes and a small mouth in a blue robe holding a huge stack of paper notes for one tiny bun at a food stall, shocked face"
+    "S: a stickman official with dot eyes and a small mouth in a red robe staring at a wooden printing press with a greedy grin, dark workshop"
    ]
   },
   {
-   "text": "Europe caught up much later. In sixteen sixty-one, a bank in Sweden printed Europe's first banknotes.",
-   "pause": 0.3,
+   "text": "Need money? Just print more!",
+   "pause": 0.25,
    "shots": [
-    "S: a stickman banker with dot eyes and a small mouth in a black 1600s coat and white collar proudly holding up a paper banknote, wood-panelled bank office, snowy window"
+    "E: same scene, the official cranks the printing press wildly and piles of paper notes fly everywhere"
+   ]
+  },
+  {
+   "text": "Print too much, and every note buys less and less. That's called inflation, and China learned that lesson the hard way, more than once.",
+   "pause": 0.4,
+   "shots": [
+    "S: a stickman shopper with dot eyes and a small mouth in a blue robe holding a huge stack of paper notes to buy one tiny steamed bun at a food stall, shocked face"
+   ]
+  },
+  {
+   "text": "Europe was much slower. And Sweden tried something... interesting.",
+   "pause": 0.25,
+   "shots": [
+    "S: a snowy 1600s Swedish town with red wooden houses and a church, a copper mine entrance on a hill, no people close up"
    ],
    "ch": "Chapter 6: Banks and gold"
   },
   {
-   "text": "For centuries, a banknote was a promise. Take it to the bank, and swap it for real gold or silver.",
+   "text": "In the sixteen hundreds, Sweden had lots of copper. So it made copper money. Giant copper money.",
+   "pause": 0.25,
+   "shots": [
+    "S: a stickman miner with dot eyes and a small mouth in a fur hat holding up a huge flat square copper plate with stamps in each corner, mine entrance behind"
+   ]
+  },
+  {
+   "text": "The biggest was a copper plate weighing almost twenty kilograms. Imagine paying for your groceries with that.",
    "pause": 0.3,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) staggering through a market carrying a huge square copper plate on his back, sweating, fruit stall nearby"
+   ]
+  },
+  {
+   "text": "No surprise, people preferred paper. In sixteen sixty-one, a Swedish bank printed Europe's first banknotes.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman banker with dot eyes and a small mouth in a black 1600s coat and white collar proudly holding up a paper banknote, wood-panelled bank office, snowy window"
+   ]
+  },
+  {
+   "text": "For centuries after that, a banknote was a promise. Take it to the bank, and you could swap it for real gold or silver.",
+   "pause": 0.25,
    "shots": [
     "S: a stickman customer with dot eyes and a small mouth in a brown coat handing a paper note across a bank counter to a stickman clerk with dot eyes and a small mouth in a black vest who slides back a gold coin"
    ]
   },
   {
    "text": "That's called the gold standard.",
-   "pause": 0.35,
+   "pause": 0.3,
    "shots": [
     "S: a bank vault full of neatly stacked shiny gold bars, a heavy round vault door open, dramatic light, no people"
    ]
   },
   {
    "text": "Then, in nineteen seventy-one, the United States ended the link between the dollar and gold.",
-   "pause": 0.3,
+   "pause": 0.25,
    "shots": [
-    "S: a stickman president with dot eyes and a small mouth in a dark suit at a desk speaking into microphones, an American flag behind him, 1970s office",
-    "E: same scene, the president snips a chain connecting a dollar bill to a gold bar with big scissors"
+    "S: a stickman president with dot eyes and a small mouth in a dark suit at a desk speaking into old microphones, a flag behind him, 1970s office",
+    "S: big scissors snipping a golden chain that connects a dollar bill to a gold bar, plain background, no people"
    ]
   },
   {
-   "text": "Since then, most money is backed by one thing. Trust.",
+   "text": "Since then, the money in your pocket isn't backed by gold. It's backed by one thing. Trust.",
+   "pause": 0.35,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) pulling a banknote out of his pocket and looking at it, a glowing heart-shaped light around it, plain warm background"
+   ]
+  },
+  {
+   "text": "And when trust breaks, things get crazy.",
+   "pause": 0.25,
+   "shots": [
+    "S: a pile of banknotes catching fire on a dark background, dramatic, no people"
+   ]
+  },
+  {
+   "text": "In Germany in nineteen twenty-three, prices rose so fast that workers were paid twice a day, and rushed to spend their wages before they lost value.",
+   "pause": 0.3,
+   "shots": [
+    "S: a stickman worker with dot eyes and a small mouth in a 1920s flat cap pushing a wheelbarrow full of paper money down a cobbled street, worried face",
+    "E: same scene, the worker running fast with the wheelbarrow, papers flying"
+   ]
+  },
+  {
+   "text": "In two thousand nine, Zimbabwe printed a one hundred trillion dollar note. Within weeks, it was almost worthless.",
+   "pause": 0.3,
+   "shots": [
+    "S: close-up of a giant banknote with a long row of zeros and no other readable text, on a table, no people",
+    "S: a stickman with dot eyes and a small mouth in a yellow shirt holding a huge stack of banknotes and getting just one egg in return at a shop counter, baffled face"
+   ]
+  },
+  {
+   "text": "And when people have no official money at all, they simply invent their own.",
+   "pause": 0.25,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) shrugging with a grin, surrounded by floating shells, a stone disc, a coin and a fish, plain warm background"
+   ]
+  },
+  {
+   "text": "In some American prisons, where cash isn't allowed, inmates have used packets of mackerel as money.",
+   "pause": 0.3,
+   "shots": [
+    "S: a neat stack of small sealed foil fish packets on a metal table, plain grey background, no people"
+   ]
+  },
+  {
+   "text": "Fish. Shells. Stones. Paper. Money is anything enough people agree it is.",
    "pause": 0.5,
    "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) holding a dollar-like green banknote up to the light with a suspicious squint, plain warm background"
+    "S: a row of a fish packet, a cowrie shell, a small stone disc and a paper banknote lined up on a wooden table, soft spotlight, no people"
    ]
+  },
+  {
+   "text": "Now let's fast forward to you.",
+   "pause": 0.25,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) flying out of a swirling time portal into a modern city street, landing on his feet"
+   ],
+   "ch": "Chapter 7: Invisible money"
   },
   {
    "text": "In nineteen fifty, a card called Diners Club let people eat now and pay later. It's often called the first modern credit card.",
    "pause": 0.3,
    "shots": [
-    "S: a stickman businessman with dot eyes and a small mouth in a 1950s grey suit and hat proudly showing a small paper card to a waiter stickman with dot eyes and a small mouth in a bow tie, fancy 1950s restaurant"
-   ],
-   "ch": "Chapter 7: Invisible money"
+    "S: a stickman businessman with dot eyes and a small mouth in a 1950s grey suit and hat proudly showing a small paper card to a stickman waiter with dot eyes and a small mouth in a bow tie, fancy 1950s restaurant"
+   ]
   },
   {
    "text": "Then came cash machines, online banking, and tapping your phone.",
+   "pause": 0.25,
+   "shots": [
+    "S: a stickman with dot eyes and a small mouth in a 1970s orange jacket taking cash from an old cash machine in a brick wall",
+    "B: Byte (the only stickman in an orange cap and teal hoodie) tapping his smartphone on a payment terminal in a coffee shop, big green tick on the screen"
+   ]
+  },
+  {
+   "text": "So here's a question. How much of all the money out there do you think is actual cash? Half? A quarter?",
+   "pause": 0.4,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) pointing at the viewer with a quiz-show grin, a big question mark floating beside him, plain warm background"
+   ]
+  },
+  {
+   "text": "In the UK, notes and coins are only about three percent of all money.",
    "pause": 0.3,
    "shots": [
-    "S: a stickman with dot eyes and a small mouth in a 1970s orange jacket taking cash from an old ATM machine in a brick wall",
-    "S: a stickman with dot eyes and a small mouth in a modern green jacket tapping a smartphone on a payment terminal in a coffee shop"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) staring at a giant pie chart where only a tiny slice is coloured gold, jaw dropped, plain warm background"
    ]
   },
   {
-   "text": "And here's the wild part. In the UK, banknotes and coins are only about three percent of all money.",
-   "pause": 0.35,
-   "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) staring at a giant pie chart where only a tiny slice is coins and notes, jaw dropped, plain warm background"
-   ]
-  },
-  {
-   "text": "The rest is just numbers, sitting in bank computers.",
+   "text": "The rest? Just numbers, sitting in bank computers.",
    "pause": 0.3,
    "shots": [
     "S: glowing rows of green numbers flowing between big server racks in a dark data centre, no people"
    ]
   },
   {
-   "text": "Just like the stones of Yap. Money nobody can see... that everybody agrees exists.",
-   "pause": 0.4,
-   "shots": [
-    "S: a giant stone disc made of glowing digital numbers standing in a tropical village at night, palm trees, no people"
-   ]
-  },
-  {
-   "text": "In two thousand nine, someone using the name Satoshi Nakamoto launched Bitcoin. Money with no bank at all.",
+   "text": "Remember the stone at the bottom of the sea? Money nobody can see, that everybody agrees exists?",
    "pause": 0.3,
    "shots": [
-    "S: a mysterious stickman with dot eyes and a small mouth in a dark hoodie typing on a laptop in a dark room, a big glowing golden coin with a B symbol floating above the screen"
+    "S: a giant stone disc on the sea floor, glowing digital numbers swirling around it, sunbeams, no people"
    ]
   },
   {
-   "text": "A year later, a programmer paid ten thousand bitcoins for two pizzas. Years later, those coins were worth hundreds of millions of dollars.",
-   "pause": 0.35,
+   "text": "That's your bank balance.",
+   "pause": 0.45,
    "shots": [
-    "S: a stickman programmer with dot eyes and a small mouth in glasses and a t-shirt happily holding two pizza boxes at his front door, a delivery stickman with dot eyes and a small mouth in a red cap beside him",
+    "B: Byte (the only stickman in an orange cap and teal hoodie) looking at his phone screen with a shocked, amazed face, a glowing number above the phone, city street"
+   ]
+  },
+  {
+   "text": "And some people wondered: what if money didn't need banks at all?",
+   "pause": 0.25,
+   "shots": [
+    "S: a stickman with dot eyes and a small mouth in a dark hoodie typing on a laptop in a dark room, face lit by the screen"
+   ]
+  },
+  {
+   "text": "In two thousand nine, someone using the name Satoshi Nakamoto launched Bitcoin. Digital money, with no bank in charge.",
+   "pause": 0.3,
+   "shots": [
+    "S: the stickman with dot eyes and a small mouth in a dark hoodie leaning back from the laptop as a big glowing golden coin with a B symbol floats above the screen, dark room"
+   ]
+  },
+  {
+   "text": "A year later, a programmer in Florida paid ten thousand bitcoins for two pizzas.",
+   "pause": 0.25,
+   "shots": [
+    "S: a stickman programmer with dot eyes and a small mouth in glasses and a t-shirt happily holding two pizza boxes at his front door, sunny Florida house with a palm tree"
+   ]
+  },
+  {
+   "text": "Years later, those coins were worth hundreds of millions of dollars. Probably the most expensive pizzas in history.",
+   "pause": 0.45,
+   "shots": [
     "E: same scene, the programmer's eyes go wide as glowing golden coins fly out of the pizza boxes"
    ]
   },
   {
-   "text": "Which brings us back to Byte.",
-   "pause": 0.3,
+   "text": "So, back to that burger joint.",
+   "pause": 0.25,
    "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) at the diner counter clutching his teal hoodie, the burger still in front of him, nervous face"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) at the diner counter clutching his teal hoodie, the giant burger still in front of him, nervous face"
    ],
-   "ch": "Back to Byte"
+   "ch": "Back to the burger joint"
   },
   {
-   "text": "He opens his banking app. Turns out, he just forgot to move money onto his card.",
+   "text": "Your card got declined. The cook wants your hoodie.",
+   "pause": 0.25,
+   "shots": [
+    "S: the stickman cook with dot eyes and a small mouth in a white chef hat holding out his hand expectantly across the diner counter, raised eyebrow"
+   ]
+  },
+  {
+   "text": "You open your banking app, and realise you just forgot to move money onto your card.",
    "pause": 0.3,
    "shots": [
     "B: close-up of Byte (the only stickman in an orange cap and teal hoodie) looking at his phone screen and facepalming, diner background",
@@ -414,53 +775,63 @@
    ]
   },
   {
-   "text": "Tap. Paid. In less than a second.",
+   "text": "Tap. Beep. Paid. In less than a second.",
    "pause": 0.35,
    "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) tapping his phone on the card reader which shows a big green tick, triumphant face, diner counter"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) tapping his phone on the diner card reader which shows a big green tick, triumphant face"
    ]
   },
   {
-   "text": "Five thousand years of clay, shells, stones, gold and paper...",
+   "text": "No goat. No shells. No four-tonne stone. Just a number moving from one computer to another.",
    "pause": 0.3,
    "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) biting into the giant burger, blissful face, floating icons of a clay tablet, a shell, a stone disc, a gold coin and a banknote around him"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) biting into the giant burger, blissful face, diner counter"
    ]
   },
   {
-   "text": "all so Byte could buy a burger with a number on a screen.",
-   "pause": 0.4,
+   "text": "Five thousand years of clay, shells, stones, gold and paper... all so you could buy a burger with a number on a screen.",
+   "pause": 0.3,
    "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) leaning back on his diner stool with an empty plate, satisfied, giving the viewer a thumbs up"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) leaning back on his diner stool with an empty plate, floating icons of a clay tablet, a shell, a stone disc, a gold coin and a banknote around him, satisfied"
    ]
   },
   {
-   "text": "Subscribe to ByteSized AI, and next time, we'll find out how humans invented something else you use every day.",
+   "text": "And it works for one simple reason. Everyone agrees it does.",
+   "pause": 0.45,
+   "shots": [
+    "B: Byte (the only stickman in an orange cap and teal hoodie) giving the viewer a confident thumbs up with a smile, diner background"
+   ]
+  },
+  {
+   "text": "So, what should we explore next? Tell us in the comments. And subscribe to ByteSized AI, so you don't miss the next one.",
    "pause": 0.6,
    "shots": [
-    "B: Byte (the only stickman in an orange cap and teal hoodie) waving goodbye at the viewer outside the diner at sunset, neon diner sign without words"
+    "B: Byte (the only stickman in an orange cap and teal hoodie) waving goodbye at the viewer outside the diner at sunset, a neon burger sign with no words"
    ]
   }
  ],
  "meta": {
-  "hook_line": "For most of history there were no coins, no cards and no apps. So how did we end up paying with numbers on a screen?",
-  "summary": "From the barter myth to Bitcoin: clay receipts in Mesopotamia, cowrie shells, the four-tonne stone money of Yap, the first coins of Lydia, China's paper money, the gold standard, credit cards, and why only about 3% of money is cash.",
+  "hook_line": "Imagine your card gets declined and the cook wants your hoodie instead. For most of history, that's how it worked. So how did we end up paying with invisible numbers?",
+  "summary": "From the barter myth to Bitcoin: clay receipts and debt cancellations in Mesopotamia, cowrie shells, the four-tonne stone money of Yap, Lydia's lion coins and 'rich as Croesus', Rome's shrinking silver, China's paper money, Sweden's 20 kg copper plates, the gold standard, hyperinflation, prison mackerel, and why only about 3% of money is cash.",
   "bullets": [
    "Why barter probably never worked the way school books say",
-   "Mesopotamia's clay receipts and the silver shekel",
+   "Clay receipts, the shekel and 'amargi', the debt-freedom word",
    "Cowrie shells and the giant stone money of Yap",
-   "Lydia's lion coins and 'rich as Croesus'",
+   "Lydia's lion coins, Croesus, and how Rome ruined its silver",
    "The jiaozi: the world's first official paper money (1024)",
-   "The gold standard, 1971, credit cards and Bitcoin"
+   "Sweden's copper plates, the gold standard and 1971",
+   "Hyperinflation, prison mackerel, credit cards and Bitcoin pizza"
   ],
   "sources": [
    "David Graeber, 'Debt: The First 5,000 Years' (2011)",
    "Caroline Humphrey, 'Barter and Economic Disintegration', Man (1985)",
+   "Ama-gi: Sumerian term for release from debt (Kramer; Lambert)",
    "Bank of England: How is money created?",
    "Smithsonian National Museum of American History: Rai stone, Yap",
    "World History Encyclopedia: The invention of the first coinage in ancient Lydia",
-   "Encyclopaedia Britannica: Jiaozi / paper money in Song China",
-   "Sveriges Riksbank: Stockholms Banco and Europe's first banknotes (1661)"
+   "Wikipedia / Encyclopaedia Britannica: Jiaozi (currency)",
+   "American Numismatic Association: Swedish plate money",
+   "Wall Street Journal (2008): mackerel as prison currency"
   ],
   "cta": "Subscribe to ByteSized AI for the stories behind everyday things. What invention should we cover next? Tell us in the comments.",
   "hashtags": [
@@ -479,8 +850,8 @@
    "paper money china",
    "yap stone money",
    "gold standard",
-   "how did humans invent",
-   "invention history"
+   "hyperinflation",
+   "how did humans invent"
   ],
   "categoryId": 27
  }

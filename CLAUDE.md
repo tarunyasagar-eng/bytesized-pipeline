@@ -6,6 +6,13 @@
   - During curation, **reject any image with a human-style face** (e.g. clock_story c041, d057, d058, d062, d063, d064 would fail).
 - Recurring cast from `characters.json` (Byte, Nova, Boss, Gramps); keep continuity.
 - White captions. Energetic voice. Long-form gets the longer description format with chapters and sources.
+- **Narration style (owner):**
+  - Talk to the viewer in the second person ("Imagine you walk into..."). Make the first 30 seconds a hook with open questions
+    and a teaser of the weirdest payoffs.
+  - Keep re-hooks between chapters; never dry.
+  - Byte is the on-screen "you", but the narration speaks to the viewer.
+  - Long-form target is **about 10 minutes**.
+- **Visuals match the narration exactly:** show what the line says. Add no extra characters unless the line mentions people.
 - Free services only (no paid APIs or tools) until the channel is monetised. Kaggle GPU budget is about 30 h/week; plan with `plan_qshots.py` (3.2 s holds).
 - Remove unclean images: garbled text, watermarks, duplicate Byte in one frame, blank faces, extra limbs.
 - **Clean-frame process (owner requirement: every frame clean, no mistakes):**
