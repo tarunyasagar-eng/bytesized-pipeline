@@ -27,3 +27,20 @@ After the weekly Kaggle GPU quota resets (Saturday 00:00 UTC). Budget: at most a
    - The fast model does single-character poses, reactions and backgrounds.
    - Qwen is kept for complex multi-character scenes (about 10-15 per video).
    - If the gate fails, stay on Qwen with the pose-library plan.
+
+## Result: first run (2026-11-28)
+- **Licences:** SDXL base 1.0 and SDXL-Lightning are both CreativeML OpenRAIL++-M, so commercial use of outputs is allowed
+  (subject to the licence's use restrictions).
+- **Data:** 142 clean stickman-only frames; 118 for training, 24 held out for the gate. Rank 32, 2000 steps, 1024x576.
+  The whole job took 57 min of GPU.
+- **Speed:** 3.7 s/image with Lightning 8-step, 16 s/image at full 28 steps, vs about 295 s/image for Qwen (about 80x faster).
+- **Gate sheets:** `docs/fast_model_gate/gate_{0,1,2}.jpg`.
+- **Verdict: FAIL as a Qwen replacement.**
+  - Style, line art and backgrounds are close to Qwen.
+  - Byte is never on-model: cap and hoodie colours swap, and he is duplicated.
+  - Some human-style faces (c035, c050 crowd), black-head figures (c003, c011, c029), and weaker prompt adherence
+    (wrong character counts and poses).
+  - About 60% of non-Byte frames are usable.
+- **Decision:** stay on Qwen for characters and build the Byte pose library with Qwen.
+- **Next idea to test:** the fast model for **empty backgrounds only** (no characters), which the pose-library compositing needs.
+  A Byte-heavy dataset (pose library frames) could fix the character for a second LoRA run later.

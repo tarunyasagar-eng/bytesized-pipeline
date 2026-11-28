@@ -13,6 +13,10 @@ STYLE = ("2D cartoon illustration, clean thin black outlines, soft cel shading, 
 NEG = ("photorealistic, 3d render, text, watermark, extra limbs, deformed hands, blurry, messy lines, gore, "
        "realistic human, human face, detailed face, nose, wrinkles, anime face, portrait of a person, old man face")
 
+POSE_STYLE = ("clean flat 2D cartoon character art, thin black outlines, flat colors, the whole body visible from head to feet, "
+              "centered, plain pure white background, no scenery, no floor, no shadow, no text. Keep the character's design exactly as in "
+              "the reference: plain round white head, dot eyes, same clothes and colors")
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("shots"); ap.add_argument("--variants", type=int, default=1)
@@ -21,12 +25,15 @@ def main():
     ap.add_argument("--no-lightning", action="store_true")
     ap.add_argument("--debug-nan", action="store_true")
     ap.add_argument("--attach", action="store_true", help="don't push; just poll and download an existing run")
+    ap.add_argument("--pose", action="store_true", help="pose-library mode: 768x768 cut-out character on plain white")
     a = ap.parse_args()
     shots = json.load(open(a.shots))
     cast = {s["ref"] for s in shots if "ref" in s}
     refs = {c: base64.b64encode(open(os.path.join(ROOT, "cast", f"{c}_ref.png"), "rb").read()).decode() for c in cast}
     cfg = dict(style=STYLE, negative=NEG, variants=a.variants, seed=1234, steps=28, true_cfg=4.0, dtype=a.dtype,
                lightning=not a.no_lightning, gguf_repo="QuantStack/Qwen-Image-Edit-2509-GGUF", gguf_quant=a.quant, debug_nan=a.debug_nan)
+    if a.pose:
+        cfg.update(style=POSE_STYLE, negative=NEG + ", background, scenery, room, landscape, floor, cropped body", height=768, width=768)
     work = f"/tmp/kaggle_push_{a.slug}"
     shutil.rmtree(work, ignore_errors=True); os.makedirs(work)
     src = open(os.path.join(ROOT, "kaggle", "qwen_edit_template.py")).read()

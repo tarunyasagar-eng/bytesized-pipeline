@@ -1,0 +1,122 @@
+[
+{
+"id": "byte_00_standing_neutral",
+"prompt": "the same stickman character from the reference image, standing neutral, arms relaxed, facing the viewer",
+"ref": "byte"
+},
+{
+"id": "byte_01_talking",
+"prompt": "the same stickman character from the reference image, talking, one hand raised explaining",
+"ref": "byte"
+},
+{
+"id": "byte_02_pointing_to_the_left",
+"prompt": "the same stickman character from the reference image, pointing to the left with one arm",
+"ref": "byte"
+},
+{
+"id": "byte_03_pointing_to_the_right",
+"prompt": "the same stickman character from the reference image, pointing to the right with one arm",
+"ref": "byte"
+},
+{
+"id": "byte_04_pointing_straight_up",
+"prompt": "the same stickman character from the reference image, pointing straight up",
+"ref": "byte"
+},
+{
+"id": "byte_05_counting_on_fingers",
+"prompt": "the same stickman character from the reference image, counting on fingers",
+"ref": "byte"
+},
+{
+"id": "byte_06_open_palm_shrug",
+"prompt": "the same stickman character from the reference image, open-palm shrug",
+"ref": "byte"
+},
+{
+"id": "byte_07_presenting_something_with_both",
+"prompt": "the same stickman character from the reference image, presenting something with both hands open",
+"ref": "byte"
+},
+{
+"id": "byte_08_very_happy_with_a",
+"prompt": "the same stickman character from the reference image, very happy with a big smile",
+"ref": "byte"
+},
+{
+"id": "byte_09_laughing_hard_holding_his",
+"prompt": "the same stickman character from the reference image, laughing hard holding his belly",
+"ref": "byte"
+},
+{
+"id": "byte_10_shocked_with_both_hands",
+"prompt": "the same stickman character from the reference image, shocked with both hands on his cheeks and mouth open",
+"ref": "byte"
+},
+{
+"id": "byte_11_scared",
+"prompt": "the same stickman character from the reference image, scared, leaning back with hands up",
+"ref": "byte"
+},
+{
+"id": "byte_12_angry_with_fists_clenched",
+"prompt": "the same stickman character from the reference image, angry with fists clenched and frowning",
+"ref": "byte"
+},
+{
+"id": "byte_13_sad",
+"prompt": "the same stickman character from the reference image, sad, looking down",
+"ref": "byte"
+},
+{
+"id": "byte_14_confused",
+"prompt": "the same stickman character from the reference image, confused, scratching his head",
+"ref": "byte"
+},
+{
+"id": "byte_15_smug_grin_with_arms",
+"prompt": "the same stickman character from the reference image, smug grin with arms crossed",
+"ref": "byte"
+},
+{
+"id": "byte_16_embarrassed",
+"prompt": "the same stickman character from the reference image, embarrassed, rubbing the back of his head",
+"ref": "byte"
+},
+{
+"id": "byte_17_jumping_in_the_air",
+"prompt": "the same stickman character from the reference image, jumping in the air with excitement",
+"ref": "byte"
+},
+{
+"id": "byte_18_facepalm_with_one_hand",
+"prompt": "the same stickman character from the reference image, facepalm with one hand over his face",
+"ref": "byte"
+},
+{
+"id": "byte_19_thinking_with_a_hand",
+"prompt": "the same stickman character from the reference image, thinking with a hand on his chin",
+"ref": "byte"
+},
+{
+"id": "byte_20_having_an_idea_with",
+"prompt": "the same stickman character from the reference image, having an idea with one finger raised",
+"ref": "byte"
+},
+{
+"id": "byte_21_looking_up_at_the",
+"prompt": "the same stickman character from the reference image, looking up at the sky",
+"ref": "byte"
+},
+{
+"id": "byte_22_reading_an_open_book",
+"prompt": "the same stickman character from the reference image, reading an open book",
+"ref": "byte"
+},
+{
+"id": "byte_23_writing_on_a_piece",
+"prompt": "the same stickman character from the reference image, writing on a piece of paper with a pencil",
+"ref": "byte"
+}
+]
