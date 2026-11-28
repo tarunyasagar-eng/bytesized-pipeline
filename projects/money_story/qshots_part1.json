@@ -1,0 +1,512 @@
+[
+{
+"id": "c000_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) walking through the door of a cosy retro burger diner, hungry face, hand on his stomach, warm lights",
+"seg": 0,
+"ref": "byte"
+},
+{
+"id": "c001_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) sitting at the diner counter, a giant double cheeseburger on a plate in front of him, excited sparkly eyes",
+"seg": 1,
+"ref": "byte"
+},
+{
+"id": "c001_1",
+"prompt": "same scene and camera, Byte licks his lips and rubs his hands together",
+"seg": 1,
+"from": "c001_0"
+},
+{
+"id": "c002_0",
+"prompt": "close-up of a card reader on a diner counter showing a big red X, a bank card touching it, no people",
+"seg": 2,
+"ref": "stick"
+},
+{
+"id": "c002_1",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) at the diner counter frozen in shock, eyes wide, sweat drop on his head",
+"seg": 2,
+"ref": "byte"
+},
+{
+"id": "c003_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) pulling his empty hoodie pockets inside out, a single moth flying out, diner background",
+"seg": 3,
+"ref": "byte"
+},
+{
+"id": "c004_0",
+"prompt": "a stickman cook with dot eyes and a small mouth in a white chef hat and apron leaning over a diner counter, pointing and grinning cheekily",
+"seg": 4,
+"ref": "stick"
+},
+{
+"id": "c004_1",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) hugging his teal hoodie protectively, horrified face, diner counter",
+"seg": 4,
+"ref": "byte"
+},
+{
+"id": "c005_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) looking straight at the viewer with a thinking face, holding his hoodie in one hand and pointing at the burger with the other, diner",
+"seg": 5,
+"ref": "byte"
+},
+{
+"id": "c006_0",
+"prompt": "a stickman farmer with dot eyes and a small mouth in a straw hat in an ancient dusty village, shrugging with empty hands, mud huts behind",
+"seg": 6,
+"ref": "stick"
+},
+{
+"id": "c006_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 6,
+"from": "c006_0"
+},
+{
+"id": "c007_0",
+"prompt": "a goat standing in a dusty ancient field next to a sack of wheat, no people",
+"seg": 7,
+"ref": "stick"
+},
+{
+"id": "c007_1",
+"prompt": "close-up of a glowing smartphone screen showing a payment tick and glowing digits floating out of it, dark background, no people",
+"seg": 7,
+"ref": "stick"
+},
+{
+"id": "c008_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) holding a green banknote up to the light, squinting at it suspiciously, plain warm background",
+"seg": 8,
+"ref": "byte"
+},
+{
+"id": "c009_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) leaning toward the viewer with a mischievous grin, finger raised, plain warm background",
+"seg": 9,
+"ref": "byte"
+},
+{
+"id": "c010_0",
+"prompt": "a giant round stone disc with a hole in the middle resting on the sandy sea floor, fish swimming past, sunbeams, no people",
+"seg": 10,
+"ref": "stick"
+},
+{
+"id": "c010_1",
+"prompt": "a stickman king with dot eyes and a small mouth with a golden crown sitting on a mountain of gold coins, laughing",
+"seg": 10,
+"ref": "stick"
+},
+{
+"id": "c010_2",
+"prompt": "two pizza boxes on a table with golden coins spilling out of them, glowing, no people",
+"seg": 10,
+"ref": "stick"
+},
+{
+"id": "c011_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) being sucked into a swirling time portal full of flying coins and banknotes, comedic panic",
+"seg": 11,
+"ref": "byte"
+},
+{
+"id": "c012_0",
+"prompt": "a stickman teacher with dot eyes and a small mouth in a brown cardigan standing at a chalkboard, pointing at it with a stick, classroom",
+"seg": 12,
+"ref": "stick"
+},
+{
+"id": "c013_0",
+"prompt": "two stickmen with dot eyes and a small mouth in an ancient village, one in a straw hat holding a goat on a rope, the other in a red tunic holding a sack of wheat",
+"seg": 13,
+"ref": "stick"
+},
+{
+"id": "c013_1",
+"prompt": "same scene and camera, the two stickmen shake hands, both smiling",
+"seg": 13,
+"from": "c013_0"
+},
+{
+"id": "c014_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) wagging his finger at the viewer with a knowing smirk, plain warm background",
+"seg": 14,
+"ref": "byte"
+},
+{
+"id": "c015_0",
+"prompt": "close-up of a stickman with dot eyes and a small mouth in a red tunic crossing his arms and shaking his head at a goat, a thought bubble with a pair of shoes above him, village",
+"seg": 15,
+"ref": "stick"
+},
+{
+"id": "c016_0",
+"prompt": "a stickman with dot eyes and a small mouth in a straw hat dragging a stubborn goat through a busy ancient market, looking around, a few tiny distant stalls",
+"seg": 16,
+"ref": "stick"
+},
+{
+"id": "c016_1",
+"prompt": "same scene, the stickman looks exhausted and the goat chews his sleeve",
+"seg": 16,
+"from": "c016_0"
+},
+{
+"id": "c017_0",
+"prompt": "a stickman professor with dot eyes and a small mouth in round glasses and a tweed jacket holding a pointer next to a whiteboard with two overlapping circles, lecture hall",
+"seg": 17,
+"ref": "stick"
+},
+{
+"id": "c018_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) slamming a big school textbook shut, dramatic face, plain warm background",
+"seg": 18,
+"ref": "byte"
+},
+{
+"id": "c019_0",
+"prompt": "a stickman explorer with dot eyes and a small mouth in a khaki pith helmet looking through binoculars on a jungle hill, a small village far below",
+"seg": 19,
+"ref": "stick"
+},
+{
+"id": "c019_1",
+"prompt": "same scene, the explorer lowers the binoculars and shrugs, confused",
+"seg": 19,
+"from": "c019_0"
+},
+{
+"id": "c020_0",
+"prompt": "close-up of the stickman explorer with dot eyes and a small mouth in a pith helmet crossing out the word barter in his notebook with a big pencil stroke",
+"seg": 20,
+"ref": "stick"
+},
+{
+"id": "c021_0",
+"prompt": "a peaceful small ancient village of round huts at golden hour, smoke rising from chimneys, no people visible",
+"seg": 21,
+"ref": "stick"
+},
+{
+"id": "c022_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) in a simple tunic handing a basket of bread to a stickman woman neighbour with dot eyes and a small mouth with a red headscarf, village street",
+"seg": 22,
+"ref": "byte"
+},
+{
+"id": "c023_0",
+"prompt": "the stickman woman with dot eyes and a small mouth with a red headscarf holding the bread basket and giving a grateful thumbs up, village street",
+"seg": 23,
+"ref": "stick"
+},
+{
+"id": "c023_1",
+"prompt": "close-up of a wooden post with neat tally marks carved into it, village background, no people",
+"seg": 23,
+"ref": "stick"
+},
+{
+"id": "c024_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) on a ladder fixing a thatched roof, the stickman woman with dot eyes and a small mouth with a red headscarf passing him straw from below, both smiling",
+"seg": 24,
+"ref": "byte"
+},
+{
+"id": "c025_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) looking at the viewer with a raised eyebrow, a big glowing IOU note floating beside him, plain warm background",
+"seg": 25,
+"ref": "byte"
+},
+{
+"id": "c026_0",
+"prompt": "an ancient Mesopotamian city of mud-brick houses with a tall stepped ziggurat temple, river and palm trees, a few tiny distant figures",
+"seg": 26,
+"ref": "stick"
+},
+{
+"id": "c026_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 26,
+"from": "c026_0"
+},
+{
+"id": "c027_0",
+"prompt": "aerial view of an ancient walled mud-brick city beside a wide river, fields of barley around it, golden light, no close-up people",
+"seg": 27,
+"ref": "stick"
+},
+{
+"id": "c027_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 27,
+"from": "c027_0"
+},
+{
+"id": "c028_0",
+"prompt": "a stickman scribe with dot eyes and a small mouth in a white wrap and headband pressing marks into a clay tablet with a reed stick, temple interior, oil lamp",
+"seg": 28,
+"ref": "stick"
+},
+{
+"id": "c028_1",
+"prompt": "same scene and camera, the scribe proudly holds up the finished tablet",
+"seg": 28,
+"from": "c028_0"
+},
+{
+"id": "c029_0",
+"prompt": "close-up of an ancient clay tablet covered in neat wedge-shaped marks on a wooden table, warm lamp light, no people",
+"seg": 29,
+"ref": "stick"
+},
+{
+"id": "c029_1",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) holding a long paper shop receipt next to a clay tablet, grinning at the viewer, plain warm background",
+"seg": 29,
+"ref": "byte"
+},
+{
+"id": "c030_0",
+"prompt": "a stickman merchant with dot eyes and a small mouth in a striped robe weighing small pieces of silver on a balance scale next to sacks of barley, market stall",
+"seg": 30,
+"ref": "stick"
+},
+{
+"id": "c031_0",
+"prompt": "close-up of a bronze balance scale with a small pile of silver on one side and a stone weight on the other, plain warm background, no people",
+"seg": 31,
+"ref": "stick"
+},
+{
+"id": "c032_0",
+"prompt": "a huge teetering stack of clay tablets piled up to the ceiling of a mud-brick storeroom, dramatic light, no people",
+"seg": 32,
+"ref": "stick"
+},
+{
+"id": "c033_0",
+"prompt": "a sad stickman farmer with dot eyes and a small mouth in a straw hat standing in a dry cracked barley field with wilted crops, hot sun",
+"seg": 33,
+"ref": "stick"
+},
+{
+"id": "c033_1",
+"prompt": "same scene, the farmer drops to his knees and holds his head in his hands",
+"seg": 33,
+"from": "c033_0"
+},
+{
+"id": "c034_0",
+"prompt": "a stickman king with dot eyes and a small mouth in a tall Mesopotamian crown standing on temple steps, raising both arms in a grand announcement",
+"seg": 34,
+"ref": "stick"
+},
+{
+"id": "c034_1",
+"prompt": "clay tablets shattering into pieces on a stone floor, dust flying, dramatic, no people",
+"seg": 34,
+"ref": "stick"
+},
+{
+"id": "c035_0",
+"prompt": "a stickman farmer with dot eyes and a small mouth in a straw hat running happily into the open arms of a stickman mother with dot eyes and a small mouth in a long blue dress outside a mud-brick house, sunset",
+"seg": 35,
+"ref": "stick"
+},
+{
+"id": "c035_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 35,
+"from": "c035_0"
+},
+{
+"id": "c036_0",
+"prompt": "a single clay tablet glowing softly on a stone pedestal in a dark museum, spotlight, no people",
+"seg": 36,
+"ref": "stick"
+},
+{
+"id": "c037_0",
+"prompt": "a wide tropical coastline with turquoise water, wooden boats on the sand and palm trees, no people",
+"seg": 37,
+"ref": "stick"
+},
+{
+"id": "c038_0",
+"prompt": "close-up of a pile of shiny white cowrie shells spilling out of a woven basket on sand, warm light, no people",
+"seg": 38,
+"ref": "stick"
+},
+{
+"id": "c039_0",
+"prompt": "a stickman trader with dot eyes and a small mouth in a colourful wrap holding a single cowrie shell up to his eye and inspecting it, beach market",
+"seg": 39,
+"ref": "stick"
+},
+{
+"id": "c040_0",
+"prompt": "two stickmen with dot eyes and a small mouth at a harbour market, one in a blue wrap handing a string of cowrie shells to the other in an orange wrap who holds a basket of fish",
+"seg": 40,
+"ref": "stick"
+},
+{
+"id": "c040_1",
+"prompt": "an old sailing ship with patched sails crossing a calm ocean at sunset, no people",
+"seg": 40,
+"ref": "stick"
+},
+{
+"id": "c041_0",
+"prompt": "a stickman scholar with dot eyes and a small mouth in a dark blue robe and black cap painting a large simple shell-shaped symbol on a paper scroll with a brush, Chinese study room",
+"seg": 41,
+"ref": "stick"
+},
+{
+"id": "c041_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 41,
+"from": "c041_0"
+},
+{
+"id": "c042_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) raising his eyebrows with a 'wait for it' face, holding a cowrie shell, plain warm background",
+"seg": 42,
+"ref": "byte"
+},
+{
+"id": "c043_0",
+"prompt": "aerial view of a small green tropical island surrounded by coral reef and deep blue ocean, no people",
+"seg": 43,
+"ref": "stick"
+},
+{
+"id": "c044_0",
+"prompt": "a giant round stone disc with a hole in the middle standing upright in a tropical village, a small stickman with dot eyes and a small mouth in a grass skirt standing beside it for scale, palm trees",
+"seg": 44,
+"ref": "stick"
+},
+{
+"id": "c044_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 44,
+"from": "c044_0"
+},
+{
+"id": "c045_0",
+"prompt": "a giant stone disc sitting on one side of a huge balance scale outweighing a small red car on the other side, plain warm background, no people",
+"seg": 45,
+"ref": "stick"
+},
+{
+"id": "c046_0",
+"prompt": "a stickman with dot eyes and a small mouth in a grass skirt chiselling a big round stone disc in a rocky quarry",
+"seg": 46,
+"ref": "stick"
+},
+{
+"id": "c046_1",
+"prompt": "a huge stone disc on a bamboo raft towed by an outrigger canoe with one stickman paddler with dot eyes and a small mouth, open blue ocean, big waves",
+"seg": 46,
+"ref": "stick"
+},
+{
+"id": "c047_0",
+"prompt": "a stickman with dot eyes and a small mouth in a grass skirt pushing hard against a huge stone disc, straining, sweat drops, palm trees",
+"seg": 47,
+"ref": "stick"
+},
+{
+"id": "c047_1",
+"prompt": "same scene, the stone hasn't moved and the stickman sits down exhausted",
+"seg": 47,
+"from": "c047_0"
+},
+{
+"id": "c048_0",
+"prompt": "two stickmen with dot eyes and a small mouth in grass skirts, one with a flower necklace, shaking hands in front of a big stone disc in a village clearing",
+"seg": 48,
+"ref": "stick"
+},
+{
+"id": "c048_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 48,
+"from": "c048_0"
+},
+{
+"id": "c049_0",
+"prompt": "a huge stone disc slipping off a bamboo raft and sinking into stormy dark waves, dramatic, no people visible",
+"seg": 49,
+"ref": "stick"
+},
+{
+"id": "c049_1",
+"prompt": "a giant stone disc resting on the sandy sea floor with fish swimming around it, sunbeams through the water, no people",
+"seg": 49,
+"ref": "stick"
+},
+{
+"id": "c050_0",
+"prompt": "a stickman with dot eyes and a small mouth in a grass skirt and flower necklace proudly pointing out to sea from a beach, smiling",
+"seg": 50,
+"ref": "stick"
+},
+{
+"id": "c050_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 50,
+"from": "c050_0"
+},
+{
+"id": "c051_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) staring out at the ocean from a beach with his hand on his chin, thoughtful",
+"seg": 51,
+"ref": "byte"
+},
+{
+"id": "c052_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) tapping the side of his head and winking at the viewer, plain warm background",
+"seg": 52,
+"ref": "byte"
+},
+{
+"id": "c052_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 52,
+"from": "c052_0"
+},
+{
+"id": "c053_0",
+"prompt": "close-up of an open palm-shaped wooden dish holding a few shiny ancient gold coins, dark velvet background, no people",
+"seg": 53,
+"ref": "stick"
+},
+{
+"id": "c054_0",
+"prompt": "a stickman king with dot eyes and a small mouth with a golden crown and purple robe on a throne, a glowing lightbulb above his head, ancient palace with columns",
+"seg": 54,
+"ref": "stick"
+},
+{
+"id": "c054_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 54,
+"from": "c054_0"
+},
+{
+"id": "c055_0",
+"prompt": "a stickman metalworker with dot eyes and a small mouth in a leather apron hammering a stamp onto a small golden lump on an anvil, sparks, forge glow",
+"seg": 55,
+"ref": "stick"
+},
+{
+"id": "c055_1",
+"prompt": "close-up of a small lumpy gold coin stamped with a roaring lion's head on a dark cloth, no people",
+"seg": 55,
+"ref": "stick"
+}
+]

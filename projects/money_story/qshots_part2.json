@@ -1,0 +1,512 @@
+[
+{
+"id": "c056_0",
+"prompt": "a stickman shopkeeper with dot eyes and a small mouth in a striped tunic happily accepting a small gold coin and tossing his balance scale aside, market stall",
+"seg": 56,
+"ref": "stick"
+},
+{
+"id": "c056_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 56,
+"from": "c056_0"
+},
+{
+"id": "c057_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) in an ancient tunic flipping a gold coin to a fruit seller and catching a pear in return, ancient market",
+"seg": 57,
+"ref": "byte"
+},
+{
+"id": "c057_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 57,
+"from": "c057_0"
+},
+{
+"id": "c058_0",
+"prompt": "a few small ancient gold and silver coins glowing on a museum display stand, dark background, spotlight, no people",
+"seg": 58,
+"ref": "stick"
+},
+{
+"id": "c059_0",
+"prompt": "a stickman king with dot eyes and a small mouth with a big golden crown holding up a shiny gold coin in one hand and a silver coin in the other, treasure room",
+"seg": 59,
+"ref": "stick"
+},
+{
+"id": "c059_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 59,
+"from": "c059_0"
+},
+{
+"id": "c060_0",
+"prompt": "the stickman king with dot eyes and a small mouth with a big golden crown sitting on a mountain of gold coins, laughing and throwing coins in the air like confetti",
+"seg": 60,
+"ref": "stick"
+},
+{
+"id": "c060_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 60,
+"from": "c060_0"
+},
+{
+"id": "c061_0",
+"prompt": "an old parchment map of the ancient Mediterranean with glowing gold coins hopping from Turkey to Greece to Italy along dotted lines, no people",
+"seg": 61,
+"ref": "stick"
+},
+{
+"id": "c062_0",
+"prompt": "a stickman emperor with dot eyes and a small mouth in a laurel wreath and white toga admiring a coin with a stickman head on it, Roman forum behind",
+"seg": 62,
+"ref": "stick"
+},
+{
+"id": "c062_1",
+"prompt": "same scene, the emperor kisses the coin proudly",
+"seg": 62,
+"from": "c062_0"
+},
+{
+"id": "c063_0",
+"prompt": "the stickman emperor with dot eyes and a small mouth in a laurel wreath rubbing his hands together with a sneaky grin, dark palace room",
+"seg": 63,
+"ref": "stick"
+},
+{
+"id": "c064_0",
+"prompt": "the stickman emperor with dot eyes and a small mouth in a laurel wreath secretly pouring cheap grey metal into a coin mould instead of shiny silver, workshop",
+"seg": 64,
+"ref": "stick"
+},
+{
+"id": "c065_0",
+"prompt": "a row of Roman coins from left to right going from shiny bright silver to dull dark grey, plain warm background, no people",
+"seg": 65,
+"ref": "stick"
+},
+{
+"id": "c065_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 65,
+"from": "c065_0"
+},
+{
+"id": "c066_0",
+"prompt": "an angry stickman shopper with dot eyes and a small mouth in a toga holding up a dull grey coin at a Roman bread stall, the baker stickman with dot eyes and a small mouth in an apron shaking his head",
+"seg": 66,
+"ref": "stick"
+},
+{
+"id": "c067_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) holding up a small glowing golden heart in both hands, looking seriously at the viewer, plain warm background",
+"seg": 67,
+"ref": "byte"
+},
+{
+"id": "c068_0",
+"prompt": "a stickman merchant with dot eyes and a small mouth in a blue Chinese robe bent over carrying a huge sack of coins on his back up a mountain road",
+"seg": 68,
+"ref": "stick"
+},
+{
+"id": "c069_0",
+"prompt": "a stickman merchant with dot eyes and a small mouth in a blue Chinese robe pushing a wooden cart overloaded with strings of round iron coins with square holes, old Chinese street, a few tiny distant figures",
+"seg": 69,
+"ref": "stick"
+},
+{
+"id": "c069_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 69,
+"from": "c069_0"
+},
+{
+"id": "c070_0",
+"prompt": "the stickman merchant with dot eyes and a small mouth in a blue robe handing a heavy chest of coins over a counter to a stickman shopkeeper with dot eyes and a small mouth in a red robe, old Chinese shop",
+"seg": 70,
+"ref": "stick"
+},
+{
+"id": "c070_1",
+"prompt": "same scene, the shopkeeper hands back a single sheet of paper and the merchant smiles with relief",
+"seg": 70,
+"from": "c070_0"
+},
+{
+"id": "c071_0",
+"prompt": "a stickman official with dot eyes and a small mouth in a red Song dynasty robe and black winged hat holding up a large printed paper banknote, wooden printing blocks on a table",
+"seg": 71,
+"ref": "stick"
+},
+{
+"id": "c071_1",
+"prompt": "close-up of an old printed paper banknote with simple patterns and a red seal stamp, no readable text, on a wooden table, no people",
+"seg": 71,
+"ref": "stick"
+},
+{
+"id": "c072_0",
+"prompt": "a stickman traveller with dot eyes and a small mouth in a medieval European cap and cloak staring in amazement at a paper banknote in his hands, Chinese palace courtyard",
+"seg": 72,
+"ref": "stick"
+},
+{
+"id": "c072_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 72,
+"from": "c072_0"
+},
+{
+"id": "c073_0",
+"prompt": "a stickman official with dot eyes and a small mouth in a red robe staring at a wooden printing press with a greedy grin, dark workshop",
+"seg": 73,
+"ref": "stick"
+},
+{
+"id": "c074_0",
+"prompt": "same scene, the official cranks the printing press wildly and piles of paper notes fly everywhere",
+"seg": 74,
+"from": "c073_0"
+},
+{
+"id": "c075_0",
+"prompt": "a stickman shopper with dot eyes and a small mouth in a blue robe holding a huge stack of paper notes to buy one tiny steamed bun at a food stall, shocked face",
+"seg": 75,
+"ref": "stick"
+},
+{
+"id": "c075_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 75,
+"from": "c075_0"
+},
+{
+"id": "c076_0",
+"prompt": "a snowy 1600s Swedish town with red wooden houses and a church, a copper mine entrance on a hill, no people close up",
+"seg": 76,
+"ref": "stick"
+},
+{
+"id": "c077_0",
+"prompt": "a stickman miner with dot eyes and a small mouth in a fur hat holding up a huge flat square copper plate with stamps in each corner, mine entrance behind",
+"seg": 77,
+"ref": "stick"
+},
+{
+"id": "c077_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 77,
+"from": "c077_0"
+},
+{
+"id": "c078_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) staggering through a market carrying a huge square copper plate on his back, sweating, fruit stall nearby",
+"seg": 78,
+"ref": "byte"
+},
+{
+"id": "c078_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 78,
+"from": "c078_0"
+},
+{
+"id": "c079_0",
+"prompt": "a stickman banker with dot eyes and a small mouth in a black 1600s coat and white collar proudly holding up a paper banknote, wood-panelled bank office, snowy window",
+"seg": 79,
+"ref": "stick"
+},
+{
+"id": "c079_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 79,
+"from": "c079_0"
+},
+{
+"id": "c080_0",
+"prompt": "a stickman customer with dot eyes and a small mouth in a brown coat handing a paper note across a bank counter to a stickman clerk with dot eyes and a small mouth in a black vest who slides back a gold coin",
+"seg": 80,
+"ref": "stick"
+},
+{
+"id": "c080_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 80,
+"from": "c080_0"
+},
+{
+"id": "c081_0",
+"prompt": "a bank vault full of neatly stacked shiny gold bars, a heavy round vault door open, dramatic light, no people",
+"seg": 81,
+"ref": "stick"
+},
+{
+"id": "c082_0",
+"prompt": "a stickman president with dot eyes and a small mouth in a dark suit at a desk speaking into old microphones, a flag behind him, 1970s office",
+"seg": 82,
+"ref": "stick"
+},
+{
+"id": "c082_1",
+"prompt": "big scissors snipping a golden chain that connects a dollar bill to a gold bar, plain background, no people",
+"seg": 82,
+"ref": "stick"
+},
+{
+"id": "c083_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) pulling a banknote out of his pocket and looking at it, a glowing heart-shaped light around it, plain warm background",
+"seg": 83,
+"ref": "byte"
+},
+{
+"id": "c083_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 83,
+"from": "c083_0"
+},
+{
+"id": "c084_0",
+"prompt": "a pile of banknotes catching fire on a dark background, dramatic, no people",
+"seg": 84,
+"ref": "stick"
+},
+{
+"id": "c085_0",
+"prompt": "a stickman worker with dot eyes and a small mouth in a 1920s flat cap pushing a wheelbarrow full of paper money down a cobbled street, worried face",
+"seg": 85,
+"ref": "stick"
+},
+{
+"id": "c085_1",
+"prompt": "same scene, the worker running fast with the wheelbarrow, papers flying",
+"seg": 85,
+"from": "c085_0"
+},
+{
+"id": "c086_0",
+"prompt": "close-up of a giant banknote with a long row of zeros and no other readable text, on a table, no people",
+"seg": 86,
+"ref": "stick"
+},
+{
+"id": "c086_1",
+"prompt": "a stickman with dot eyes and a small mouth in a yellow shirt holding a huge stack of banknotes and getting just one egg in return at a shop counter, baffled face",
+"seg": 86,
+"ref": "stick"
+},
+{
+"id": "c087_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) shrugging with a grin, surrounded by floating shells, a stone disc, a coin and a fish, plain warm background",
+"seg": 87,
+"ref": "byte"
+},
+{
+"id": "c088_0",
+"prompt": "a neat stack of small sealed foil fish packets on a metal table, plain grey background, no people",
+"seg": 88,
+"ref": "stick"
+},
+{
+"id": "c088_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 88,
+"from": "c088_0"
+},
+{
+"id": "c089_0",
+"prompt": "a row of a fish packet, a cowrie shell, a small stone disc and a paper banknote lined up on a wooden table, soft spotlight, no people",
+"seg": 89,
+"ref": "stick"
+},
+{
+"id": "c089_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 89,
+"from": "c089_0"
+},
+{
+"id": "c090_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) flying out of a swirling time portal into a modern city street, landing on his feet",
+"seg": 90,
+"ref": "byte"
+},
+{
+"id": "c091_0",
+"prompt": "a stickman businessman with dot eyes and a small mouth in a 1950s grey suit and hat proudly showing a small paper card to a stickman waiter with dot eyes and a small mouth in a bow tie, fancy 1950s restaurant",
+"seg": 91,
+"ref": "stick"
+},
+{
+"id": "c091_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 91,
+"from": "c091_0"
+},
+{
+"id": "c092_0",
+"prompt": "a stickman with dot eyes and a small mouth in a 1970s orange jacket taking cash from an old cash machine in a brick wall",
+"seg": 92,
+"ref": "stick"
+},
+{
+"id": "c092_1",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) tapping his smartphone on a payment terminal in a coffee shop, big green tick on the screen",
+"seg": 92,
+"ref": "byte"
+},
+{
+"id": "c093_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) pointing at the viewer with a quiz-show grin, a big question mark floating beside him, plain warm background",
+"seg": 93,
+"ref": "byte"
+},
+{
+"id": "c093_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 93,
+"from": "c093_0"
+},
+{
+"id": "c094_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) staring at a giant pie chart where only a tiny slice is coloured gold, jaw dropped, plain warm background",
+"seg": 94,
+"ref": "byte"
+},
+{
+"id": "c095_0",
+"prompt": "glowing rows of green numbers flowing between big server racks in a dark data centre, no people",
+"seg": 95,
+"ref": "stick"
+},
+{
+"id": "c096_0",
+"prompt": "a giant stone disc on the sea floor, glowing digital numbers swirling around it, sunbeams, no people",
+"seg": 96,
+"ref": "stick"
+},
+{
+"id": "c096_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 96,
+"from": "c096_0"
+},
+{
+"id": "c097_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) looking at his phone screen with a shocked, amazed face, a glowing number above the phone, city street",
+"seg": 97,
+"ref": "byte"
+},
+{
+"id": "c098_0",
+"prompt": "a stickman with dot eyes and a small mouth in a dark hoodie typing on a laptop in a dark room, face lit by the screen",
+"seg": 98,
+"ref": "stick"
+},
+{
+"id": "c099_0",
+"prompt": "the stickman with dot eyes and a small mouth in a dark hoodie leaning back from the laptop as a big glowing golden coin with a B symbol floats above the screen, dark room",
+"seg": 99,
+"ref": "stick"
+},
+{
+"id": "c099_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 99,
+"from": "c099_0"
+},
+{
+"id": "c100_0",
+"prompt": "a stickman programmer with dot eyes and a small mouth in glasses and a t-shirt happily holding two pizza boxes at his front door, sunny Florida house with a palm tree",
+"seg": 100,
+"ref": "stick"
+},
+{
+"id": "c101_0",
+"prompt": "same scene, the programmer's eyes go wide as glowing golden coins fly out of the pizza boxes",
+"seg": 101,
+"from": "c100_0"
+},
+{
+"id": "c101_1",
+"prompt": "same scene and camera, the main character now looks straight at the viewer with raised eyebrows",
+"seg": 101,
+"from": "c101_0"
+},
+{
+"id": "c102_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) at the diner counter clutching his teal hoodie, the giant burger still in front of him, nervous face",
+"seg": 102,
+"ref": "byte"
+},
+{
+"id": "c103_0",
+"prompt": "the stickman cook with dot eyes and a small mouth in a white chef hat holding out his hand expectantly across the diner counter, raised eyebrow",
+"seg": 103,
+"ref": "stick"
+},
+{
+"id": "c104_0",
+"prompt": "close-up of Byte (the only stickman in an orange cap and teal hoodie) looking at his phone screen and facepalming, diner background",
+"seg": 104,
+"ref": "byte"
+},
+{
+"id": "c104_1",
+"prompt": "same scene, Byte grinning sheepishly at the viewer",
+"seg": 104,
+"from": "c104_0"
+},
+{
+"id": "c105_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) tapping his phone on the diner card reader which shows a big green tick, triumphant face",
+"seg": 105,
+"ref": "byte"
+},
+{
+"id": "c106_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) biting into the giant burger, blissful face, diner counter",
+"seg": 106,
+"ref": "byte"
+},
+{
+"id": "c106_1",
+"prompt": "same scene and camera, the main character gestures with one open hand as if explaining",
+"seg": 106,
+"from": "c106_0"
+},
+{
+"id": "c107_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) leaning back on his diner stool with an empty plate, floating icons of a clay tablet, a shell, a stone disc, a gold coin and a banknote around him, satisfied",
+"seg": 107,
+"ref": "byte"
+},
+{
+"id": "c107_1",
+"prompt": "same scene, slightly wider camera angle showing more of the background, everything else identical",
+"seg": 107,
+"from": "c107_0"
+},
+{
+"id": "c108_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) giving the viewer a confident thumbs up with a smile, diner background",
+"seg": 108,
+"ref": "byte"
+},
+{
+"id": "c109_0",
+"prompt": "Byte (the only stickman in an orange cap and teal hoodie) waving goodbye at the viewer outside the diner at sunset, a neon burger sign with no words",
+"seg": 109,
+"ref": "byte"
+},
+{
+"id": "c109_1",
+"prompt": "same scene, the camera moves a little closer to the main subject, everything else identical",
+"seg": 109,
+"from": "c109_0"
+}
+]

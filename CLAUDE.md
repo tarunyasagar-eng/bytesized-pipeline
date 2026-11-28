@@ -11,7 +11,7 @@
     and a teaser of the weirdest payoffs.
   - Keep re-hooks between chapters; never dry.
   - Byte is the on-screen "you", but the narration speaks to the viewer.
-  - Long-form target is **about 10 minutes**.
+  - Long-form target is **about 10 minutes**: about 1,800 words with `tts.py --rate=+0%` (1,600 words came out at 8.9 min).
 - **Visuals match the narration exactly:** show what the line says. Add no extra characters unless the line mentions people.
 - Free services only (no paid APIs or tools) until the channel is monetised. Kaggle GPU budget is about 30 h/week; plan with `plan_qshots.py` (3.2 s holds).
 - Remove unclean images: garbled text, watermarks, duplicate Byte in one frame, blank faces, extra limbs.
