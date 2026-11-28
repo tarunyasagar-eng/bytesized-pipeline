@@ -16,8 +16,10 @@
 - Free services only (no paid APIs or tools) until the channel is monetised. Kaggle GPU budget is about 30 h/week; plan with `plan_qshots.py` (3.2 s holds).
 - Remove unclean images: garbled text, watermarks, duplicate Byte in one frame, blank faces, extra limbs.
 - **Clean-frame process (owner requirement: every frame clean, no mistakes):**
-  1. Write shots with at most 2 main characters, each described differently. Never "three stickmen". Crowds only as tiny distant figures.
-     Faces toward the camera "with dot eyes and a small mouth". Byte at most once per frame.
+  1. Use as many characters as the scene really needs; no limit (owner: more are fine when the story calls for it). Never add filler characters.
+     Describe each character differently (clothes, colour, hat, pose) so nobody looks like a copy, and give every face
+     "dot eyes and a small mouth", facing the camera or 3/4. Byte at most once per frame.
+     The hard rule is quality: no missing eyes or mouths, no clones, no broken characters.
   2. Run `pipeline/qc_frames.py` (flags clones, faceless heads, duplicate Byte). It is a coarse aid with false positives.
   3. Then review EVERY image at large size (its 2x2 review sheets at 768 px), never on tiny contact sheets.
   4. Keep about 20% of the week's GPU for a repair run: regenerate failures with a new seed and a fixed prompt.

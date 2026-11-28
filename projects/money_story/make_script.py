@@ -4,7 +4,7 @@ Shot codes: "B: ..." new image from Byte's sheet, "S: ..." new image from the pl
 "E: ..." pose swap / edit of the previous image (same scene and camera).
 CLEAN-FRAME RULES:
 - Show exactly what the line says. No extra characters unless the narration mentions people.
-- At most 2 characters per shot, each described differently. Never "three stickmen"; crowds only as tiny distant figures.
+- As many characters as the scene needs (no fixed limit), each described differently so none look cloned; no filler characters.
 - Every face toward the camera or 3/4, "with dot eyes and a small mouth". Byte at most once per frame."""
 import json, os
 D = os.path.dirname(os.path.abspath(__file__))
